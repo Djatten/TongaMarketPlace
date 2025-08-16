@@ -22,7 +22,7 @@ if (categorie) {
     card.className = "produit-card";
 
     card.innerHTML = `
-        <img src="${prod.image}" alt="${prod.nom}">
+        <img src="../${prod.image}" alt="${prod.nom}">
         <h3>${prod.nom}</h3>
         <p>${prod.prix}</p>
         <p class="${prod.Etat === 'Disponible' ? 'disponible' : 'non-disponible'}">
