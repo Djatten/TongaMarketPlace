@@ -29,8 +29,8 @@ function updateLogo(dark) {
     const logoImg = document.querySelector('.brand .logo img');
     if (logoImg) {
         logoImg.src = dark 
-            ? '/asset/logo/logo-header-bark.svg' 
-            : '/asset/logo/logo-header-light.svg';
+            ? 'asset/logo/logo-header-bark.svg' 
+            : 'asset/logo/logo-header-light.svg';
         logoImg.alt = "Logo TongaMarket";
     }
 }
