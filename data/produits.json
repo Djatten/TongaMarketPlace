@@ -1,0 +1,110 @@
+[
+  {
+    "categorie": "vetement",
+    "nom": "T-shirt croc",
+    "prix": "6000 FCFA",
+    "image": "../asset/420c5feb-4523-4e68-a98c-a3efcd177385.jpg",
+    "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender T-shirt%20croc",
+    "Etat": "NonDisponible"
+  },
+  {
+    "categorie": "vetement",
+    "nom": "Pantalon Jean",
+    "prix": "12000 FCFA",
+    "image": "../asset/Jeans décontractés homme HEHCN à imprimé croix avec poches, coupe large, style vintage Y2K bleu, pantalon en jean large streetwear.jpg",
+    "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Pantalon%20Jean",
+    "Etat": "Disponible"
+  },
+  {
+    "categorie": "chaussure",
+    "nom": "Sneakers blanches",
+    "prix": "25000 FCFA",
+    "image": "../asset/Triple Points! For all SCHUH CLUB members.jpg",
+    "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Sneakers%20blanches",
+    "Etat": "Disponible"
+  },
+  {
+    "categorie": "bijoux",
+    "nom": "Collier perles",
+    "prix": "8000 FCFA",
+    "image": "../asset/Collier de perles pour homme, collier en corne, collier pour homme, collier en onyx, collier de perles, bijoux, cadeaux pour lui - Etsy France.jpg",
+    "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Collier%20perles",
+    "Etat": "NonDisponible"
+  },
+  {
+    "categorie": "vetement",
+    "nom": "Casquette",
+    "prix": "4000 FCFA",
+    "image": "../asset/Jon Stan x New Era 59 Fifty Fitted Caps Available….jpg",
+    "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Casquette%20rouge",
+    "Etat": "Disponible"
+  },
+  {
+    "categorie": "chaussure",
+    "nom": "Sandales marron",
+    "prix": "15000 FCFA",
+    "image": "../asset/Sandales BIRKENSTOCK Homme couleur Marron.jpg",
+    "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Sandales%20marron",
+    "Etat": "Disponible"
+  },
+  {
+  "categorie": "Robe",
+  "nom": "Robe de soiree rouge",
+  "prix": "16000 FCFA",
+  "image": "../asset/Robe soie.jpg",
+  "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Robe%20de%20soiree%20rouge",
+  "Etat": "NonDisponible"
+},
+{
+  "categorie": "sac",
+  "nom": "Sac a dos noire",
+  "prix": "3000 FCFA",
+  "image": "../asset/1 pièce Sac à dos en nylon avec fermeture éclair en métal tout noir, à la mode et polyvalent pour un usage casual, sportif, scolaire, de voyage et de rendez-vous pour les filles_ Sac à dos, sac d'écol.jpg",
+  "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Sac%20a%20dos%20noire",
+  "Etat": "Disponible"
+},
+{
+  "categorie": "bijou",
+  "nom": "Bague celtique argent ouverte zircon noir",
+  "boutique": "SpotyShop",
+  "prix": "4000 FCFA",
+  "image": "../asset/Bague celtique argent ouverte zircon noir.jpg",
+  "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Bague%20celtique%20argent%20ouverte%20zircon%20noir",
+  "Etat": "NonDisponible"
+},
+{
+  "categorie": "vetement",
+  "nom": "Ansamble Shurt et chemise vert",
+  "boutique": "MY",
+  "prix": "12000 FCFA",
+  "image": "../asset/Vêtements homme & femme, shoppez la mode en ligne.jpg",
+  "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Ansamble%20Shurt%20et%20chemise%20vert",
+  "Etat": "Disponible"
+},
+{
+  "categorie": "vetement",
+  "nom": "pull blac et noir",
+  "boutique": "MY",
+  "prix": "10000 FCFA",
+  "image": "../asset/Meilleur prix vêtement homme femme tendance mode sweet_29,99€.jpg",
+  "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender pull%20blac%20et%20noir",
+  "Etat": "Disponible"
+},{
+  "categorie": "vetement",
+  "nom": "Gilet ull blac",
+  "boutique": "MY",
+  "prix": "6000 FCFA",
+  "image": "../asset/76d67ad4-f996-4320-9e2f-716739fa9f3e.jpg",
+  "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender Gilet%20ull%20blac",
+  "Etat": "Disponible"
+},
+{
+  "categorie": "vetement",
+  "nom": "KABA jaune",
+  "boutique": "MY",
+  "prix": "7000 FCFA",
+  "image": "../asset/37a9b2f2-a435-4145-8ad4-f110ade13d71.jpg",
+  "lienWhatsapp": "https://wa.me/24177067949?text=Je veux commender KABA%20jaune",
+  "Etat": "Disponible"
+}
+]

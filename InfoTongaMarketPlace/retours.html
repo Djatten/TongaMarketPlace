@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="fr" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="TongaMarketplace — Achetez local, facilement" />
+    <meta property="og:description" content="Découvrez les meilleurs produits locaux : vêtements, accessoires, électroménager, et plus encore sur TongaMarketplace." />
+    <meta property="og:image" content="https://tonsite.com/images/og-image.jpg" />
+    <meta property="og:url" content="https://tonsite.com/produits.html" />
+    <meta property="og:type" content="website" />
+
+    <!-- Pour WhatsApp et autres plateformes -->
+    <meta property="og:site_name" content="TongaMarketplace" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <title>Retours — TongaMarketPlace</title>
+    <link rel="icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../styles/produits_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container nav">
+            <a class="brand" href="../">
+                <span class="logo" aria-hidden="true">TM</span>
+                <span>TongaMarket</span>
+            </a>
+            <nav class="nav-links" aria-label="Navigation principale">
+                <a href="../index.html">Accueil</a>
+                <a href="../FichesProduit/produits.html">Produits</a>
+                <a href="../InfoTongaMarketPlace/contact.html">Contact</a>
+                <button id="toggleTheme" class="mode-toggle" aria-label="Changer le thème (clair/sombre)">
+                    <svg id="iconSun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path
+                            d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.535-7.535-1.414 1.414M7.88 16.12l-1.414 1.414m0-11.314 1.414 1.414M16.12 16.12l1.414 1.414" />
+                    </svg>
+                    <svg id="iconMoon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                    <span id="themeLabel">Clair</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Politique de Retours et Remboursements</h2>
+
+        <p>Chez <strong>TongaMarketPlace</strong>, nous voulons que vous soyez pleinement satisfait de vos achats. Voici
+            les conditions et procédures pour retourner un produit ou obtenir un remboursement.</p>
+
+        <h3>1. Délai de retour</h3>
+        <p>Vous pouvez demander un retour ou un échange dans un délai de 7 jours à compter de la réception du produit,
+            sauf indication contraire pour certains articles.</p>
+
+        <h3>2. Conditions du produit</h3>
+        <p>Le produit doit être retourné dans son état d'origine, non utilisé et avec son emballage intact.
+            TongaMarketPlace se réserve le droit de refuser les retours ne respectant pas ces conditions.</p>
+
+        <h3>3. Procédure de retour</h3>
+        <p>Pour initier un retour, contactez-nous via WhatsApp ou par e-mail. Vous recevrez un numéro de retour et les
+            instructions pour envoyer le produit à la boutique concernée.</p>
+
+        <h3>4. Frais de retour</h3>
+        <p>Les frais de retour sont à la charge du client, sauf en cas de produit défectueux ou erreur de livraison de
+            TongaMarketPlace.</p>
+
+        <h3>5. Remboursement</h3>
+        <p>Une fois le produit reçu et validé, le remboursement sera effectué dans un délai de 7 à 14 jours via le même
+            moyen de paiement que celui utilisé pour la commande.</p>
+
+        <h3>6. Produits non remboursables</h3>
+        <p>Certains articles, notamment personnalisés ou en promotion, peuvent ne pas être remboursables. Vérifiez les
+            informations sur la page produit avant d’acheter.</p>
+
+        <h3>7. Contact pour retours</h3>
+        <p>Pour toute demande, contactez-nous via notre bouton WhatsApp flottant ou à l’adresse e-mail indiquée sur la
+            page Contact.</p>
+    </main>
+
+    <footer>
+        <div class="container foot">
+            <span>© <span id="year"></span> TongaMarketPlace</span>
+            <div style="display:flex; gap:12px">
+                <a href="../InfoTongaMarketPlace/cgv.html">CGV</a>
+                <a href="../InfoTongaMarketPlace/retours.html">Retours</a>
+                <a href="../InfoTongaMarketPlace/contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <a class="wa-fab" href="https://wa.me/24177067949?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits" rel="noopener">
+        WhatsApp
+    </a>
+
+    <script>
+        // Mode clair / sombre
+        const toggleTheme = document.getElementById("toggleTheme");
+        const iconSun = document.getElementById("iconSun");
+        const iconMoon = document.getElementById("iconMoon");
+        const themeLabel = document.getElementById("themeLabel");
+
+        function applyTheme(theme) {
+            if (theme === "dark") {
+                document.documentElement.classList.add("dark");
+                iconSun.style.display = "none";
+                iconMoon.style.display = "inline";
+                themeLabel.textContent = "Sombre";
+            } else {
+                document.documentElement.classList.remove("dark");
+                iconSun.style.display = "inline";
+                iconMoon.style.display = "none";
+                themeLabel.textContent = "Clair";
+            }
+        }
+
+        const savedTheme = localStorage.getItem("theme") || "light";
+        applyTheme(savedTheme);
+
+        toggleTheme.addEventListener("click", () => {
+            const currentTheme = document.documentElement.classList.contains("dark") ? "dark" : "light";
+            const newTheme = currentTheme === "dark" ? "light" : "dark";
+            localStorage.setItem("theme", newTheme);
+            applyTheme(newTheme);
+        });
+
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

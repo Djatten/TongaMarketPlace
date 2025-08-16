@@ -1,0 +1,380 @@
+:root {
+    --bg: #f4f6fa;
+    --card: #ffffff;
+    --text: #1a202c;
+    --muted: #6b7280;
+    --primary: #0ea5e9;
+    --primary-contrast: #ffffff;
+    --accent: #0ea5e9;
+    --shadow: 0 4px 16px rgba(14, 165, 233, 0.08);
+    --border: #d1d5db;
+    --btcard: #e0f7fa;
+    --btpagne: #34b998;
+}
+
+:root.dark {
+    --bg: #10151b;
+    --card: #181f29;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+    --primary: #22d3ee;
+    --primary-contrast: #10151b;
+    --accent: #22d3ee;
+    --shadow: 0 4px 16px rgba(34, 211, 238, 0.12);
+    --border: #273043;
+    --btcard: #134e4a;
+    --btpagne: #009973;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: saturate(1.1) blur(8px);
+    background: color-mix(in oklab, var(--bg) 85%, transparent);
+    border-bottom: 1px solid var(--border);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 64px;
+    gap: 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.brand .logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    display: grid;
+    place-items: center;
+    color: var(--primary-contrast);
+    font-weight: 800;
+}
+
+.nav-links {
+    display: flex;
+    gap: 14px;
+    font-weight: 500;
+}
+
+.nav-links a {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.nav-links a:hover {
+    border-color: var(--border);
+}
+
+.mode-toggle {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 8px 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    color: rgb(128, 128, 128);
+}
+
+.mode-toggle svg {
+    width: 18px;
+    height: 18px;
+}
+
+main {
+    padding: 24px 0;
+}
+
+h2 {
+    margin: 24px 0 12px;
+    font-size: 24px;
+}
+
+
+
+.btn-ajouter-panier {
+    background-color: var(--btpagne);
+    /* couleur principale */
+    color: var(--primary-contrast);
+    /* texte clair */
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.btn-ajouter-panier:hover {
+    background-color: var(--btcard);
+    transform: scale(1.05);
+}
+
+.btn-ajouter-panier:active {
+    transform: scale(0.95);
+}
+
+.grid-produits {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.produit-card {
+    flex: 0 0 180px;
+    /* largeur fixe pour chaque carte */
+}
+
+.produit-card {
+    background: var(--card);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.produit-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 6px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.produit-card h3 {
+    margin: 8px 0 4px;
+    font-size: 17px;
+    min-height: 42px;
+}
+
+.produit-card p {
+    margin: 2px 0;
+    font-size: 15px;
+}
+
+.disponible {
+    color: green;
+    font-weight: 600;
+}
+
+.non-disponible {
+    color: rgb(211, 112, 112);
+    font-weight: 600;
+}
+
+.btn-whatsapp {
+    /* <a href="https://wa.me/24177067949?text=Je veux commender Casquette%20rouge" target="_blank" class="btn-whatsapp">Commander</a> */
+    display: inline-block;
+    background-color: var(--btcard);
+    color: var(--text);
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-primary{
+    margin-top: 10px;
+    background: var(--text);
+    padding: 6px 12px;
+    color: var(--primary-contrast);
+    border-radius: 4px;
+}
+
+.voir-plus {
+    display: inline-block;
+    margin-top: 10px;
+    background: var(--accent);
+    padding: 6px 12px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 56px;
+    border-top: 1px solid var(--border);
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.cart-fab {
+    position: fixed;
+    right: 18px;
+    bottom: 105px;
+    /* au-dessus du bouton WhatsApp */
+    display: inline-flex;
+    align-items: center;
+    gap: px;
+    padding: 4px 20px;
+    padding-bottom: 8px;
+    border-radius: 999px;
+    background: var(--primary);
+    color: var(--primary-contrast);
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    font-weight: 700;
+    z-index: 1000;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cart-fab:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.cart-fab:active {
+    transform: scale(0.95);
+}
+
+.wa-fab {
+    position: fixed;
+    right: 18px;
+    bottom: 55px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: 999px;
+    background: var(--primary);
+    color: var(--primary-contrast);
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.wa-fab:hover {
+    background: color-mix(in oklab, var(--primary) 90%, var(--border));
+    transform: translateY(-1px);
+    transition: all 0.2s ease-in-out;
+}
+
+.wa-fab:active {
+    transform: scale(0.95);
+}
+
+/* Style spécifique à la page panier */
+.panier-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--card);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: var(--shadow);
+}
+
+.panier-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.panier-details {
+    flex: 1;
+}
+
+.panier-details h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.panier-details p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.btn-supprimer {
+    background-color: rgb(211, 112, 112);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-supprimer:hover {
+    background-color: rgb(180, 80, 80);
+}
+
+.panier-total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ShopCart,
+.ShopCart svg,
+.ShopCart img {
+    width: 18px !important;
+    height: 12px !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.ShopCart1,
+.ShopCart1 svg,
+.ShopCart1 img {
+    width: 22px !important;
+    height: 22px !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}

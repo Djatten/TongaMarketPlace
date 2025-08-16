@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Produits spécifiques — TongaMarketplace</title>
+    <link rel="icon" href="../asset/logo/logo-header-bark.svg" />
+    <link rel="stylesheet" href="../styles/produits_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container nav">
+            <a class="brand" href="../index.html">
+                <span class="logo" aria-hidden="true">TM</span>
+                <span>TongaMarket</span>
+            </a>
+            <nav class="nav-links" aria-label="Navigation principale">
+                <a href="../index.html">Accueil</a>
+                <a href="produits.html">Produits</a>
+                <button id="toggleTheme" class="mode-toggle" aria-label="Changer le thème (clair/sombre)">
+                    <svg id="iconSun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path
+                            d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.535-7.535-1.414 1.414M7.88 16.12l-1.414 1.414m0-11.314 1.414 1.414M16.12 16.12l1.414 1.414" />
+                    </svg>
+                    <svg id="iconMoon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                    <span id="themeLabel">Clair</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 id="titreCategorie"></h2>
+        <div id="catalogue" class="grid-produits"></div>
+    </main>
+
+    <footer>
+        <div class="container foot">
+            <span>© <span id="year"></span> TongaMarketplace</span>
+            <div style="display:flex; gap:12px">
+                <a href="../InfoTongaMarketPlace/cgv.html">CGV</a>
+                <a href="../InfoTongaMarketPlace/retours.html">Retours</a>
+                <a href="../InfoTongaMarketPlace/contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <a class="wa-fab" href="https://wa.me/24177067949?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits" rel="noopener">
+        WhatsApp
+    </a>
+        <a href="../FichesProduit/panier.html" class="cart-fab" aria-label="Voir le panier"><img width="24" height="24" class="ShopCart1" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png" alt="shopping-cart--v1" />Panier</a>
+
+    <script src="../scripts/produitsSpecifiquesLoader.js"></script>
+    <script src="../scripts/cart.js"></script>
+</body>
+
+</html>

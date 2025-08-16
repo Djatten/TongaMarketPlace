@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CGV — TongaMarketPlace</title>
+    <link rel="icon" href="../asset/logo/logo-header-bark.svg" />
+    <link rel="stylesheet" href="../styles/produits_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container nav">
+            <a class="brand" href="../index.html">
+                <span class="logo" aria-hidden="true">TM</span>
+                <span>TongaMarketPlace</span>
+            </a>
+            <nav class="nav-links" aria-label="Navigation principale">
+                <a href="../index.html">Accueil</a>
+                <a href="../FichesProduit/produits.html">Produits</a>
+                <a href="../InfoTongaMarketPlace/contact.html">Contact</a>
+                <button id="toggleTheme" class="mode-toggle" aria-label="Changer le thème (clair/sombre)">
+                    <svg id="iconSun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path
+                            d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.535-7.535-1.414 1.414M7.88 16.12l-1.414 1.414m0-11.314 1.414 1.414M16.12 16.12l1.414 1.414" />
+                    </svg>
+                    <svg id="iconMoon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                    <span id="themeLabel">Clair</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Conditions Générales de Vente</h2>
+
+        <p>Bienvenue sur <strong>TongaMarketPlace</strong>. Merci de lire attentivement nos conditions générales de
+            vente (CGV) avant toute commande. En utilisant notre site, vous acceptez nos CGV.</p>
+
+        <h3>1. Objet</h3>
+        <p>Les présentes conditions définissent les droits et obligations de TongaMarketPlace et de ses clients dans le
+            cadre de la vente de produits proposés sur le site.</p>
+
+        <h3>2. Produits</h3>
+        <p>Tous les produits présentés sur TongaMarketPlace sont proposés par différentes boutiques partenaires. Les
+            descriptions et prix sont fournis par les boutiques et peuvent être modifiés sans préavis.</p>
+
+        <h3>3. Commandes</h3>
+        <p>Les commandes sont passées via WhatsApp ou les liens fournis sur le site. TongaMarketPlace ne peut être tenu
+            responsable des retards liés aux boutiques partenaires ou à l'importation de produits.</p>
+
+        <h3>4. Prix et paiement</h3>
+        <p>Tous les prix sont indiqués en FCFA, toutes taxes comprises. Le paiement s’effectue directement à
+            TongaMarketPlace via le moyen indiqué lors de la commande (WhatsApp, mobile money, etc.).</p>
+
+        <h3>5. Livraison</h3>
+        <p>La livraison est effectuée par TongaMarketPlace ou par les boutiques partenaires selon la disponibilité et
+            les accords établis. Les délais peuvent varier entre 72 heures et 1 mois selon l’origine du produit.</p>
+
+        <h3>6. Retour et remboursement</h3>
+        <p>Les demandes de retour ou remboursement doivent être effectuées selon nos règles de retour disponibles sur la
+            page dédiée. TongaMarketPlace s’engage à traiter toutes les demandes de manière équitable.</p>
+
+        <h3>7. Responsabilité</h3>
+        <p>TongaMarketPlace ne peut être tenu responsable des dommages indirects liés à l’utilisation du site ou des
+            produits, ni des litiges liés aux boutiques partenaires.</p>
+
+        <h3>8. Modification des CGV</h3>
+        <p>TongaMarketPlace se réserve le droit de modifier ses CGV à tout moment. Les nouvelles CGV s’appliquent dès
+            leur mise en ligne sur le site.</p>
+    </main>
+
+    <footer>
+        <div class="container foot">
+            <span>© <span id="year"></span> TongaMarketPlace</span>
+            <div style="display:flex; gap:12px">
+                <a href="../InfoTongaMarketPlace/cgv.html">CGV</a>
+                <a href="../InfoTongaMarketPlace/retours.html">Retours</a>
+                <a href="../InfoTongaMarketPlace/contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <a class="wa-fab" href="https://wa.me/24177067949?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits" rel="noopener">
+        WhatsApp
+    </a>
+
+    <script>
+        // Mode clair / sombre
+        const toggleTheme = document.getElementById("toggleTheme");
+        const iconSun = document.getElementById("iconSun");
+        const iconMoon = document.getElementById("iconMoon");
+        const themeLabel = document.getElementById("themeLabel");
+
+        function applyTheme(theme) {
+            if (theme === "dark") {
+                document.documentElement.classList.add("dark");
+                iconSun.style.display = "none";
+                iconMoon.style.display = "inline";
+                themeLabel.textContent = "Sombre";
+            } else {
+                document.documentElement.classList.remove("dark");
+                iconSun.style.display = "inline";
+                iconMoon.style.display = "none";
+                themeLabel.textContent = "Clair";
+            }
+        }
+
+        const savedTheme = localStorage.getItem("theme") || "light";
+        applyTheme(savedTheme);
+
+        toggleTheme.addEventListener("click", () => {
+            const currentTheme = document.documentElement.classList.contains("dark") ? "dark" : "light";
+            const newTheme = currentTheme === "dark" ? "light" : "dark";
+            localStorage.setItem("theme", newTheme);
+            applyTheme(newTheme);
+        });
+
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

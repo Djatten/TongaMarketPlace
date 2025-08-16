@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="fr" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Panier — TongaMarketplace</title>
+    <link rel="icon" href="../asset/logo/logo-header-bark.svg" />
+    <link rel="stylesheet" href="../styles/produits_style.css">
+    <style>
+        .panier-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background: var(--card);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 12px;
+            box-shadow: var(--shadow);
+        }
+
+        .panier-item img {
+            width: 120px;
+            height: 120px;
+            border-radius: 6px;
+            object-fit: cover;
+        }
+
+        .panier-item .details {
+            flex: 1;
+        }
+
+        .panier-item h3 {
+            margin: 0 0 6px 0;
+            font-size: 18px;
+        }
+
+        .panier-item p {
+            margin: 4px 0;
+            font-size: 15px;
+        }
+
+        .btn-supprimer {
+            background: #ef4444;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 6px;
+        }
+
+        .btn-supprimer:hover {
+            background: #dc2626;
+        }
+
+        #valider-panier {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            padding: 12px 0;
+            background: var(--btpagne);
+            color: var(--primary-contrast);
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        #valider-panier:hover {
+            background: var(--btcard);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container nav">
+            <a class="brand" href="../">
+                <span class="logo" aria-hidden="true">TM</span>
+                <span>TongaMarket</span>
+            </a>
+            <nav class="nav-links" aria-label="Navigation principale">
+                <a href="../">Accueil</a>
+                <a href="produits.html">Produits</a>
+                <button id="toggleTheme" class="mode-toggle" aria-label="Changer le thème (clair/sombre)">
+                    <svg id="iconSun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"></svg>
+                    <svg id="iconMoon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
+                    <span id="themeLabel">Clair</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Votre Panier</h2>
+        <div id="panier-container"></div>
+        <button id="valider-panier">Valider le panier</button>
+    </main>
+
+    <footer>
+        <div class="container foot">
+            <span>© <span id="year"></span> TongaMarketplace</span>
+            <div style="display:flex; gap:12px">
+                <a href="../InfoTongaMarketPlace/cgv.html">CGV</a>
+                <a href="../InfoTongaMarketPlace/retours.html">Retours</a>
+                <a href="../InfoTongaMarketPlace/contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <a class="wa-fab" href="https://wa.me/24177067949?text=*Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits"
+        rel="noopener">WhatsApp</a>
+
+    <script>
+        // --- Gestion du panier ---
+        let panier = JSON.parse(localStorage.getItem("panier")) || [];
+
+        function afficherPanier() {
+            const container = document.getElementById("panier-container");
+            container.innerHTML = "";
+
+            if (panier.length === 0) {
+                container.innerHTML = "<p>Votre panier est vide.</p>";
+                document.getElementById("valider-panier").style.display = "none";
+                return;
+            }
+
+            document.getElementById("valider-panier").style.display = "block";
+
+            panier.forEach((prod, index) => {
+                const item = document.createElement("div");
+                item.className = "panier-item";
+                item.innerHTML = `
+                    <img src="${prod.image}" alt="${prod.nom}">
+                    <div class="details">
+                        <h3>${prod.nom}</h3>
+                        <p>Prix: ${prod.prix} FCFA</p>
+                        <button class="btn-supprimer">Supprimer</button>
+                    </div>
+                `;
+
+                // Supprimer l’élément
+                item.querySelector(".btn-supprimer").addEventListener("click", () => {
+                    panier.splice(index, 1);
+                    localStorage.setItem("panier", JSON.stringify(panier));
+                    afficherPanier();
+                });
+
+                container.appendChild(item);
+            });
+        }
+
+        // Valider le panier
+        document.getElementById("valider-panier").addEventListener("click", () => {
+            if (panier.length === 0) return alert("Votre panier est vide !");
+            let message = "Bonjour, je souhaite commander :%0A";
+            panier.forEach(p => {
+            message += `${p.nom} x${p.quantite || 1} - ${p.prix} FCFA%0A`;
+            });
+            message += `Total: ${panier.reduce((a, b) => a + (b.prix * (b.quantite || 1)), 0)} FCFA`;
+            // Redirige vers WhatsApp
+            window.open(`https://wa.me/24177067949?text=${message}`, '_blank', 'noopener');
+            // Vide le panier
+            panier = [];
+            localStorage.setItem("panier", JSON.stringify(panier));
+            afficherPanier();
+        });
+
+        // Mode clair/sombre
+        (function initTheme() {
+            const root = document.documentElement;
+            const saved = localStorage.getItem('theme');
+            const preferDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const isDark = saved ? saved === 'dark' : preferDark;
+            root.classList.toggle('dark', isDark);
+            updateToggle(isDark);
+        })();
+
+        document.getElementById('toggleTheme').addEventListener('click', () => {
+            const root = document.documentElement;
+            const nowDark = !root.classList.contains('dark');
+            root.classList.toggle('dark', nowDark);
+            localStorage.setItem('theme', nowDark ? 'dark' : 'light');
+            updateToggle(nowDark);
+        });
+
+        function updateToggle(dark) {
+            document.getElementById('iconSun').style.display = dark ? 'none' : '';
+            document.getElementById('iconMoon').style.display = dark ? '' : 'none';
+            document.getElementById('themeLabel').textContent = dark ? 'Sombre' : 'Clair';
+        }
+
+        // Affiche le panier au chargement
+        document.addEventListener("DOMContentLoaded", afficherPanier);
+
+        // Année dans le footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
