@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Produits spécifiques — TongaMarketplace</title>
-    <link rel="icon" href="../asset/logo/logo-header-bark.svg" />
+    <link rel="icon" href="../asset/logo/logo-header-light.svg" />
     <link rel="stylesheet" href="../styles/produits_style.css">
 </head>
 
@@ -13,7 +13,9 @@
     <header>
         <div class="container nav">
             <a class="brand" href="../index.html">
-                <span class="logo" aria-hidden="true"></span>
+                <!-- Ajout du logo en img pour changer dynamiquement -->
+                <img id="logoHeader" src="../asset/logo/logo-header-light.svg" alt="TongaMarket" width="36"
+                    height="36" />
                 <span>TongaMarket</span>
             </a>
             <nav class="nav-links" aria-label="Navigation principale">
@@ -23,8 +25,9 @@
                     <svg id="iconSun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="4"></circle>
-                        <path
-                            d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.535-7.535-1.414 1.414M7.88 16.12l-1.414 1.414m0-11.314 1.414 1.414M16.12 16.12l1.414 1.414" />
+                        <path d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.535-7.535-1.414 1.414
+                               M7.88 16.12l-1.414 1.414m0-11.314 1.414 1.414
+                               M16.12 16.12l1.414 1.414" />
                     </svg>
                     <svg id="iconMoon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -52,14 +55,18 @@
         </div>
     </footer>
 
-    <a class="wa-fab" href="https://wa.me/24177067949?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits" rel="noopener">
+    <a class="wa-fab"
+        href="https://wa.me/24177067949?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits"
+        rel="noopener">
         WhatsApp
     </a>
-        <a href="../FichesProduit/panier.html" class="cart-fab" aria-label="Voir le panier"><img width="24" height="24" class="ShopCart1" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png" alt="shopping-cart--v1" />Panier</a>
-
+    <a href="../FichesProduit/panier.html" class="cart-fab" aria-label="Voir le panier">
+        <img width="24" height="24" class="ShopCart1"
+            src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png" alt="shopping-cart--v1" />
+        Panier
+    </a>
     <script src="../scripts/produitsSpecifiquesLoader.js"></script>
     <script src="../scripts/cart.js"></script>
-
 </body>
 
 </html>
