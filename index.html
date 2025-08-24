@@ -1,0 +1,171 @@
+<!-- TongaMarketplace - Index (avec en-tête complexe inspiré eBay) -->
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Accueil - Tonga Market</title>
+    <link rel="icon"
+        href="data:img/HeroSlide/HeroSlide (1).pngxml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%90%9B%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles/styleIndex.css" />
+</head>
+
+<body data-theme="light">
+    <!-- Top bar -->
+    <div class="topbar">
+        <div class="top-left">
+            <div class="lang-select">
+                <span title="Gabon">🇬🇦</span>
+                <select aria-label="Langue" id="langSelect">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="mini muted">Livraison: Libreville • Retrait local</div>
+        </div>
+
+        <div class="top-right">
+            <a href="#aide" class="aid-contact">Aide & contact</a>
+            <a href="page/produit/panier.html" class="icon-btn">🛒<span class="badge" id="cartCount" style="display:none">0</span></a>
+        </div>
+    </div>
+
+    <!-- Main header -->
+    <header class="main">
+        <a class="logo" href="index.html"><img src="img/logo/logoheader.svg" alt="index.html">TongaMarketPlace</a>
+
+        <!-- Browse / mega menu -->
+        <div class="browse">
+            <div class="btn"><span class="manu1">📂 Parcourir par catégorie ▾</span><samp class="menu2">📂...▾</samp></div>
+            <div class="mega" id="megaMenu">
+                <div style="display:flex;gap:18px">
+                    <div style="flex:1">
+                        <h4>Maison & Décoration</h4>
+                        <ul style="padding-left:14px">
+                            <li>Meubles (chaises, tables, étagères)</li>
+                            <li>Luminaires / Lampes</li>
+                            <li>Tapis & rideaux</li>
+                            <li>Décoration murale</li>
+                            <li>Linge de maison (draps, serviettes)</li>
+                            <li>Ustensiles de cuisine</li>
+                        </ul>
+                    </div>
+                    
+                    <div style="flex:1">
+                        <h4>Vêtements & Accessoires</h4>
+                        <ul style="padding-left:14px">
+                            <li>t-shirts</li>
+                            <li>chemises</li>
+                            <li>pulls</li>
+                            <li>pantalons</li>
+                            <li>jupes</li>
+                            <li>shorts</li>
+                            <li>Chaussures et Sneakers</li>
+                            <li>Sacs</li>
+                            <li>Bijoux et Montres</li>
+                            <li>Chapeaux et Casquettes</li>
+                            <li>Accessoires (ceintures, lunettes de soleil)</li> 
+                        </ul>
+                    </div>
+                    
+                    <div style="flex:1">
+                        <h4>Sport & Loisirs</h4>
+                        <ul style="padding-left:14px">
+                            <li>Équipements de fitness</li>
+                            <li>Vêtements de sport</li>
+                            <li>Chaussures de sport</li>
+                            <li>Accessoires (ballons, raquettes)</li>
+                        </ul>
+                    </div>
+                    
+                    <div style="flex:1">
+                        <h4>Beauté & Santé</h4>
+                        <ul style="padding-left:14px">
+                            <li>Soins pour la peau</li>
+                            <li>Produits capillaires</li>
+                            <li>Parfums</li>
+                            <li>Vitamines</li>
+                            <li>Hygiène</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search bar advanced -->
+        <div class="search-wrapper" >
+            <input type="text" id="searchInput" placeholder="Rechercher..." >
+            <div id="autocompleteResults" class="autocomplete-container"></div>
+        </div>
+    </header>
+
+    <!-- Main content (hero + modules) -->
+    <main class="container">
+        <section class="hero">
+            <div class="carousel-container">
+            <div class="carousel" id="carousel"></div>
+                <img src="img/HeroSlide/HeroSlide (1).png" alt="Slide 1" class="slide active">
+                <img src="img/HeroSlide/HeroSlide (2).png" alt="Slide 2" class="slide">
+                <img src="img/HeroSlide/HeroSlide (3).png" alt="Slide 3" class="slide">
+                <img src="img/HeroSlide/HeroSlide (4).png" alt="Slide 4" class="slide">
+            </div>
+            </div>
+            <div class="comment-commander">
+            <div class="card">
+                <strong>Livraison express</strong>
+                <div class="muted">Zones: Libreville - Akanda - Owendo</div>
+            </div>
+            <div class="card">
+                <strong>Comment ça marche</strong>
+                <div class="muted">Sélectionnez, contactez, payez, recevez votre commande rapidement.</div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Categories grid -->
+        <section class="section">
+            <h3>Catégories principales</h3>
+            <div class="categories-grid" id="CatsGrid"></div>
+        </section>
+
+        <!-- Deals (sample) -->
+        <section class="section" id="dealsSection">
+            <h3>Deals du jour</h3>
+            <div class="grid-products-deal" id="dealsGrid"></div>
+        </section>
+
+        <!-- Recommendations sample -->
+        <section class="section">
+            <h3>Tout nos articles</h3>
+            <div class="grid-products" id="recGrid"></div>
+        </section>
+    </main>
+
+        <footer class="footer">
+            <div class="footer-cols">
+                <div>
+                    <h4>À propos</h4>
+                    <a href="page/info/about.html"><p>TongaMarket - Votre marketplace en ligne.</p></a>
+                </div>
+                <div>
+                    <h4>Liens utiles</h4>
+                    <a href="page/info/faq.html"><p> FAQ </p></a>
+                    <a href="page/info/contact.html"><p> Contact </p></a>
+                    <a href="page/info/cga.html"><p> CGV </p></a>
+                </div>
+                <div>
+                    <h4>Suivez-nous</h4>
+                    <a href="page/info/"><p> Facebook </p></a>
+                    <a href="page/info/"><p> Twitter</p></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> TongaMarket. Paiements: Visa | PayPal</p>
+            </div>
+        </footer>
+    <script src="scripts/sciptIndex.js"></script>
+    
+</body>
+
+</html>

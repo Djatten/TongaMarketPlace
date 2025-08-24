@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>À propos - TongaMarketplace</title>
+  <link rel="stylesheet" href="../../styles/stylesInfo.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="top-left">
+      <div class="pill">Livraison 🇬🇦 — Libreville & environs</div>
+    </div>
+    <div class="top-right">
+      <div class="mini">Contact: +241 77067949</div>
+    </div>
+  </div>
+
+  <header class="main container">
+    <div class="logo"><a href="../../index.html">TongaMarketplace</a></div>
+    <nav class="subnav" aria-label="navigation">
+      <a href="../../index.html" class="manu1">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="cga.html">CGA</a>
+    </nav>
+  </header>
+  <main class="container page">
+    <div class="page-inner">
+
+      <h1>À propos de TongaMarketplace</h1>
+      <p>TongaMarketplace connecte les boutiques locales et les clients gabonais. Nous sélectionnons, listons et facilitons la commande via WhatsApp ou notre panier intégré. Notre objectif : simplifier l'achat local et soutenir les commerçants.</p>
+
+      <h2>Comment ça marche</h2>
+      <ol>
+        <li>Vous parcourez les produits par catégorie.</li>
+        <li>Vous ajoutez au panier ou commandez directement via WhatsApp.</li>
+        <li>Nous récupérons le produit chez le commerçant partenaire et vous le livrons.</li>
+      </ol>
+
+      <h2>Valeurs</h2>
+      <p>Proximité, transparence, sécurité et service local de qualité.</p>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-cols">
+      <div>
+        <h4>TongaMarketplace</h4>
+        <p>Une marketplace locale pour découvrir et commander les meilleurs produits gabonais.</p>
+      </div>
+      <div>
+        <h4>À propos</h4>
+        <p><a href="about.html">Notre histoire</a></p>
+        <p><a href="cga.html">Conditions générales</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>WhatsApp: +241 77067949</p>
+        <p>Email: contact@tonga.example</p>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <p>Facebook • Instagram • WhatsApp</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 TongaMarketplace — Tous droits réservés</div>
+  </footer>
+
+  <script>
+    // small helper for contact form
+    function sendContact(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value || '';
+      const email = document.getElementById('email').value || '';
+      const message = document.getElementById('message').value || '';
+      const subject = encodeURIComponent('Demande via site TongaMarketplace');
+      const body = encodeURIComponent('Nom: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      const mailto = 'mailto:contact@tonga.example?subject=' + subject + '&body=' + body;
+      window.location.href = mailto;
+      return false;
+    }
+  </script>
+</body>
+</html>

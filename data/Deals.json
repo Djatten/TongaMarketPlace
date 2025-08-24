@@ -1,0 +1,104 @@
+[
+    {
+    "id": 26,
+    "slug": "ensemble-10-pieces-bijoux-pour-homme",
+    "title": "Ensemble 10 pièces bijoux pour homme",
+    "short": "Lot complet de colliers, bagues, pendentifs en croix et bracelet pour un look masculin moderne.",
+    "category": "Vêtements",
+    "price": 20000.0,
+    "oldPrice": 23000.0,
+    "stock": 10,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/10pcs_Set Men's Cross Pendant Necklace, Hollow Chain Bracelet And Ring Set, Sporty Business Casual Luxury Gift.jpg",
+      "img/imgProduct/Temu _ Explore the Latest Clothing, Beauty, Home….jpg",
+      "img/imgProduct/3 piezas_set Accesorios de moda para niños, incluyendo pulsera, collar y anillo para deportes.jpg",
+      "img/imgProduct/Women's & Men's Clothing, Shop Online Fashion.jpg"
+    ],
+    "features": [
+      "Contenu : 10 pièces (colliers, bagues, pendentifs, chaîne creuse, bracelet)",
+      "Style : sportif, urbain, moderne",
+      "Matériau : alliage métallique durable (selon modèle)",
+      "Couleurs : argenté / doré / mixte (au choix)",
+      "Taille : ajustable pour bagues et bracelet",
+      "Pendentifs : croix et motifs tendance",
+      "Utilisation : quotidien, soirées, sorties, événements",
+      "Avantages : look complet, polyvalent, facile à assortir"
+    ],
+    "description": "Cet ensemble de 10 bijoux pour homme combine élégance et style sportif. Il comprend plusieurs colliers avec pendentifs croix, une chaîne creuse, des bagues variées et un bracelet assorti. Conçu pour s’adapter à toutes les occasions, il apporte une touche tendance à vos tenues, qu’elles soient décontractées ou plus habillées. Durable et confortable, ce pack est parfait pour ceux qui aiment affirmer leur personnalité à travers leurs accessoires."
+  },
+  {
+    "id": 36,
+    "slug": "comprimes-de-super-collagene-vitamine-c-et-biotine---neocell-360-unites",
+    "title": "Comprimés de Super Collagène, Vitamine C et Biotine - NEOCELL (360 unités)",
+    "short": "Un complément alimentaire premium qui soutient la santé de la peau, des cheveux, des ongles et des articulations grâce au collagène, à la vitamine C et à la biotine.",
+    "category": "Beauté",
+    "price": 16000.0,
+    "oldPrice": 20000.0,
+    "stock": 100,
+    "rating": 3.0,
+    "images": [
+      "img/imgProduct/NEOCELL Super Collagen Vitamin C Biotin Pills-360 Ct.jpg"
+    ],
+    "features": [
+      "Marque : NEOCELL",
+      "Format : 360 comprimés",
+      "Ingrédients clés : Collagène hydrolysé, Vitamine C, Biotine",
+      "Bienfaits :",
+      "Améliore l’élasticité et la fermeté de la peau",
+      "Favorise la croissance et la force des cheveux et des ongles",
+      "Soutient les articulations et les os",
+      "Convient pour : Adultes",
+      "Sans gluten, sans OGM"
+    ],
+    "description": "Les comprimés de Super Collagène + Vitamine C + Biotine de NEOCELL sont spécialement formulés pour favoriser la beauté de l’intérieur. Le collagène hydrolysé stimule l’élasticité et la fermeté de la peau, aide à renforcer les cheveux et les ongles, et contribue à la santé des articulations. La vitamine C joue un rôle clé dans la synthèse naturelle du collagène, tandis que la biotine soutient la vitalité des cheveux et de la peau. Ce flacon contient 360 comprimés, idéal pour une cure complète et durable."
+  },
+{
+    "id": 19,
+    "slug": "gants-de-mma",
+    "title": "Gants de MMA",
+    "short": "Gants de MMA légers et résistants, conçus pour offrir protection, confort et puissance.",
+    "category": "Sport",
+    "price": 40000.0,
+    "oldPrice": 50000.0,
+    "stock": 13,
+    "rating": 2.9,
+    "images": [
+      "img/imgProduct/Gants MMA pour Homme et Femme – Gants Sparring Open Palm Respirants, Gants Grappling pour Kickboxing, Muay Thai, Combat en Cage, MMA et Entraînement en Arts Martiaux.jpg",
+      "img/imgProduct/c2d80fd6-b6ca-4bcd-9588-2630cd58d497.jpg"
+    ],
+    "features": [
+      "Matériau : cuir synthétique résistant / cuir véritable (selon modèle)",
+      "Rembourrage : mousse haute densité anti-choc",
+      "Fermeture : scratch velcro pour un ajustement sûr",
+      "Design : doigts ouverts pour une meilleure préhension",
+      "Tailles : S, M, L, XL",
+      "Couleurs disponibles : noir, rouge, blanc, autres variantes",
+      "Utilisation : entraînement, sparring, compétition",
+      "Atouts : protection optimale, légèreté, confort et durabilité"
+    ],
+    "description": "Ces gants de MMA sont spécialement conçus pour les entraînements intensifs et les combats. Leur mousse haute densité absorbe efficacement les chocs, tandis que leur design ouvert garantit une bonne mobilité des doigts et une meilleure prise. Grâce à leur fermeture ajustable, ils offrent un maintien parfait du poignet pour limiter les blessures. Adaptés aux débutants comme aux combattants expérimentés, ils allient robustesse et confort."
+  },
+  {
+    "id": 10,
+    "slug": "bar-complet-en-bois-sombre-elegant",
+    "title": "Bar complet en bois sombre élégant",
+    "short": "Bar raffiné en bois sombre, idéal pour créer un coin convivial et stylé chez vous.",
+    "category": "Maison",
+    "price": 320000.0,
+    "stock": 1,
+    "rating": 3.4,
+    "images": [
+      "img/imgProduct/e3551317-8fae-4906-8d13-151721eed0a9.jpg"
+    ],
+    "features": [
+      "Matériau : bois massif finition sombre",
+      "Dimensions : 220 x 150 x 110 cm",
+      "Rangement : compartiments pour bouteilles, niches ouvertes et tiroirs",
+      "Plan de travail spacieux pour servir et préparer vos boissons",
+      "Style : chic et moderne, adapté à tout type de décoration",
+      "Idéal pour : salon, salle à manger ou espace détente"
+    ],
+    "description": "Ce bar complet en bois sombre associe design et fonctionnalité. Sa finition élégante apporte une touche de sophistication à votre intérieur, tout en offrant un espace pratique pour ranger vos bouteilles, verres et accessoires. Conçu pour les amateurs de convivialité, il transforme votre salon ou salle à manger en un véritable lieu de partage."
+  }
+]

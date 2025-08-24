@@ -1,0 +1,932 @@
+[
+  {
+    "id": 1,
+    "slug": "Canapé 1 place en bois massif",
+    "title": "Canapé 1 place",
+    "short": "Un canapé en bois, accompagné de ses coussins moelleux, qui vous fera sentir léger comme une plume.",
+    "category": "Maison",
+    "price": 120000.0,
+    "stock": 200,
+    "rating": 4.0,
+    "images": [
+      "img/imgProduct/1e2518b1-eb12-4834-8933-5d1152b37b86.jpg",
+      "img/imgProduct/12 meubles à posséder chez soi quand on veut gagner de la place.jpg"
+    ],
+    "features": [],
+    "description": ""
+  },
+  {
+    "id": 2,
+    "slug": "etagere-murale-en-bois",
+    "title": "Étagère murale en bois",
+    "short": "Étagère murale en bois, moderne et esthétique, parfaite pour habiller vos murs et sublimer votre intérieur. 🪵✨",
+    "category": "Maison",
+    "price": 50000.0,
+    "stock": 20,
+    "rating": 4.5,
+    "images": [
+      "img/imgProduct/43a68e40-beab-402c-a734-524083fb2de2.jpg",
+      "img/imgProduct/055ada61-640f-4a8c-b05e-243b2413c70f.jpg",
+      "img/imgProduct/75105596-de63-4067-8ec8-26eca601aeed.jpg",
+      "img/imgProduct/a9231f11-1c89-4984-b27a-f04641394dfe.jpg",
+      "img/imgProduct/DIY Artificial Plants - Makes, Bakes and Decor.jpg",
+      "img/imgProduct/e4b74512-e069-424d-b815-b62f0a7f7edc.jpg",
+      "img/imgProduct/How to create a wooden panel wall with shelves_.jpg",
+      "img/imgProduct/Meuble déco.jpg",
+      "img/imgProduct/repisas para pared.jpg",
+      "img/imgProduct/Wall floating shelves decor.jpg",
+      "img/imgProduct/Wooden Floating Shelves.jpg"
+    ],
+    "features": [],
+    "description": ""
+  },
+  {
+    "id": 3,
+    "slug": "b",
+    "title": "Bureau en bois",
+    "short": "Bureau en bois sombre, élégant et pratique pour le travail ou l’étude. 🪵🖊️",
+    "category": "Maison",
+    "price": 20000.0,
+    "stock": 5,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/054f9a16-209b-4f6c-bb1e-da679e2c3e5c.jpg"
+    ],
+    "features": [],
+    "description": ""
+  },
+  {
+    "id": 4,
+    "slug": "e",
+    "title": "Étagère en bois à plusieurs niveau",
+    "short": "Étagère en bois à plusieurs niveaux, idéale pour ranger et décorer votre intérieur. 📚🪵✨",
+    "category": "Maison",
+    "price": 60000.0,
+    "stock": 10,
+    "rating": 3.8,
+    "images": [
+      "img/imgProduct/c4ba2789-def8-40cf-84e3-10b4f1efa8c7.jpg"
+    ],
+    "features": [],
+    "description": ""
+  },
+  {
+    "id": 5,
+    "slug": "salon-en-palettes-de-bois",
+    "title": "Salon en palettes de bois",
+    "short": "Salon en palettes de bois, original et convivial, parfait pour un intérieur ou un extérieur chaleureux. 🌿🪑✨",
+    "category": "Maison",
+    "price": 300000.0,
+    "stock": 3,
+    "rating": 4.7,
+    "images": [
+      "img/imgProduct/Jardin _ 51 meubles en palettes super chouettes !.jpg"
+    ],
+    "features": [],
+    "description": ""
+  },
+  {
+    "id": 6,
+    "slug": "etagere-de-lit-en-bois-clair",
+    "title": "Étagère de lit en bois clair",
+    "short": "Étagère de lit en bois clair, pratique et élégante, idéale pour allier rangement et style naturel. 🌞🪵✨",
+    "category": "Maison",
+    "price": 30000.0,
+    "stock": 4,
+    "rating": 4.1,
+    "images": [
+      "img/imgProduct/fbbce839-0be8-4565-a740-a0fd88a651a7.jpg"
+    ],
+    "features": [],
+    "description": ""
+  },
+  {
+    "id": 7,
+    "slug": "etagere-basse-dangle-en-bois",
+    "title": "Étagère basse d’angle en bois",
+    "short": "Étagère basse d’angle en bois, parfaite pour optimiser l’espace tout en apportant une touche chaleureuse et décorative. 🪵📚✨",
+    "category": "Maison",
+    "price": 40000.0,
+    "stock": 10,
+    "rating": 3.5,
+    "images": [
+      "img/imgProduct/comptoir de vente magasin en bois, verre et métal.jpg"
+    ],
+    "features": [],
+    "description": ""
+  },
+  {
+    "id": 8,
+    "slug": "canape-italien-3-places-en-tissu-jaune",
+    "title": "Canapé italien 3 places en tissu jaune",
+    "short": "Canapé italien 3 places en tissu jaune, élégant et confortable, idéal pour apporter une touche de modernité et de couleur à votre salon. 🛋️🇮🇹💛",
+    "category": "Maison",
+    "price": 180000.0,
+    "stock": 2,
+    "rating": 4.9,
+    "images": [
+      "img/imgProduct/დივანი ყვითელ ფერში 🍋 ✨ თანამედროვე დიზაინი და….jpg"
+    ],
+    "features": [],
+    "description": ""
+  },
+  {
+    "id": 9,
+    "slug": "etagere-de-salon-pour-television",
+    "title": "Étagère de salon pour télévision",
+    "short": "Étagère TV élégante et fonctionnelle, idéale pour organiser votre salon avec style.",
+    "category": "Maison",
+    "price": 145000.0,
+    "stock": 4,
+    "rating": 3.9,
+    "images": [
+      "img/imgProduct/Scandinave - Meuble TV [Stockholm].jpg"
+    ],
+    "features": [
+      "Matériau : bois de haute qualité",
+      "Dimensions : 170 x 50 x 70 cm",
+      "Capacité : supporte une télévision jusqu’à 120 pouces",
+      "Rangement : plusieurs niches ouvertes et fermé",
+      "Style : moderne, sobre et élégant"
+    ],
+    "description": "Cette étagère de salon allie modernité et praticité. Fabriquée en bois résistant, elle offre une surface stable pour votre télévision ainsi que plusieurs compartiments pour ranger vos appareils multimédias, livres ou objets déco. Son design épuré s’adapte à tous les styles d’intérieur et optimise l’espace de votre salon."
+  },
+  {
+    "id": 10,
+    "slug": "bar-complet-en-bois-sombre-elegant",
+    "title": "Bar complet en bois sombre élégant",
+    "short": "Bar raffiné en bois sombre, idéal pour créer un coin convivial et stylé chez vous.",
+    "category": "Maison",
+    "price": 320000.0,
+    "stock": 1,
+    "rating": 3.4,
+    "images": [
+      "img/imgProduct/e3551317-8fae-4906-8d13-151721eed0a9.jpg"
+    ],
+    "features": [
+      "Matériau : bois massif finition sombre",
+      "Dimensions : 220 x 150 x 110 cm",
+      "Rangement : compartiments pour bouteilles, niches ouvertes et tiroirs",
+      "Plan de travail spacieux pour servir et préparer vos boissons",
+      "Style : chic et moderne, adapté à tout type de décoration",
+      "Idéal pour : salon, salle à manger ou espace détente"
+    ],
+    "description": "Ce bar complet en bois sombre associe design et fonctionnalité. Sa finition élégante apporte une touche de sophistication à votre intérieur, tout en offrant un espace pratique pour ranger vos bouteilles, verres et accessoires. Conçu pour les amateurs de convivialité, il transforme votre salon ou salle à manger en un véritable lieu de partage."
+  },
+  {
+    "id": 11,
+    "slug": "maillot-de-football-respirant",
+    "title": "Maillot de football respirant",
+    "short": "Maillot de foot confortable et respirant, idéal pour l’entraînement et les matchs.",
+    "category": "Sport",
+    "price": 10000.0,
+    "stock": 50,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Maillot extérieur du Mexique pour 45,00 CAD$….jpg",
+      "img/imgProduct/bcbb1a6f-75b2-4baa-ba75-545a1fd22547.jpg",
+      "img/imgProduct/maillot de foot brésil.jpg",
+      "img/imgProduct/95949dd6-bf18-47fb-b7ba-0c4450624e28.jpg",
+      "img/imgProduct/6f32332c-722a-4a71-80fb-dd41837a4244.jpg",
+      "img/imgProduct/d101e71e-a064-404d-a2e6-e62ac900a488.jpg",
+      "img/imgProduct/real madrid.jpg"
+    ],
+    "features": [
+      "Matériau : polyester respirant et séchage rapide",
+      "Tailles disponibles : S, M, L, XL",
+      "Coupe : sportive, unisexe",
+      "Entretien : lavage en machine à 30°",
+      "Idéal pour : entraînements, matchs, loisirs sportifs"
+    ],
+    "description": "Conçu pour les passionnés de football, ce maillot allie style et performance. Fabriqué en tissu respirant et léger, il évacue efficacement la transpiration pour garantir un confort optimal sur le terrain. Sa coupe moderne et sportive s’adapte aussi bien aux entraînements qu’aux compétitions, et peut se porter en club ou entre amis."
+  },
+  {
+    "id": 12,
+    "slug": "ballon-de-basketball-resistant--taille-officielle",
+    "title": "Ballon de basketball résistant – Taille officielle",
+    "short": "Ballon de basket robuste et antidérapant, parfait pour l’entraînement et les matchs.",
+    "category": "Sport",
+    "price": 30000.0,
+    "stock": 100,
+    "rating": 4.6,
+    "images": [
+      "img/imgProduct/111dee1f-04b1-4f30-9e2a-ac6f98b7c98a.jpg",
+      "img/imgProduct/0b840336-b17b-41e8-91f6-dbab17cf786d.jpg",
+      "img/imgProduct/COLOR BASKETBALL - Cocolia.jpg",
+      "img/imgProduct/Baloncesto.jpg",
+      "img/imgProduct/💛💜💛💜.jpg",
+      "img/imgProduct/c20c8460-1814-46aa-83ce-a6f491c23a3e.jpg",
+      "img/imgProduct/Balón de baloncesto de Spalding estilo NBA, con diseño de grafiti, para usar al aire libre_.jpg",
+      "img/imgProduct/1 pièce Ballon de basket en PU avec motif, durable, convient pour l'entraînement en intérieur et en extérieur, cadeau pour hommes et femmes.jpg",
+      "img/imgProduct/Ballon de basket-ball taille 7 pour étudiants en intérieur et en extérieur, cadeau de basket-ball.jpg",
+      "img/imgProduct/2dc049d1-9e6f-468b-8706-dd0bd04174ce.jpg",
+      "img/imgProduct/Les 10 Meilleurs ballons de foot – Comparatif et Avis 2021.jpg"
+    ],
+    "features": [
+      "Taille : 7 (officielle) / existe aussi en 5 et 6",
+      "Matériau : caoutchouc renforcé ou cuir synthétique",
+      "Surface : texturée antidérapante",
+      "Utilisation : intérieur et extérieur",
+      "Confort de jeu : rebond régulier et bonne prise en main",
+      "Idéal pour : entraînement, matchs et loisirs sportifs"
+    ],
+    "description": "Ce ballon de basketball est conçu pour offrir une excellente prise en main et une durabilité exceptionnelle. Sa surface texturée garantit un meilleur contrôle du dribble et une précision optimale lors des tirs. Adapté aussi bien aux terrains intérieurs qu’extérieurs, il est idéal pour les amateurs comme pour les joueurs confirmés."
+  },
+  {
+    "id": 13,
+    "slug": "maillot-de-basketball-respirant",
+    "title": "Maillot de basketball respirant",
+    "short": "Maillot léger et respirant, conçu pour assurer confort et liberté de mouvement sur le terrain.",
+    "category": "Sport",
+    "price": 15000.0,
+    "stock": 50,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/41807a06-472b-40ef-b8e8-6d49fbee850f.jpg",
+      "img/imgProduct/Un nouveau maillot de basket PSG x Jordan arrive.jpg",
+      "img/imgProduct/395093f1-e0e7-4aab-b860-a0444b9ebfba.jpg",
+      "img/imgProduct/d1f553cb-1629-4b56-9e17-29b284fb8b6f.jpg",
+      "img/imgProduct/02d0ae40-0ca8-498f-9714-9117e46abfc5.jpg",
+      "img/imgProduct/350150ce-4a79-4f31-a388-198a18bebe5a.jpg"
+    ],
+    "features": [
+      "Matériau : polyester respirant à séchage rapide",
+      "Coupe : sportive, ample et confortable",
+      "Tailles disponibles : S, M, L, XL",
+      "Couleurs : disponibles en plusieurs coloris / personnalisables",
+      "Entretien : lavage en machine à 30°",
+      "Idéal pour : entraînements, compétitions, loisirs sportifs"
+    ],
+    "description": "Ce maillot de basketball est spécialement pensé pour les joueurs qui recherchent performance et style. Sa matière respirante favorise l’évacuation de la transpiration, tandis que sa coupe ample permet une aisance optimale lors des dribbles, passes et tirs. Idéal aussi bien pour l’entraînement que pour la compétition, il peut être porté par les amateurs comme les professionnels."
+  },
+  {
+    "id": 14,
+    "slug": "sneakers-de-basketball-haute-performance",
+    "title": "Sneakers de basketball haute performance",
+    "short": "Chaussures de basket confortables et résistantes, offrant maintien, amorti et style sur le terrain.",
+    "category": "Sport",
+    "price": 45000.0,
+    "stock": 30,
+    "rating": 4.4,
+    "images": [
+      "img/imgProduct/nike ja 2.jpg",
+      "img/imgProduct/2250b456-bddb-4742-ac02-cdf20f45f722.jpg",
+      "img/imgProduct/Ja 1.jpg",
+      "img/imgProduct/RIGORER hommes AR1'Juicy Peach'chaussures de basket-ball professionnelles Rigorer coussin Support.jpg",
+      "img/imgProduct/Nike Kyrie 5 X Overwatch Concepts - Fajar Satria Wahono.jpg",
+      "img/imgProduct/🫦🫦.jpg",
+      "img/imgProduct/Chaussures de basket de printemps pour hommes, Baskets de sport d'absorption des chocs anti-dérapantes rétro avec colorblock, bottes courtes respirantes mi-hautes pour usage quotidien, chaussures de c.jpg"
+    ],
+    "features": [
+      "Matériau : mesh respirant et cuir synthétique",
+      "Semelle : caoutchouc antidérapant avec amorti renforcé",
+      "Fermeture : lacets classiques",
+      "Maintien : col montant pour un meilleur soutien de la cheville",
+      "Couleurs : plusieurs déclinaisons disponibles",
+      "Idéal pour : entraînements, compétitions, loisirs urbains"
+    ],
+    "description": "Ces sneakers de basketball sont conçues pour allier performance et confort. Leur semelle antidérapante garantit une excellente accroche au sol, tandis que l’amorti renforcé protège vos articulations lors des sauts et des déplacements rapides. Leur design moderne et sportif apporte une touche de style aussi bien sur le terrain qu’en dehors."
+  },
+  {
+    "id": 15,
+    "slug": "chaussures-de-football-a-crampons",
+    "title": "Chaussures de football à crampons",
+    "short": "Chaussures de foot légères et résistantes, conçues pour une adhérence optimale sur le terrain.",
+    "category": "Sport",
+    "price": 16000.0,
+    "stock": 10,
+    "rating": 4.3,
+    "images": [
+      "img/imgProduct/Nike Mercurial Zoom Superfly 10.jpg",
+      "img/imgProduct/b9ede83d-d518-4656-85ed-72c7a8165b5d.jpg",
+      "img/imgProduct/lamine yamal botas.jpg",
+      "img/imgProduct/😍😍😍.jpg",
+      "img/imgProduct/2caa120c-31a4-49d2-93ce-a2a7461cc391.jpg",
+      "img/imgProduct/d271803f-64e5-450b-9720-5c6e81bb472c.jpg"
+    ],
+    "features": [
+      "Matériau : synthétique résistant et respirant",
+      "Semelle : crampons moulés en caoutchouc ou TPU",
+      "Fermeture : lacets classiques",
+      "Tailles disponibles : 38 à 46",
+      "Couleurs : plusieurs modèles disponibles",
+      "Terrain : gazon naturel et synthétique",
+      "Atouts : légèreté, confort, stabilité, contrôle du ballon",
+      "Idéal pour : entraînements, compétitions, matchs loisirs"
+    ],
+    "description": "Ces crampons de football offrent confort, stabilité et performance à chaque match. Leur semelle est équipée de pointes spécialement étudiées pour assurer une accroche parfaite sur le gazon naturel ou synthétique. La tige légère et respirante permet une grande liberté de mouvement tout en garantissant un bon maintien du pied. Idéal pour les joueurs amateurs comme confirmés, ce modèle allie style et efficacité sur le terrain."
+  },
+  {
+    "id": 16,
+    "slug": "ballon-de-football-resistant--taille-officielle",
+    "title": "Ballon de football résistant – Taille officielle",
+    "short": "Ballon de foot durable et précis, idéal pour les entraînements et les matchs.",
+    "category": "Sport",
+    "price": 15000.0,
+    "stock": 30,
+    "rating": 4.2,
+    "images": [
+      "img/imgProduct/2dc049d1-9e6f-468b-8706-dd0bd04174ce.jpg",
+      "img/imgProduct/Les 10 Meilleurs ballons de foot – Comparatif et Avis 2021.jpg",
+      "img/imgProduct/Pelota de fútbol.jpg",
+      "img/imgProduct/3ff706ea-6757-4fd5-b1ab-295f0a050a2d.jpg",
+      "img/imgProduct/Balon xd.jpg"
+    ],
+    "features": [
+      "Taille : 5 (officielle) / existe aussi en tailles 3 et 4 pour jeunes joueurs",
+      "Matériau : cuir synthétique haute résistance",
+      "Surface : texturée pour un meilleur contrôle",
+      "Chambre à air : en latex ou butyle pour un rebond régulier",
+      "Utilisation : entraînements, matchs, loisirs",
+      "Adapté pour : terrains en herbe naturelle ou synthétique",
+      "Entretien : facile à nettoyer, gonflage standard"
+    ],
+    "description": "Ce ballon de football est conçu pour offrir une excellente maîtrise et une grande résistance. Sa surface texturée assure un meilleur contrôle du ballon, tandis que son revêtement renforcé garantit une longue durabilité, même après de nombreux matchs. Adapté aussi bien pour les terrains de loisirs que pour les compétitions, il est parfait pour les joueurs de tous niveaux."
+  },
+  {
+    "id": 17,
+    "slug": "raquette-de-tennis-legere-et-resistante",
+    "title": "Raquette de tennis légère et résistante",
+    "short": "Raquette de tennis performante, offrant puissance et contrôle pour tous les niveaux de jeu.",
+    "category": "Sport",
+    "price": 22000.0,
+    "oldPrice": 32000.0,
+    "stock": 8,
+    "rating": 2.9,
+    "images": [
+      "img/imgProduct/f1aa4753-cded-425f-8a78-5ce1488211bc.jpg",
+      "img/imgProduct/Raquette de tennis en alliage avec sac de tennis, entraînement de match, niveau collège, infraction,.jpg",
+      "img/imgProduct/Wilson raquette de tennis étoile _ Saint Laurent _ YSL FR.jpg",
+      "img/imgProduct/Raquette de tennis Babolat Pure Drive.jpg"
+    ],
+    "features": [
+      "Matériau : aluminium / graphite (selon modèle)",
+      "Poids : 280 g – 320 g (léger et maniable)",
+      "Longueur : standard adulte (68,5 cm) / junior disponible",
+      "Taille du tamis : médium (équilibre entre contrôle et puissance)",
+      "Grip : antidérapant et confortable",
+      "Cordage : synthétique haute résistance",
+      "Utilisation : entraînements, compétitions, loisirs",
+      "Convient pour : débutants, intermédiaires et confirmés"
+    ],
+    "description": "Cette raquette de tennis est conçue pour garantir un excellent équilibre entre puissance et précision. Son cadre léger assure une maniabilité optimale, tandis que son cordage résistant permet un meilleur contrôle de la balle. Adaptée aussi bien aux débutants qu’aux joueurs confirmés, elle est idéale pour les entraînements comme pour les matchs en compétition."
+  },
+  {
+    "id": 18,
+    "slug": "balles-de-tennis",
+    "title": "Balles de tennis",
+    "short": "Balles de tennis résistantes et rebondissantes, idéales pour l’entraînement et la compétition.",
+    "category": "Sport",
+    "price": 6000.0,
+    "oldPrice": 8000.0,
+    "stock": 200,
+    "rating": 3.5,
+    "images": [
+      "img/imgProduct/Raqueta De Tenis, Movimiento, Fitness PNG, Tenis Imágenes Vectoriales, Archivos PSD - Pngtree.jpg",
+      "img/imgProduct/17 Crazy Things Personal Assistants Have To Do.jpg",
+      "img/imgProduct/tennis ball cricket ball.jpg"
+    ],
+    "features": [
+      "Conditionnement : tube de 3 ou 4 balles",
+      "Matériau : caoutchouc renforcé avec feutre premium",
+      "Rebond : constant et régulier",
+      "Utilisation : tous types de terrains (dur, terre battue, gazon, synthétique)",
+      "Niveau : débutants, intermédiaires, confirmés",
+      "Durabilité : haute résistance à l’usure",
+      "Couleur : jaune fluorescent pour une meilleure visibilité"
+    ],
+    "description": "Ces balles de tennis sont conçues pour offrir un rebond régulier et une excellente durabilité. Leur feutre de qualité supérieure assure une bonne visibilité et une trajectoire stable sur tous types de courts. Adaptées aux débutants comme aux joueurs confirmés, elles conviennent aussi bien pour les séances d’entraînement que pour les matchs officiels."
+  },
+  {
+    "id": 19,
+    "slug": "gants-de-mma",
+    "title": "Gants de MMA",
+    "short": "Gants de MMA légers et résistants, conçus pour offrir protection, confort et puissance.",
+    "category": "Sport",
+    "price": 40000.0,
+    "oldPrice": 50000.0,
+    "stock": 13,
+    "rating": 2.9,
+    "images": [
+      "img/imgProduct/Gants MMA pour Homme et Femme – Gants Sparring Open Palm Respirants, Gants Grappling pour Kickboxing, Muay Thai, Combat en Cage, MMA et Entraînement en Arts Martiaux.jpg",
+      "img/imgProduct/c2d80fd6-b6ca-4bcd-9588-2630cd58d497.jpg"
+    ],
+    "features": [
+      "Matériau : cuir synthétique résistant / cuir véritable (selon modèle)",
+      "Rembourrage : mousse haute densité anti-choc",
+      "Fermeture : scratch velcro pour un ajustement sûr",
+      "Design : doigts ouverts pour une meilleure préhension",
+      "Tailles : S, M, L, XL",
+      "Couleurs disponibles : noir, rouge, blanc, autres variantes",
+      "Utilisation : entraînement, sparring, compétition",
+      "Atouts : protection optimale, légèreté, confort et durabilité"
+    ],
+    "description": "Ces gants de MMA sont spécialement conçus pour les entraînements intensifs et les combats. Leur mousse haute densité absorbe efficacement les chocs, tandis que leur design ouvert garantit une bonne mobilité des doigts et une meilleure prise. Grâce à leur fermeture ajustable, ils offrent un maintien parfait du poignet pour limiter les blessures. Adaptés aux débutants comme aux combattants expérimentés, ils allient robustesse et confort."
+  },
+  {
+    "id": 20,
+    "slug": "barre-de-musculation-en-acier",
+    "title": "Barre de musculation en acier",
+    "short": "Barre solide et durable, conçue pour l’haltérophilie et la musculation, disponible en plusieurs diamètres.",
+    "category": "Sport",
+    "price": 20000.0,
+    "oldPrice": 35000.0,
+    "stock": 60,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Barres de musculation pour la maison ou la salle de sport, équipement d'entraînement parallèle,.jpg",
+      "img/imgProduct/c2d0f63f-4cd7-484d-a51b-eccb072df793.jpg",
+      "img/imgProduct/The Home of Calisthenics Equipment & Training.jpg",
+      "img/imgProduct/0776621e-775a-41b1-b836-2cf47ddb4f38.jpg",
+      "img/imgProduct/Soportes para flexiones OmniaForce.jpg"
+    ],
+    "features": [
+      "Matériau : acier chromé résistant",
+      "Diamètres disponibles : 24 mm, 25 mm (standard) et 45 mm (olympique)",
+      "Longueur : selon modèle (0,50 m – 2,20 m)",
+      "Charge maximale : 150 kg (standard) / jusqu’à 300 kg (olympique)",
+      "Prise : moletage antidérapant pour une meilleure adhérence",
+      "Compatibilité : disques standards et olympiques (selon diamètre)",
+      "Utilisation : musculation, haltérophilie, cross training",
+      "Avantage : robustesse, durabilité, sécurité optimale"
+    ],
+    "description": "Cette barre de musculation en acier renforcé est idéale pour vos séances de fitness, cross training ou haltérophilie. Sa finition antidérapante offre une prise en main sûre et confortable, même lors des charges lourdes. Compatible avec différents types de disques, elle existe en plusieurs diamètres pour s’adapter aux besoins des sportifs, du débutant au confirmé."
+  },
+  {
+    "id": 21,
+    "slug": "ensemble-t-shirt--short-sportif",
+    "title": "Ensemble T-shirt & Short sportif",
+    "short": "Tenue légère et confortable, idéale pour le sport, les loisirs ou la détente quotidienne.",
+    "category": "Vêtements",
+    "price": 19000.0,
+    "oldPrice": 28000.0,
+    "stock": 29,
+    "rating": 3.8,
+    "images": [
+      "img/imgProduct/SHEIN.jpg",
+      "img/imgProduct/Vêtements homme & femme, shoppez la mode en ligne.jpg"
+    ],
+    "features": [
+      "Matériau : polyester / coton respirant (selon modèle)",
+      "Composition : 1 T-shirt + 1 short assorti",
+      "Tailles disponibles : S, M, L, XL, XXL",
+      "Couleurs : plusieurs déclinaisons disponibles",
+      "Coupe : sportive et confortable",
+      "Entretien : lavage en machine à 30°",
+      "Idéal pour : détente, sorties décontractées"
+    ],
+    "description": "Cet ensemble T-shirt et short est conçu pour offrir confort et liberté de mouvement. Fabriqué dans un tissu respirant et doux, il évacue efficacement la transpiration et assure une sensation agréable sur la peau. Que ce soit pour vos séances de sport, vos balades ou vos moments de détente, cet ensemble combine style et praticité. Disponible en plusieurs tailles et coloris, il s’adapte à tous les goûts."
+  },
+  {
+    "id": 22,
+    "slug": "robe-imprimee-africaine-elegante",
+    "title": "Robe imprimée africaine élégante",
+    "short": "Robe moderne aux motifs africains colorés, parfaite pour allier style et confort au quotidien.",
+    "category": "Vêtements",
+    "price": 20000.0,
+    "oldPrice": 25000.0,
+    "stock": 32,
+    "rating": 4.0,
+    "images": [
+      "img/imgProduct/Robe africaine pour femme, Vêtements africains, Robe imprimée africaine, Wax d'Ankara, Robe longue d'Ankara, Robes pour femmes, Tenues d'Ankara, Robes - Etsy France.jpg",
+      "img/imgProduct/f02b4ae7-59e1-40b0-b58f-c5294f7b4bf9.jpg",
+      "img/imgProduct/couture.jpg",
+      "img/imgProduct/d35f5044-8135-49c8-957f-01aff0236c94.jpg"
+    ],
+    "features": [
+      "Matériau : coton / wax de qualité supérieure",
+      "Motifs : imprimés africains traditionnels et modernes",
+      "Tailles disponibles : S, M, L, XL, XXL",
+      "Coupe : droite ou évasée (selon modèle)",
+      "Longueur : courte / mi-longue / longue (au choix)",
+      "Couleurs : plusieurs variantes disponibles",
+      "Entretien : lavage doux à la main ou en machine à basse température",
+      "Idéal pour : cérémonies, sorties, tenues quotidiennes, événements culturels"
+    ],
+    "description": "Cette robe imprimée africaine met en valeur la beauté et la richesse des motifs traditionnels africains. Conçue dans un tissu léger et agréable à porter, elle offre une coupe confortable qui sublime la silhouette. Polyvalente, elle peut être portée lors d’événements spéciaux, de sorties ou simplement pour affirmer un style unique et élégant au quotidien."
+  },
+  {
+    "id": 23,
+    "slug": "pantalon-cargo-jogger",
+    "title": "Pantalon Cargo Jogger",
+    "short": "Jogger cargo tendance, alliant confort et praticité avec ses multiples poches.",
+    "category": "Vêtements",
+    "price": 13000.0,
+    "oldPrice": 20000.0,
+    "stock": 89,
+    "rating": 4.2,
+    "images": [
+      "img/imgProduct/Regular Man Official Pintuck Cargo Joggers.jpg",
+      "img/imgProduct/Multi Flap Pockets Drawstring Cargo Jogger Pants   BLACK BLUE GRAY KHAKI LIGHT GRAY.jpg"
+    ],
+    "features": [
+      "Matériau : coton + polyester (selon modèle)",
+      "Coupe : jogger large avec chevilles élastiquées",
+      "Poches : plusieurs poches cargo latérales et classiques",
+      "Taille : élastique avec cordon de serrage",
+      "Tailles disponibles : S, M, L, XL, XXL",
+      "Couleurs : noir, kaki, beige, gris, autres variantes",
+      "Style : streetwear, urbain, décontracté",
+      "Entretien : lavage en machine à 30°"
+    ],
+    "description": "Le pantalon Cargo Jogger combine le style streetwear avec la praticité du cargo. Fabriqué dans un tissu résistant et respirant, il offre une coupe moderne ajustée avec élastiques aux chevilles pour un look sportif et urbain. Ses poches multiples assurent un rangement pratique tout en renforçant son design tendance. Parfait pour les sorties décontractées, le sport ou le quotidien."
+  },
+  {
+    "id": 24,
+    "slug": "sweat-shirt-unisexe",
+    "title": "Sweat-shirt unisexe",
+    "short": "Sweat doux et chaud, parfait pour un look décontracté au quotidien.",
+    "category": "Vêtements",
+    "price": 10000.0,
+    "oldPrice": 12000.0,
+    "stock": 132,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/50e1c5fc-2f89-47c9-95b9-29af166c2ea7.jpg",
+      "img/imgProduct/168a5211-e541-4588-8e9e-1d241b48f7c5.jpg",
+      "img/imgProduct/9c895bd0-86b5-4695-a3fc-e7c78b3373aa.jpg",
+      "img/imgProduct/téléchargement (3).jpg",
+      "img/imgProduct/Свитшот с вышивкой Nike (1).jpg",
+      "img/imgProduct/Husky Color Block Sweatshirt - XL.jpg"
+    ],
+    "features": [
+      "Matériau : coton + polyester (selon modèle)",
+      "Coupe : droite ou oversize, unisexe",
+      "Col : rond / capuche (selon déclinaison)",
+      "Manches : longues avec bords côtelés",
+      "Tailles disponibles : S, M, L, XL, XXL",
+      "Couleurs : noir, blanc, gris, bleu, rouge, autres variantes",
+      "Style : casual, streetwear, sportif",
+      "Entretien : lavage en machine à 30°"
+    ],
+    "description": "Ce sweat-shirt est conçu pour allier confort et style. Sa matière douce garde la chaleur tout en offrant une sensation agréable sur la peau. Avec sa coupe moderne et ses finitions soignées, il se porte aussi bien à la maison que pour vos sorties en ville. Disponible en plusieurs tailles et coloris, il s’adapte à toutes les envies, du look sportif au style streetwear."
+  },
+  {
+    "id": 25,
+    "slug": "sweat-a-capuche-oversize-ultra-court",
+    "title": "Sweat à capuche oversize ultra court",
+    "short": "Sweat crop oversize avec capuche, mélange parfait de confort et de style urbain.",
+    "category": "Vêtements",
+    "price": 16000.0,
+    "oldPrice": null,
+    "stock": 4,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/DINGJIUYAN Y2k Emo Crop Tops Femmes Gothique Halloween Steampunk Alt Hoodies Goth Vêtements pour Adolescente Fille.jpg",
+      "img/imgProduct/★.jpg",
+      "img/imgProduct/8caccb34-aba1-4f4f-82fd-910faa1ff548.jpg",
+      "img/imgProduct/9f1f17e8-481a-459c-b9ad-7ebf95ccf607.jpg",
+      "img/imgProduct/95269b77-af53-408a-8642-01cd644c20af.jpg"
+    ],
+    "features": [
+      "Matériau : coton + polyester doux",
+      "Coupe : oversize crop (ultra court)",
+      "Capuche : large avec cordon ajustable",
+      "Manches : longues avec bords côtelés",
+      "Tailles disponibles : XS, S, M, L, XL",
+      "Couleurs : noir, blanc, gris, beige, autres variantes",
+      "Style : streetwear, urbain, décontracté",
+      "Entretien : lavage en machine à 30°"
+    ],
+    "description": "Ce sweat à capuche oversize ultra court est la pièce parfaite pour un look streetwear moderne et audacieux. Sa coupe crop met en valeur la silhouette tout en gardant un style décontracté. Fabriqué dans un tissu doux et respirant, il offre confort et liberté de mouvement. Idéal pour composer une tenue tendance avec un jean taille haute, un jogger ou un legging."
+  },
+  {
+    "id": 26,
+    "slug": "ensemble-10-pieces-bijoux-pour-homme",
+    "title": "Ensemble 10 pièces bijoux pour homme",
+    "short": "Lot complet de colliers, bagues, pendentifs en croix et bracelet pour un look masculin moderne.",
+    "category": "Vêtements",
+    "price": 20000.0,
+    "oldPrice": 23000.0,
+    "stock": 10,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/10pcs_Set Men's Cross Pendant Necklace, Hollow Chain Bracelet And Ring Set, Sporty Business Casual Luxury Gift.jpg",
+      "img/imgProduct/Temu _ Explore the Latest Clothing, Beauty, Home….jpg",
+      "img/imgProduct/3 piezas_set Accesorios de moda para niños, incluyendo pulsera, collar y anillo para deportes.jpg",
+      "img/imgProduct/Women's & Men's Clothing, Shop Online Fashion.jpg"
+    ],
+    "features": [
+      "Contenu : 10 pièces (colliers, bagues, pendentifs, chaîne creuse, bracelet)",
+      "Style : sportif, urbain, moderne",
+      "Matériau : alliage métallique durable (selon modèle)",
+      "Couleurs : argenté / doré / mixte (au choix)",
+      "Taille : ajustable pour bagues et bracelet",
+      "Pendentifs : croix et motifs tendance",
+      "Utilisation : quotidien, soirées, sorties, événements",
+      "Avantages : look complet, polyvalent, facile à assortir"
+    ],
+    "description": "Cet ensemble de 10 bijoux pour homme combine élégance et style sportif. Il comprend plusieurs colliers avec pendentifs croix, une chaîne creuse, des bagues variées et un bracelet assorti. Conçu pour s’adapter à toutes les occasions, il apporte une touche tendance à vos tenues, qu’elles soient décontractées ou plus habillées. Durable et confortable, ce pack est parfait pour ceux qui aiment affirmer leur personnalité à travers leurs accessoires."
+  },
+  {
+    "id": 27,
+    "slug": "t-shirt-a-manches-courtes--basique-et-confortable",
+    "title": "T-shirt à manches courtes",
+    "short": "T-shirt léger et confortable, idéal pour un look urbain et tendance au quotidien.",
+    "category": "Vêtements",
+    "price": 9000.0,
+    "oldPrice": 12000.0,
+    "stock": 23,
+    "rating": 3.1,
+    "images": [
+      "img/imgProduct/Manfinity Homme Carta ocasional Camiseta & Tanque Masculina.jpg",
+      "img/imgProduct/T-shirt col rond à manches courtes imprimé lettre, décontracté pour homme, été.jpg",
+      "img/imgProduct/Ensemble de chemise et short à revers pour hommes, impression dégradée 3D, mode hawaïenne, vêtements.jpg",
+      "img/imgProduct/T-shirt à manches courtes décontracté et simple pour adolescent garçon avec lettres et imprimés, adapté pour l'été.jpg",
+      "img/imgProduct/T-shirt à manches courtes col rond avec graphique lettrage minimaliste casual pour adolescents garçons, en coton, adapté pour l'été.jpg"
+    ],
+    "features": [],
+    "description": "Ce t-shirt à manches courtes combine confort et style moderne. Fabriqué dans un tissu doux et respirant, il assure une sensation agréable tout au long de la journée. Sa coupe droite et ses finitions soignées lui permettent de s’adapter à toutes les occasions, que ce soit pour vos sorties, vos activités sportives légères ou vos moments de détente. Disponible en plusieurs tailles et coloris pour convenir à tous les goûts."
+  },
+  {
+    "id": 28,
+    "slug": "bretelles-de-cuisse-elastiques-maintien-pratique-pour-chemises",
+    "title": "Bretelles de cuisse élastiques – Maintien pratique pour chemises",
+    "short": "Sangles élastiques ajustables pour maintenir la chemise en place et garantir un look net toute la journée.",
+    "category": "Vêtements",
+    "price": 6000.0,
+    "oldPrice": 7000.0,
+    "stock": 2,
+    "rating": 2.2,
+    "images": [
+      "img/imgProduct/1pc_Set Adjustable Men's Shirt Stays With Non-Slip Locking Clamps - Keep Your Shirt Tucked In All Day!, Ideal Choice For Gifts.jpg",
+      "img/imgProduct/téléchargement (3).jpg"
+    ],
+    "features": [
+      "Matériau : élastique durable et confortable",
+      "Ajustable : s’adapte à toutes les tailles de cuisse",
+      "Couleur : noir, beige, blanc",
+      "Utilisation : maintien de chemises, costumes, tenues de travail",
+      "Avantages : confort, maintien optimal, discrétion sous les vêtements",
+      "Idéal pour : usage quotidien, bureau, événements formels"
+    ],
+    "description": "Ces bretelles de cuisse sont conçues pour maintenir votre chemise bien en place, évitant qu’elle ne se relève ou se froisse. Fabriquées en élastique solide et confortable, elles s’ajustent facilement à votre taille et vos cuisses, offrant un maintien optimal sans gêner les mouvements. Idéales pour un usage quotidien, au bureau, lors d’événements formels ou pour les costumes et tenues de travail."
+  },
+  {
+    "id": 29,
+    "slug": "jupe-dete-noire",
+    "title": "Jupe d’été noire",
+    "short": "Jupe élégante et confortable, parfaite pour un look estival chic et décontracté.",
+    "category": "Vêtements",
+    "price": 12000.0,
+    "oldPrice": 13000.0,
+    "stock": 5,
+    "rating": 4.0,
+    "images": [
+      "img/imgProduct/e1aae3fb-a311-41a6-92ed-ef51018947b7.jpg",
+      "img/imgProduct/Goals to Increase Self-Esteem_ A Step-by-Step Guide.jpg"
+    ],
+    "features": [
+      "Matériau : coton, lin ou mélange léger (selon modèle)",
+      "Couleur : noir uni",
+      "Coupe : droite, évasée ou plissée (selon modèle)",
+      "Taille : S, M, L",
+      "Longueur : courte / mi-longue (au choix)",
+      "Entretien : lavage en machine à basse température ou lavage à la main",
+      "Style : décontracté, chic, estival",
+      "Idéal pour : sorties, vacances, loisirs, journées chaudes"
+    ],
+    "description": "Cette jupe d’été noire est conçue pour allier confort et style. Fabriquée dans un tissu léger et respirant, elle offre une grande liberté de mouvement et un confort optimal par temps chaud. Sa coupe simple et élégante permet de l’associer facilement avec différents tops, t-shirts ou chemisiers pour créer des tenues variées, allant du casual au chic. Idéale pour les sorties, les vacances ou les journées ensoleillées en ville."
+  },
+  {
+    "id": 30,
+    "slug": "ceinture-noire-louis-vuitton",
+    "title": "Ceinture noire Louis Vuitton",
+    "short": "Ceinture en cuir noir emblématique Louis Vuitton, alliant style raffiné et finition haut de gamme.",
+    "category": "Vêtements",
+    "price": 5500.0,
+    "oldPrice": 7000.0,
+    "stock": 40,
+    "rating": 4.0,
+    "images": [
+      "img/imgProduct/Black Louis Vuitton belt.jpg"
+    ],
+    "features": [],
+    "description": "Cette ceinture Louis Vuitton est conçue pour apporter une touche de luxe et de sophistication à toutes vos tenues. Fabriquée dans un cuir de qualité supérieure avec une boucle emblématique LV, elle assure durabilité et élégance. Son design intemporel permet de la porter aussi bien sur des tenues formelles que décontractées, et elle constitue un accessoire incontournable pour ceux qui recherchent style et prestige."
+  },
+  {
+    "id": 31,
+    "slug": "lotion-eclat-nivea",
+    "title": "Lotion Éclat Nivea",
+    "short": "Hydrate, illumine et révèle l’éclat naturel de votre peau. 🌸✨",
+    "category": "Beauté",
+    "price": 6000.0,
+    "oldPrice": 6500.0,
+    "stock": 50,
+    "rating": 4.3,
+    "images": [
+      "img/imgProduct/glow lotion 💗 Nivea cocoa.jpg"
+    ],
+    "features": [],
+    "description": "La Lotion Éclat Nivea est spécialement conçue pour nourrir la peau en profondeur tout en lui redonnant luminosité et douceur. Sa formule enrichie en vitamines et agents hydratants laisse une sensation de fraîcheur et un teint visiblement plus éclatant. Idéale pour un usage quotidien, elle convient à tous les types de peaux et prépare parfaitement la peau aux soins suivants."
+  },
+  {
+    "id": 32,
+    "slug": "set-de-creme-et-lotion-nivea",
+    "title": "Set complet de soins hydratants",
+    "short": "Un coffret essentiel pour nourrir, protéger et illuminer votre peau au quotidien. 🌸✨",
+    "category": "Beauté",
+    "price": 27000.0,
+    "oldPrice": 20000.0,
+    "stock": 17,
+    "rating": 4.7,
+    "images": [
+      "img/imgProduct/181eb24b-68ee-4af2-b3c9-d928992789eb.jpg"
+    ],
+    "features": [],
+    "description": "Ce set de soins réunit quatre indispensables pour une peau douce, éclatante et en pleine santé : une crème hydratante riche, une lotion légère pour un fini frais, un masque réparateur en profondeur et une vaseline protectrice multi-usages. Adapté à tous types de peau, il apporte une hydratation intense, répare les zones sèches et laisse un parfum subtil et agréable. Idéal pour une routine complète du matin au soir."
+  },
+  {
+    "id": 33,
+    "slug": "lait-au-collagene-blanchissant",
+    "title": "Lait au collagène blanchissant",
+    "short": "Un soin hydratant et éclaircissant enrichi en collagène pour une peau douce, lumineuse et uniforme. 🌸✨",
+    "category": "Beauté",
+    "price": 7000.0,
+    "oldPrice": null,
+    "stock": 20,
+    "rating": 4.4,
+    "images": [
+      "img/imgProduct/Lait au collagène blanchissant visage crème pour le corps blanchissant la peau Lotion hydratante.jpg"
+    ],
+    "features": [],
+    "description": "Ce lait au collagène blanchissant est spécialement conçu pour nourrir et sublimer votre peau au quotidien. Sa formule riche en collagène aide à restaurer l’élasticité naturelle de la peau, tout en apportant un effet éclaircissant progressif pour un teint plus uniforme. Convient aussi bien pour le visage que pour le corps, il hydrate en profondeur et laisse une sensation de fraîcheur et de douceur longue durée."
+  },
+  {
+    "id": 34,
+    "slug": "cerave-creme-hydratante-visage-52-ml",
+    "title": "CeraVe Crème Hydratante Visage 52 ml",
+    "short": "Crème hydratante légère enrichie en céramides et acide hyaluronique, pour une hydratation longue durée et une barrière cutanée renforcée.",
+    "category": "Beauté",
+    "price": 4000.0,
+    "oldPrice": null,
+    "stock": 38,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/CeraVe Crème Hydratante Visage 52 ml.jpg"
+    ],
+    "features": [
+      "Marque : CeraVe",
+      "Contenance : 52 ml",
+      "Type de peau : Normale, sèche à très sèche, sensible",
+      "Ingrédients clés : Céramides, Acide hyaluronique, Technologie MVE (libération prolongée)",
+      "Sans parfum – Hypoallergénique – Non comédogène",
+      "Usage : Hydratation quotidienne du visage"
+    ],
+    "description": "La crème hydratante visage CeraVe en format 52 ml est spécialement formulée par des dermatologues pour nourrir et protéger la peau en profondeur. Grâce à sa texture légère, elle convient à tous les types de peaux, même sensibles. Sa formule contient des céramides essentiels qui restaurent la barrière cutanée naturelle, et de l’acide hyaluronique qui retient l’hydratation pour un confort durable. Non comédogène et sans parfum, elle est idéale pour un usage quotidien, matin et soir."
+  },
+  {
+    "id": 35,
+    "slug": "huile-de-corps-douceur-pour-bebe",
+    "title": "Huile pour Bébé",
+    "short": "Huile légère et naturelle, spécialement conçue pour hydrater et protéger la peau sensible des bébés. 👶💧",
+    "category": "Beauté",
+    "price": 6900.0,
+    "oldPrice": 8000.0,
+    "stock": 10,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Huile de corps pour exfoliant _Johnson’s Oil_.jpg",
+      "img/imgProduct/6979f040-9ecb-4ff7-93cd-737a6f729fca.jpg",
+      "img/imgProduct/f38684df-96cb-4a04-9019-e214c78a4553.jpg"
+    ],
+    "features": [
+      "Spécialement adaptée à la peau sensible des bébés",
+      "Formule douce, testée dermatologiquement",
+      "Hydratation longue durée et protection de la peau",
+      "Texture légère, non grasse, facile à appliquer",
+      "Parfaite pour les massages et après le bain"
+    ],
+    "description": "Cette huile de corps douce et soyeuse est formulée pour nourrir, apaiser et protéger la peau délicate des bébés. Grâce à sa texture légère, elle s’absorbe rapidement sans laisser de film gras, tout en apportant confort et douceur au quotidien. Idéale pour les massages, elle favorise la détente et le bien-être de votre bébé."
+  },
+  {
+    "id": 36,
+    "slug": "comprimes-de-super-collagene-vitamine-c-et-biotine---neocell-360-unites",
+    "title": "Comprimés de Super Collagène, Vitamine C et Biotine - NEOCELL (360 unités)",
+    "short": "Un complément alimentaire premium qui soutient la santé de la peau, des cheveux, des ongles et des articulations grâce au collagène, à la vitamine C et à la biotine.",
+    "category": "Beauté",
+    "price": 16000.0,
+    "oldPrice": 20000.0,
+    "stock": 100,
+    "rating": 3.0,
+    "images": [
+      "img/imgProduct/NEOCELL Super Collagen Vitamin C Biotin Pills-360 Ct.jpg"
+    ],
+    "features": [
+      "Marque : NEOCELL",
+      "Format : 360 comprimés",
+      "Ingrédients clés : Collagène hydrolysé, Vitamine C, Biotine",
+      "Bienfaits :",
+      "Améliore l’élasticité et la fermeté de la peau",
+      "Favorise la croissance et la force des cheveux et des ongles",
+      "Soutient les articulations et les os",
+      "Convient pour : Adultes",
+      "Sans gluten, sans OGM"
+    ],
+    "description": "Les comprimés de Super Collagène + Vitamine C + Biotine de NEOCELL sont spécialement formulés pour favoriser la beauté de l’intérieur. Le collagène hydrolysé stimule l’élasticité et la fermeté de la peau, aide à renforcer les cheveux et les ongles, et contribue à la santé des articulations. La vitamine C joue un rôle clé dans la synthèse naturelle du collagène, tandis que la biotine soutient la vitalité des cheveux et de la peau. Ce flacon contient 360 comprimés, idéal pour une cure complète et durable."
+  },
+  {
+    "id": 37,
+    "slug": "serum-bonne-mine-vitamine-c--acide-glycolique--horace-30-ml",
+    "title": "Sérum Bonne Mine Vitamine C & Acide Glycolique – Horace (30 ml)",
+    "short": "Sérum visage formulé pour illuminer le teint, unifier la peau et stimuler l’éclat naturel.",
+    "category": "Beauté",
+    "price": 3500.0,
+    "oldPrice": 4500.0,
+    "stock": 20,
+    "rating": 4.0,
+    "images": [
+      "img/imgProduct/Sérum bonne mine vitamine C et acide glycolique Horace - flacon-pipette de 30ml.jpg"
+    ],
+    "features": [
+      "Marque : Horace",
+      "Format : Flacon-pipette de 30 ml",
+      "Ingrédients clés : Vitamine C, Acide glycolique",
+      "Effets : Éclat du teint, uniformisation, renouvellement cellulaire",
+      "Type de peau : Tous types",
+      "Utilisation : Appliquer quelques gouttes sur peau propre matin ou soir",
+      "Texture : Fluide et légère, absorption rapide"
+    ],
+    "description": "Le sérum Horace combine la puissance de la vitamine C et de l’acide glycolique pour revitaliser la peau fatiguée et terne. La vitamine C aide à uniformiser le teint et à protéger contre le stress oxydatif, tandis que l’acide glycolique favorise le renouvellement cellulaire et affine la texture de la peau. Facile à appliquer grâce à son flacon-pipette de 30 ml, il laisse la peau douce, lumineuse et visiblement plus saine. Convient à tous les types de peaux."
+  },
+  {
+    "id": 38,
+    "slug": "pack-de-masques-visage",
+    "title": "Pack de Masques Visage",
+    "short": "Lot de masques visage variés pour hydrater, purifier et revitaliser la peau au quotidien.",
+    "category": "Beauté",
+    "price": 5500.0,
+    "oldPrice": null,
+    "stock": 41,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/ماسكات.jpg"
+    ],
+    "features": [
+      "Contenu : Plusieurs masques visage aux fonctions variées (hydratant, purifiant, revitalisant)",
+      "Type de peau : Tous types",
+      "Effets : Hydratation, purification, éclat, revitalisation",
+      "Utilisation : Appliquer sur peau propre, laisser poser 10-20 minutes, rincer ou essuyer selon le type de masque",
+      "Avantages : Routine complète de soins, facile à utiliser, adaptée à la maison ou en voyage"
+    ],
+    "description": "Ce pack de masques visage offre une routine complète de soins adaptés à différents besoins de la peau. Chaque masque cible un objectif spécifique : hydratation intense, purification en profondeur, éclat et revitalisation. Faciles à utiliser, ces masques conviennent à tous les types de peau et permettent d’offrir à votre visage un soin professionnel directement à la maison. Idéal pour une utilisation régulière ou pour découvrir différents types de masques."
+  },
+  {
+    "id": 39,
+    "slug": "kit-manucure--pedicure-complet",
+    "title": "Kit Manucure & Pédicure Complet",
+    "short": "Tout-en-un pour des ongles parfaits : soins, limage, polissage et vernis inclus.",
+    "category": "Beauté",
+    "price": 35000.0,
+    "oldPrice": 50000.0,
+    "stock": 5,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/3a7eacb1-0634-4543-ba96-74919c0e9d70.jpg",
+      "img/imgProduct/Découvrez les kits polygel très complets.jpg",
+      "img/imgProduct/19 pièces Kit de gel polygel, gel polygel rose pailleté, kit d'extension d'ongles en gel rose d'été, constructeur rapide avec solution de glissement, formes à ongles, pinceaux à ongles_ Kit d'extensio.jpg"
+    ],
+    "features": [
+      "Lampe LED / UV pour séchage de vernis ou gel",
+      "Faux ongles et capsules de remplacement",
+      "Vernis à ongles de différentes couleurs",
+      "Limes à ongles variées (classique, polissage, buffing)",
+      "Coupe-ongles chirurgical pour précision et hygiène",
+      "Pince à cuticules et repousse-cuticules",
+      "Bâtonnets de bois pour cuticules",
+      "Bloc polissoir et buffer pour ongles",
+      "Pinces ou ciseaux pour forme et finition",
+      "Accessoires supplémentaires : séparateurs d’orteils, tampons de nettoyage, pince à strass ou décoration",
+      "Idéal pour : manucure et pédicure complètes, entretien des ongles naturels et préparation pour faux ongles"
+    ],
+    "description": "Ce kit manucure complet contient tous les outils essentiels pour prendre soin de vos ongles à la maison ou en voyage. Il inclut des accessoires pour le limage, la coupe, le polissage, ainsi que des soins et vernis pour un résultat professionnel. Idéal pour entretenir les ongles naturels ou préparer les ongles avant la pose de faux ongles ou gel UV. Tous les éléments sont conçus pour être durables et faciles à utiliser, même pour les débutants."
+  },
+  {
+    "id": 40,
+    "slug": "kit-de-maquillage-complet--visage-yeux--levres",
+    "title": "Kit de Maquillage Complet – Visage, Yeux & Lèvres",
+    "short": "Coffret tout-en-un pour créer des looks variés et professionnels, pour tous types de maquillage.",
+    "category": "Beauté",
+    "price": 43000.0,
+    "oldPrice": 65000.0,
+    "stock": 11,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/6bf0b3f3-d805-4d8d-8bec-8c3e9fc4c74b.jpg",
+      "img/imgProduct/299e5858-98ad-4c61-b107-76d84d2f6a91.jpg",
+      "img/imgProduct/21f17842-718b-4c4c-9d24-749c0c287d8f.jpg"
+    ],
+    "features": [
+      "Fonds de teint et poudres compactes",
+      "Blush, highlighter et bronzer",
+      "Palette de fards à paupières variés",
+      "Eyeliner, crayons et mascara",
+      "Rouges à lèvres et gloss de plusieurs couleurs",
+      "Pinceaux et applicateurs inclus",
+      "Miroir intégré et rangement pratique",
+      "Idéal pour : maquillage quotidien, soirées, événements spéciaux",
+      "Convient à tous types de peaux"
+    ],
+    "description": "Ce kit de maquillage complet contient tous les essentiels pour sublimer le visage, les yeux et les lèvres. Il inclut des fonds de teint, poudres, blush, fards à paupières, rouges à lèvres, crayons et pinceaux de qualité. Parfait pour les débutants comme pour les passionnés de maquillage, il permet de réaliser des looks naturels ou sophistiqués selon vos envies. Pratique et bien organisé, il est idéal à la maison ou à emporter en voyage."
+  }
+]
