@@ -62,7 +62,7 @@ function displayCategoryProduct() {
 
     items.forEach(p => {
 const productHTML = `
-    <a href="Product.html?id=${p.id}" class="product">
+    <a href="product.html?id=${p.id}" class="product">
         <img src="../../${p.images[0]}" alt="${p.title || "Produit"}" />
         <div class="product-title">${p.title || "Sans titre"}</div>
         ${p.oldPrice ? `<div class="oldprice">${safePrice(p.oldPrice)} FCFA</div>` : ""}
