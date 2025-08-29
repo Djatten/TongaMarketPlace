@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Gestionnaire de Produits JSON — Web</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+        :root {
+            --bg: #fff;
+            --text: #111;
+            --title: #ffac85;
+            --muted: #6b7280;
+            --accent: #ff5000;
+            --muted-accent: #ffd0c0;
+            --card: #fff;
+            --glass: rgba(255, 255, 255, .6);
+            --shadow: 0 6px 20px rgba(2, 6, 23, .08);
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: Inter, Segoe UI, Arial, sans-serif;
+            margin: 0;
+            background: var(--bg);
+            color: var(--text)
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 18px;
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 20px;
+            color: var(--accent)
+        }
+
+        .small {
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        .row {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start
+        }
+
+        .col {
+            background: var(--card);
+            border-radius: 8px;
+            padding: 12px;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(0, 0, 0, 0.03)
+        }
+
+        .left {
+            flex: 1;
+            min-width: 360px
+        }
+
+        .right {
+            flex: 1.2;
+            min-width: 420px
+        }
+
+        label {
+            display: inline-block;
+            margin-right: 6px;
+            color: var(--muted)
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            margin: 6px 0 10px;
+            box-sizing: border-box
+        }
+
+        textarea {
+            min-height: 90px;
+            resize: vertical
+        }
+
+        .buttons {
+            display: flex;
+            gap: 8px;
+            margin: 10px 0
+        }
+
+        button {
+            background: var(--accent);
+            color: #fff;
+            border: 0;
+            padding: 8px 10px;
+            border-radius: 6px;
+            cursor: pointer
+        }
+
+        button.ghost {
+            background: transparent;
+            color: var(--accent);
+            border: 1px solid var(--muted-accent)
+        }
+
+        .images-list,
+        .features-list {
+            border: 1px dashed #f3e8e0;
+            padding: 8px;
+            border-radius: 6px;
+            min-height: 54px
+        }
+
+        .images-list div,
+        .features-list div {
+            padding: 6px;
+            border-radius: 4px;
+            background: #fff;
+            margin: 6px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .images-list img {
+            width: 60px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 4px
+        }
+
+        .table-wrap {
+            margin-top: 12px;
+            overflow: auto
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: transparent
+        }
+
+        th,
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #f6f6f6;
+            text-align: left;
+            font-size: 14px
+        }
+
+        th {
+            background: #fff;
+            position: sticky;
+            top: 0
+        }
+
+        .notice {
+            padding: 8px;
+            background: #fffbea;
+            border-radius: 6px;
+            margin: 8px 0;
+            color: #6b4a00
+        }
+
+        .footer {
+            margin-top: 12px;
+            font-size: 13px;
+            color: var(--muted);
+            text-align: right
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--muted-accent);
+            color: var(--accent);
+            padding: 4px 8px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin: 4px
+        }
+
+        @media(max-width:880px) {
+            .row {
+                flex-direction: column
+            }
+
+            .right {
+                order: 2
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Gestionnaire de Produits JSON (version web)</h1>
+            <div class="small">La page lit automatiquement <code>data/produits.json</code> au chargement. Si fetch
+                échoue, elle utilise localStorage.</div>
+        </header>
+
+        <div style="height:12px"></div>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <div class="col" style="display:flex;gap:8px;align-items:center">
+                <label class="small">Charger fichier JSON :</label>
+                <input id="fileInput" type="file" accept=".json" />
+                <button id="loadFromLocal" class="ghost">Charger depuis localStorage</button>
+                <button id="clearLocal" class="ghost">Effacer localStorage</button>
+            </div>
+
+            <div class="col" style="display:flex;gap:8px;align-items:center">
+                <label class="small">Sauvegarder :</label>
+                <button id="saveJson">Télécharger produits.json</button>
+                <button id="saveLocal" class="ghost">Sauvegarder en localStorage</button>
+            </div>
+
+            <div class="col" style="display:flex;gap:8px;align-items:center">
+                <label class="small">Importer exemple :</label>
+                <button id="loadExample" class="ghost">Charger exemple</button>
+            </div>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="row">
+            <section class="col left">
+                <div style="display:flex;justify-content:space-between;align-items:center">
+                    <strong>Informations du produit</strong>
+                    <div class="small">ID courant: <span id="currentId">—</span></div>
+                </div>
+
+                <div style="margin-top:10px">
+                    <label>Titre:</label>
+                    <input id="title" type="text" placeholder="Titre du produit" />
+                    <label>Slug:</label>
+                    <input id="slug" type="text" placeholder="slug-exemple" />
+                    <div class="small muted">Le slug est auto-généré depuis le titre si vide.</div>
+
+                    <label>Description courte:</label>
+                    <input id="short" type="text" placeholder="Courte description" />
+
+                    <label>Catégorie:</label>
+                    <input id="category" list="categoryList" placeholder="Sélectionner ou écrire" />
+                    <datalist id="categoryList"></datalist>
+                    <div style="margin:8px 0"><button id="refreshCats" class="ghost">Actualiser catégories</button>
+                    </div>
+
+                    <div style="display:flex;gap:8px;flex-wrap:wrap">
+                        <div style="flex:1"><label>Prix:</label><input id="price" type="number" step="0.01" /></div>
+                        <div style="flex:1"><label>Ancien prix:</label><input id="oldPrice" type="number" step="0.01" />
+                        </div>
+                        <div style="flex:1"><label>Stock:</label><input id="stock" type="number" /></div>
+                        <div style="flex:1"><label>Note:</label><input id="rating" type="number" step="0.1" /></div>
+                    </div>
+
+                    <fieldset style="margin-top:8px;padding:8px;border-radius:6px;border:1px solid #f7e8e0">
+                        <legend style="padding:0 6px;font-weight:600">Images (sélection multiple)</legend>
+                        <div style="display:flex;gap:8px;align-items:center">
+                            <input id="imgFiles" type="file" multiple accept="image/*" />
+                            <input id="imgUrl" type="text" placeholder="Ajouter une URL d'image puis ➕" />
+                            <button id="addImgUrl" class="ghost">➕</button>
+                            <button id="clearImages" class="ghost">Effacer toutes</button>
+                        </div>
+                        <div class="images-list" id="imagesList" title="Double-clic pour supprimer"></div>
+                    </fieldset>
+
+                    <fieldset style="margin-top:8px;padding:8px;border-radius:6px;border:1px solid #f7e8e0">
+                        <legend style="padding:0 6px;font-weight:600">Caractéristiques (une par ligne)</legend>
+                        <div class="small muted">Collez un paragraphe et cliquez <strong>Importer</strong> pour séparer
+                            par ligne.</div>
+                        <textarea id="featuresText" placeholder="Une caractéristique par ligne..."></textarea>
+                        <div style="display:flex;gap:8px;margin-top:8px">
+                            <button id="importFeatures" class="ghost">Importer caractéristiques (par ligne)</button>
+                            <button id="clearFeatures" class="ghost">Effacer tout</button>
+                        </div>
+                        <div class="features-list" id="featuresList" title="Double-clic pour supprimer"></div>
+                    </fieldset>
+
+                    <fieldset style="margin-top:8px;padding:8px;border-radius:6px;border:1px solid #f7e8e0">
+                        <legend style="padding:0 6px;font-weight:600">Description détaillée</legend>
+                        <textarea id="description"></textarea>
+                    </fieldset>
+
+                    <div class="buttons">
+                        <button id="newProduct">Nouveau produit</button>
+                        <button id="saveProduct">Ajouter / Modifier</button>
+                        <button id="deleteProduct" class="ghost">Supprimer</button>
+                    </div>
+
+                    <div id="message" class="notice" style="display:none"></div>
+
+                    <hr style="margin:12px 0">
+
+                    <div style="display:flex;gap:8px;align-items:center">
+                        <strong>Ajouter un champ à tous les éléments</strong>
+                    </div>
+                    <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+                        <input id="globalFieldName" type="text" placeholder="Nom du champ (ex: meta, source, tag)"
+                            style="flex:1" />
+                        <input id="globalFieldValue" type="text" placeholder="Valeur par défaut" style="flex:1" />
+                        <button id="addGlobalField" class="ghost">Ajouter au DB</button>
+                    </div>
+                    <div class="small muted" style="margin-top:8px">Si le champ existe déjà, vous serez invité à
+                        confirmer l'écrasement.</div>
+
+                </div>
+            </section>
+
+            <aside class="col right">
+                <div style="display:flex;justify-content:space-between;align-items:center">
+                    <strong>Produits existants</strong>
+                    <div style="display:flex;gap:8px">
+                        <button id="exportCsv" class="ghost">Exporter CSV</button>
+                        <button id="clearAll" class="ghost">Vider tout</button>
+                    </div>
+                </div>
+
+                <div class="table-wrap">
+                    <table id="productsTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Titre</th>
+                                <th>Catégorie</th>
+                                <th>Prix</th>
+                                <th>Ancien prix</th>
+                                <th>Stock</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+                <div style="margin-top:12px">
+                    <strong>Actions fichier / stockage</strong>
+                    <div class="small muted">Le navigateur ne peut pas écrire sur disque : utilisez "Télécharger
+                        produits.json".</div>
+                    <div style="display:flex;gap:8px;margin-top:8px">
+                        <button id="downloadJson" class="ghost">Télécharger JSON</button>
+                        <button id="uploadJson" class="ghost">Charger JSON</button>
+                    </div>
+                </div>
+
+                <div class="footer">© Gestionnaire — JSON editor</div>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        /* Product Manager Web — lecture automatique data/produits.json + ajout champ global */
+        (() => {
+            // state
+            let products = [];
+            let categories = new Set();
+            let images_list = [];
+            let features_list = [];
+            let current_product_id = null;
+            const LOCAL_KEY = 'produits_editor_v1';
+            const JSON_PATH = 'data/produits.json';
+
+            // DOM refs
+            const $ = id => document.getElementById(id);
+            const titleEl = $('title'), slugEl = $('slug'), shortEl = $('short');
+            const categoryEl = $('category'), priceEl = $('price'), oldPriceEl = $('oldPrice');
+            const stockEl = $('stock'), ratingEl = $('rating'), descriptionEl = $('description');
+            const imagesListEl = $('imagesList'), featuresListEl = $('featuresList');
+            const imgFilesEl = $('imgFiles'), imgUrlEl = $('imgUrl'), addImgUrlBtn = $('addImgUrl');
+            const imagesClearBtn = $('clearImages'), importFeaturesBtn = $('importFeatures'), clearFeaturesBtn = $('clearFeatures');
+            const newBtn = $('newProduct'), saveBtn = $('saveProduct'), deleteBtn = $('deleteProduct');
+            const productsTableBody = document.querySelector('#productsTable tbody');
+            const messageEl = $('message'), currentIdEl = $('currentId');
+            const fileInput = $('fileInput'), saveJsonBtn = $('saveJson'), saveLocalBtn = $('saveLocal');
+            const loadFromLocalBtn = $('loadFromLocal'), clearLocalBtn = $('clearLocal');
+            const refreshCatsBtn = $('refreshCats'), loadExampleBtn = $('loadExample');
+            const downloadJsonBtn = $('downloadJson'), uploadJsonBtn = $('uploadJson');
+            const exportCsvBtn = $('exportCsv'), clearAllBtn = $('clearAll');
+            const addGlobalFieldBtn = $('addGlobalField'), globalFieldName = $('globalFieldName'), globalFieldValue = $('globalFieldValue');
+
+            // Helpers
+            function showMsg(txt, timeout = 2200) { if (!messageEl) return; messageEl.style.display = 'block'; messageEl.textContent = txt; setTimeout(() => messageEl.style.display = 'none', timeout); }
+            function normalizePath(p) { if (!p) return p; return String(p).replace(/\\\\/g, '/').replace(/\\/g, '/'); }
+            function getNextId() { if (!products.length) return 1; const ids = products.map(x => Number(x.id) || 0); return Math.max(...ids) + 1; }
+            function checkSlugExists(slug, excludeId = null) { return products.some(p => p.slug === slug && String(p.id) !== String(excludeId || '')); }
+            function formatNumber(n) { return isFinite(Number(n)) ? Number(n).toLocaleString() : '—'; }
+            function escapeHtml(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+
+            // slug generator
+            function makeSlug(s) {
+                if (!s) return '';
+                s = s.toLowerCase().trim();
+                s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                s = s.replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+                return s;
+            }
+
+            // persist/load localStorage
+            function saveToLocal() {
+                localStorage.setItem(LOCAL_KEY, JSON.stringify(products));
+                showMsg('Sauvegardé en localStorage ✔');
+            }
+            function loadFromLocal() {
+                try {
+                    const raw = localStorage.getItem(LOCAL_KEY);
+                    if (!raw) { showMsg('Aucun produit en localStorage'); return; }
+                    const j = JSON.parse(raw);
+                    products = Array.isArray(j) ? j : (j.products || []);
+                    postLoadProducts();
+                    showMsg('Chargé depuis localStorage ✔');
+                } catch (e) { console.error(e); showMsg('Erreur lecture localStorage'); }
+            }
+            function clearLocal() {
+                localStorage.removeItem(LOCAL_KEY);
+                showMsg('localStorage effacé');
+            }
+
+            // file loading/saving for produits.json
+            function downloadJson() {
+                const blob = new Blob([JSON.stringify(products, null, 2)], { type: 'application/json;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url; a.download = 'produits.json'; document.body.appendChild(a); a.click(); a.remove();
+                URL.revokeObjectURL(url);
+                showMsg('Téléchargement lancé');
+            }
+            function openFileChooserAndLoad() {
+                const input = document.createElement('input');
+                input.type = 'file'; input.accept = '.json';
+                input.onchange = e => {
+                    const f = e.target.files[0];
+                    if (!f) return;
+                    const reader = new FileReader();
+                    reader.onload = evt => {
+                        try {
+                            const j = JSON.parse(evt.target.result);
+                            products = Array.isArray(j) ? j : (j.products || []);
+                            postLoadProducts();
+                            showMsg('Fichier JSON chargé ✔');
+                        } catch (err) { console.error(err); alert('Fichier JSON invalide'); }
+                    };
+                    reader.readAsText(f, 'utf-8');
+                };
+                input.click();
+            }
+
+            // example data quick loader
+            function loadExample() {
+                products = [
+                    { "id": 1, "slug": "montre-classique", "title": "Montre Classique", "short": "Montre élégante", "category": "Accessoires", "price": 35000, "oldPrice": 45000, "stock": 12, "rating": 4.3, "images": ["img/watch.jpg"], "features": ["Étanche 50m", "Bracelet cuir"], "description": "Description détaillée de la montre." },
+                    { "id": 2, "slug": "sac-vintage", "title": "Sac Vintage", "short": "Sac en cuir", "category": "Sacs", "price": 47000, "oldPrice": null, "stock": 5, "rating": 4.7, "images": ["img/bag.jpg"], "features": ["Cuir véritable", "Compartiment 2x"], "description": "Beau sac vintage." }
+                ];
+                postLoadProducts();
+                showMsg('Exemple chargé');
+            }
+
+            // post load operations
+            function postLoadProducts() {
+                products.forEach(p => {
+                    if (Array.isArray(p.images)) p.images = p.images.map(normalizePath);
+                });
+                extractCategories();
+                refreshTable();
+                clearForm();
+            }
+
+            function extractCategories() {
+                categories = new Set();
+                products.forEach(p => { if (p.category) categories.add(p.category); });
+                updateCategoryDatalist();
+            }
+            function updateCategoryDatalist() {
+                const dl = document.getElementById('categoryList');
+                dl.innerHTML = '';
+                Array.from(categories).sort().forEach(c => {
+                    const opt = document.createElement('option'); opt.value = c; dl.appendChild(opt);
+                });
+            }
+
+            // images handling
+            function addImagesFromFiles(fileList) {
+                const files = Array.from(fileList || []);
+                files.forEach(f => {
+                    const name = normalizePath(f.name);
+                    if (!images_list.includes(name)) {
+                        images_list.push(name);
+                        appendImageItem(name, URL.createObjectURL(f));
+                    }
+                });
+            }
+            function appendImageItem(path, previewUrl) {
+                const div = document.createElement('div');
+                const img = document.createElement('img');
+                img.src = previewUrl || path;
+                const span = document.createElement('div'); span.textContent = path; span.style.flex = '1';
+                div.appendChild(img); div.appendChild(span);
+                div.addEventListener('dblclick', () => {
+                    const idx = images_list.indexOf(path);
+                    if (idx >= 0) { images_list.splice(idx, 1); div.remove(); }
+                });
+                imagesListEl.appendChild(div);
+            }
+            function addImageUrl() {
+                const url = imgUrlEl.value.trim();
+                if (!url) return;
+                const norm = normalizePath(url);
+                if (!images_list.includes(norm)) {
+                    images_list.push(norm);
+                    appendImageItem(norm, norm);
+                }
+                imgUrlEl.value = '';
+            }
+            function clearImages() {
+                images_list = [];
+                imagesListEl.innerHTML = '';
+            }
+
+            // features handling
+            function importFeatures() {
+                const raw = document.getElementById('featuresText').value.trim();
+                if (!raw) { alert('Aucune caractéristique à importer.'); return; }
+                const lines = raw.split(/\r?\n/).map(s => s.trim()).filter(Boolean);
+                let added = 0;
+                lines.forEach(l => { if (!features_list.includes(l)) { features_list.push(l); appendFeatureItem(l); added++; } });
+                document.getElementById('featuresText').value = '';
+                showMsg(added ? (added + ' caractéristique(s) importée(s)') : 'Aucun nouveau (doublons ignorés)');
+            }
+            function appendFeatureItem(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                div.addEventListener('dblclick', () => {
+                    const idx = features_list.indexOf(text);
+                    if (idx >= 0) { features_list.splice(idx, 1); div.remove(); }
+                });
+                featuresListEl.appendChild(div);
+            }
+            function clearFeatures() {
+                features_list = []; featuresListEl.innerHTML = '';
+            }
+
+            // form control
+            function clearForm() {
+                titleEl.value = ''; slugEl.value = ''; shortEl.value = ''; categoryEl.value = ''; priceEl.value = ''; oldPriceEl.value = ''; stockEl.value = ''; ratingEl.value = ''; descriptionEl.value = '';
+                clearImages(); clearFeatures();
+                current_product_id = null;
+                currentIdEl.textContent = '—';
+            }
+
+            function loadProductToForm(prod) {
+                current_product_id = prod.id;
+                currentIdEl.textContent = String(prod.id);
+                titleEl.value = prod.title || '';
+                slugEl.value = prod.slug || '';
+                shortEl.value = prod.short || '';
+                categoryEl.value = prod.category || '';
+                priceEl.value = prod.price ?? '';
+                oldPriceEl.value = prod.oldPrice ?? '';
+                stockEl.value = prod.stock ?? '';
+                ratingEl.value = prod.rating ?? '';
+                descriptionEl.value = prod.description ?? '';
+                clearImages(); clearFeatures();
+                (prod.images || []).forEach(im => { images_list.push(normalizePath(im)); appendImageItem(normalizePath(im), normalizePath(im)); });
+                (prod.features || []).forEach(f => { features_list.push(f); appendFeatureItem(f); });
+            }
+
+            // validation
+            function validateForm() {
+                const t = titleEl.value.trim();
+                if (!t) { alert('Le titre est requis!'); return false; }
+                const slug = slugEl.value.trim();
+                if (!slug) { alert('Le slug est requis!'); return false; }
+                if (checkSlugExists(slug, current_product_id)) { alert('Ce slug existe déjà!'); return false; }
+                if (isNaN(Number(priceEl.value))) { alert('Le prix doit être numérique!'); return false; }
+                if (oldPriceEl.value.trim() && isNaN(Number(oldPriceEl.value))) { alert("L'ancien prix doit être numérique!"); return false; }
+                if (isNaN(parseInt(stockEl.value))) { alert('Le stock doit être un entier!'); return false; }
+                if (isNaN(Number(ratingEl.value))) { alert('La note doit être numérique!'); return false; }
+                return true;
+            }
+
+            // add/update product
+            function saveProduct() {
+                if (!validateForm()) return;
+                const normalizedImages = images_list.map(normalizePath);
+                const prod = {
+                    id: current_product_id || getNextId(),
+                    slug: slugEl.value.trim(),
+                    title: titleEl.value.trim(),
+                    short: shortEl.value.trim(),
+                    category: categoryEl.value.trim(),
+                    price: Number(priceEl.value),
+                    oldPrice: oldPriceEl.value.trim() ? Number(oldPriceEl.value) : null,
+                    stock: parseInt(stockEl.value) || 0,
+                    rating: Number(ratingEl.value) || 0,
+                    images: normalizedImages,
+                    features: features_list.slice(),
+                    description: descriptionEl.value.trim()
+                };
+                if (prod.category) categories.add(prod.category);
+                if (current_product_id) {
+                    const idx = products.findIndex(p => String(p.id) === String(current_product_id));
+                    if (idx >= 0) products[idx] = prod;
+                    alert('Produit modifié avec succès!');
+                } else {
+                    products.push(prod);
+                    alert('Produit ajouté avec succès!');
+                }
+                refreshTable();
+                clearForm();
+            }
+
+            function deleteProduct() {
+                if (!current_product_id) { alert('Sélectionnez un produit à supprimer!'); return; }
+                if (!confirm('Êtes-vous sûr de vouloir supprimer ce produit ?')) return;
+                products = products.filter(p => String(p.id) !== String(current_product_id));
+                refreshTable();
+                clearForm();
+                alert('Produit supprimé avec succès!');
+            }
+
+            // global field add
+            function addGlobalField() {
+                const name = globalFieldName.value.trim();
+                const val = globalFieldValue.value;
+                if (!name) { alert('Nom du champ requis'); return; }
+                // detect if some products already have field
+                const existsCount = products.filter(p => Object.prototype.hasOwnProperty.call(p, name)).length;
+                if (existsCount && !confirm(`${existsCount} produit(s) ont déjà le champ "${name}". Écraser pour tous ?`)) return;
+                products = products.map(p => {
+                    const copy = Object.assign({}, p);
+                    copy[name] = val;
+                    return copy;
+                });
+                refreshTable();
+                showMsg(`Champ "${name}" ajouté/mis à jour pour ${products.length} éléments`);
+            }
+
+            // table render
+            function refreshTable() {
+                productsTableBody.innerHTML = '';
+                products.forEach(p => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `<td>${p.id ?? ''}</td><td>${escapeHtml(p.title ?? '')}</td><td>${escapeHtml(p.category ?? '')}</td><td>${p.price ?? ''}</td><td>${p.oldPrice ?? ''}</td><td>${p.stock ?? ''}</td>`;
+                    tr.addEventListener('dblclick', () => {
+                        loadProductToForm(p);
+                    });
+                    productsTableBody.appendChild(tr);
+                });
+                extractCategories();
+            }
+
+            // CSV export (simple)
+            function exportCsv() {
+                if (!products.length) { alert('Aucun produit'); return; }
+                const rows = [['id', 'slug', 'title', 'category', 'price', 'oldPrice', 'stock', 'rating', 'images', 'features', 'description']];
+                products.forEach(p => {
+                    rows.push([
+                        p.id, p.slug, p.title, p.category, p.price, p.oldPrice, p.stock, p.rating,
+                        (p.images || []).join('|'),
+                        (p.features || []).join('|'),
+                        (p.description || '').replace(/\r?\n/g, '\\n')
+                    ]);
+                });
+                const csv = rows.map(r => r.map(c => `"${String(c || '').replace(/"/g, '""')}"`).join(',')).join('\n');
+                const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' }); const url = URL.createObjectURL(blob);
+                const a = document.createElement('a'); a.href = url; a.download = 'produits.csv'; a.click(); a.remove(); URL.revokeObjectURL(url);
+                showMsg('CSV exporté');
+            }
+
+            // handlers binding
+            titleEl.addEventListener('input', () => { if (!slugEl.value.trim()) slugEl.value = makeSlug(titleEl.value); });
+            imgFilesEl.addEventListener('change', e => addImagesFromFiles(e.target.files));
+            addImgUrlBtn.addEventListener('click', addImageUrl);
+            imagesClearBtn.addEventListener('click', clearImages);
+            importFeaturesBtn.addEventListener('click', importFeatures);
+            clearFeaturesBtn.addEventListener('click', clearFeatures);
+            newBtn.addEventListener('click', () => clearForm());
+            saveBtn.addEventListener('click', saveProduct);
+            deleteBtn.addEventListener('click', deleteProduct);
+            saveJsonBtn.addEventListener('click', downloadJson);
+            saveLocalBtn.addEventListener('click', saveToLocal);
+            loadFromLocalBtn.addEventListener('click', loadFromLocal);
+            clearLocalBtn.addEventListener('click', clearLocal);
+            refreshCatsBtn.addEventListener('click', () => { extractCategories(); showMsg('Catégories actualisées'); });
+            loadExampleBtn.addEventListener('click', loadExample);
+            downloadJsonBtn.addEventListener('click', downloadJson);
+            uploadJsonBtn.addEventListener('click', openFileChooserAndLoad);
+            exportCsvBtn.addEventListener('click', exportCsv);
+            clearAllBtn.addEventListener('click', () => { if (confirm('Vider tous les produits ?')) { products = []; refreshTable(); clearForm(); showMsg('Tous les produits supprimés'); } });
+            addGlobalFieldBtn.addEventListener('click', addGlobalField);
+
+            fileInput.addEventListener('change', e => {
+                const f = e.target.files[0];
+                if (!f) return;
+                const reader = new FileReader();
+                reader.onload = evt => {
+                    try {
+                        const j = JSON.parse(evt.target.result);
+                        products = Array.isArray(j) ? j : (j.products || []);
+                        postLoadProducts();
+                        showMsg('Fichier JSON chargé');
+                    } catch (err) { alert('Fichier JSON invalide'); console.error(err); }
+                };
+                reader.readAsText(f, 'utf-8');
+            });
+
+            // AUTO LOAD data/produits.json on init; fallback to localStorage
+            // Remplace l'ancien "(async function init(){ ... })();" par ce bloc :
+            (async function init() {
+                const tryPaths = [
+                    "data/produits.json",
+                    "./data/produits.json",
+                    "/data/produits.json",
+                    "../data/produits.json"
+                ];
+
+                // Si on est en file:// -> fetch risque d'échouer ; on propose directement de choisir le fichier
+                if (location.protocol === "file:") {
+                    console.warn("Page chargée en file:// — fetch bloqué souvent. Ouvrez via un serveur local ou chargez manuellement le JSON.");
+                    showMsg("Ouverture fichier locale détectée — sélectionnez manuellement data/produits.json");
+                    // petit délai pour laisser l'UI se rendre au clic
+                    setTimeout(() => document.getElementById("fileInput").click(), 250);
+                    return;
+                }
+
+                let loaded = false;
+                for (const p of tryPaths) {
+                    try {
+                        console.log("Tentative fetch:", p);
+                        const res = await fetch(p, { cache: "no-cache" });
+                        if (!res.ok) {
+                            console.warn(`Fetch ${p} -> status ${res.status}`);
+                            continue;
+                        }
+                        const j = await res.json();
+                        products = Array.isArray(j) ? j : (j.products || []);
+                        postLoadProducts();
+                        showMsg(`Chargé depuis ${p}`);
+                        loaded = true;
+                        break;
+                    } catch (err) {
+                        console.warn("Fetch échoué pour", p, err);
+                    }
+                }
+
+                if (!loaded) {
+                    // fallback localStorage
+                    try {
+                        const stored = localStorage.getItem(LOCAL_KEY);
+                        if (stored) {
+                            products = JSON.parse(stored);
+                            postLoadProducts();
+                            showMsg("Chargé depuis localStorage (fetch échoué)");
+                            return;
+                        }
+                    } catch (e) {
+                        console.warn("localStorage parse error", e);
+                    }
+
+                    // si tout échoue, demander à l'utilisateur de sélectionner le fichier
+                    showMsg("Impossible de charger data/produits.json — sélectionnez le fichier manuellement");
+                    setTimeout(() => document.getElementById("fileInput").click(), 300);
+                }
+            })();
+
+
+        })();
+    </script>
+</body>
+
+</html>

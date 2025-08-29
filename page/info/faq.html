@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FAQ - TongaMarketplace</title>
+  <link rel="stylesheet" href="../../styles/stylesInfo.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="top-left">
+      <div class="pill">Livraison 🇬🇦 — Libreville & environs</div>
+    </div>
+    <div class="top-right">
+      <div class="mini">Contact: +241 77067949</div>
+    </div>
+  </div>
+
+  <header class="main container">
+    <div class="logo"><a href="../../index.html">TongaMarketplace</a></div>
+    <nav class="subnav" aria-label="navigation">
+      <a href="../../index.html" class="manu1">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="cga.html">CGA</a>
+    </nav>
+  </header>
+  <main class="container page">
+    <div class="page-inner">
+
+      <h1>Foire aux questions (FAQ)</h1>
+      
+      
+        <div class="faqCard">
+            <h3>Comment passer une commande ?</h3>
+            <p>Ajoutez les articles au panier puis cliquez sur "Commander via WhatsApp" pour envoyer votre commande ou utilisez
+                le bouton "Commander" sur la fiche produit.</p>
+        </div>
+        
+        <div class="faqCard">
+            <h3>Quels moyens de paiement acceptez-vous ?</h3>
+            <p>Pour le lancement nous acceptons le paiement à la livraison et les paiements mobile money (Airtel, Moov). Les
+                modalités peuvent évoluer.</p>
+        </div>
+        
+        <div class="faqCard">
+            <h3>Combien de temps pour la livraison ?</h3>
+            <p>Pour Libreville, livraison en 24 à 72h si l’article est en stock. Pour les articles à importer, comptez 2 à 4
+                semaines. Les délais varient selon la boutique, la disponibilité et votre localisation.</p>
+        </div>
+        
+        <div class="faqCard">
+            <h3>Puis-je retourner un produit ?</h3>
+            <p>Les retours sont gérés directement avec la boutique partenaire selon la politique de celle-ci. Contactez-nous via
+                la page Contact pour lancer une réclamation.</p>
+        </div>
+        
+        <div class="faqCard">
+            <h3>Comment devenir partenaire (boutique) ?</h3>
+            <p>Contactez-nous via WhatsApp ou email. Nous proposons des conditions simples pour référencer vos produits.</p>
+        </div>
+        <div class="faqCard">
+            <h3>Comment avoir plus dinformation</h3>
+            <p>Il y a un agent IA en bas de la page d'accueil qui pourra répondre à toutes vos interrogations. Si vous n'obtenez pas de réponse satisfaisante, vous pouvez également nous contacter via la page <a href="contact.html" style="text-decoration: underline; color:rgb(107, 107, 255);">Contact</a>.</p>
+        </div>
+        
+      
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-cols">
+      <div>
+        <h4>TongaMarketplace</h4>
+        <p>Une marketplace locale pour découvrir et commander les meilleurs produits gabonais.</p>
+      </div>
+      <div>
+        <h4>À propos</h4>
+        <p><a href="about.html">Notre histoire</a></p>
+        <p><a href="cga.html">Conditions générales</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>WhatsApp: +241 77067949</p>
+        <p>Email: contact@tonga.example</p>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <p>Facebook • Instagram • WhatsApp</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 TongaMarketplace — Tous droits réservés</div>
+  </footer>
+
+  <script>
+    // small helper for contact form
+    function sendContact(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value || '';
+      const email = document.getElementById('email').value || '';
+      const message = document.getElementById('message').value || '';
+      const subject = encodeURIComponent('Demande via site TongaMarketplace');
+      const body = encodeURIComponent('Nom: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      const mailto = 'mailto:contact@tonga.example?subject=' + subject + '&body=' + body;
+      window.location.href = mailto;
+      return false;
+    }
+  </script>
+</body>
+</html>

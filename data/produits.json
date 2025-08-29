@@ -1,0 +1,965 @@
+[
+  {
+    "id": 1,
+    "slug": "maillot-de-football-du-gabon",
+    "title": "Maillot de football du Gabon",
+    "short": "Montrez votre fierté nationale avec ce maillot des Panthères du Gabon, alliant confort et style sportif.",
+    "category": "Sport",
+    "boutique": "GUIFO",
+    "price": 16000.0,
+    "priceBoutique": 14000.0,
+    "oldPrice": 18000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.38_bd1c3af0.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.37_da00d97e.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.37_28a210ba.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.39_adeff372.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.39_083c1c49.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.38_76f953fd.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.37_35a3af17.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.37_a255e833.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.38_676c07e5.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.39_527cb7a3.jpg"
+    ],
+    "features": [
+      "Matière respirante et résistante",
+      "Coupe sportive ajustée",
+      "Logos et motifs inspirés des Panthères",
+      "Disponible en plusieurs tailles",
+      "Entretien facile (lavage en machine)"
+    ],
+    "description": "Conçu pour les passionnés de football, ce maillot du Gabon offre un design moderne inspiré des couleurs emblématiques du pays. Léger et respirant, il est idéal aussi bien pour les matchs que pour un usage quotidien. Sa coupe ergonomique et son tissu technique garantissent confort, liberté de mouvement et durabilité."
+  },
+  {
+    "id": 2,
+    "slug": "maillot-de-club-de-football",
+    "title": "Maillot de Club de Football",
+    "short": "Représente ton équipe avec style grâce à ce maillot de club de football. Confort, performance et identité sportive réunis.",
+    "category": "Sport",
+    "boutique": "GUIFO",
+    "price": 13000.0,
+    "priceBoutique": 11000.0,
+    "oldPrice": 15000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.06.04_7ebcc391.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.06.04_b7d5b33b.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.06.05_8bcb7ffe.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.06.05_21715eaf.jpg"
+    ],
+    "features": [
+      "Matière : Polyester respirant et léger",
+      "Logo du club brodé ou imprimé selon les modèle",
+      "Manches courtes avec coutures renforcées",
+      "Coupe sportive adaptée aux mouvements",
+      "Disponible en plusieurs tailles (S, M, L, XL)",
+      "Entretien facile (lavage en machine)"
+    ],
+    "description": "Ce maillot de club de football est conçu pour les vrais passionnés. Fabriqué avec un tissu respirant et léger, il assure une ventilation optimale même lors des matchs les plus intenses. Avec ses couleurs fidèles au club et son logo brodé, il symbolise l’appartenance et la fierté de supporter ton équipe préférée. Parfait pour les entraînements, les compétitions ou les moments de détente."
+  },
+  {
+    "id": 3,
+    "slug": "ma-propre-gant",
+    "title": "Ma propre Gant",
+    "short": "Des gants résistants, confortables et antidérapants pour protéger vos mains et améliorer vos performances sur le terrain.",
+    "category": "Sport",
+    "boutique": "GUIFO",
+    "price": 15000.0,
+    "priceBoutique": 13000.0,
+    "oldPrice": 18000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.48_88dd6e14.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.48_156f1148.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.48_e79d0a87.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.49_e1e3063f.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.49_b041e0aa.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.49_75e7a80c.jpg"
+    ],
+    "features": [
+      "Paume en latex antidérapant haute performance",
+      "Renforts aux doigts pour limiter les blessures",
+      "Ajustement parfait grâce à la bande velcro au poignet",
+      "Matière respirante et résistante à l’usure",
+      "Convient aussi bien aux entraînements qu’aux matchs officiels"
+    ],
+    "description": "Ces gants de gardien de but sont conçus pour offrir une protection optimale, une excellente adhérence et un confort exceptionnel pendant les matchs et entraînements. Leur paume en latex de haute qualité garantit une prise ferme du ballon, même sous la pluie, tandis que la structure renforcée protège efficacement les doigts contre les chocs. Légers et respirants, ils permettent une liberté de mouvement totale pour des arrêts spectaculaires."
+  },
+  {
+    "id": 4,
+    "slug": "bottines-crampon-chaussures-de-football",
+    "title": "Bottines Crampon – Chaussures de Football",
+    "short": "Bottines légères et résistantes offrant adhérence et confort pour des performances optimales sur le terrain.",
+    "category": "Sport",
+    "boutique": "GUIFO",
+    "price": 35000.0,
+    "priceBoutique": 30000.0,
+    "oldPrice": 40000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.03_8a258c83.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.03_06a48ff3.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.04_c163ccb4.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.04_8191baed.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.04_be76ca62.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.04_2d1cd17d.jpg"
+    ],
+    "features": [
+      "Semelle à crampons pour une adhérence maximale",
+      "Matière supérieure résistante et respirante",
+      "Ajustement confortable et maintien du pied optimal",
+      "Disponibles en plusieurs tailles",
+      "Convient pour gazon naturel et synthétique"
+    ],
+    "description": "Ces bottines crampon sont conçues pour les footballeurs recherchant à la fois confort et performance. La semelle à crampons assure une excellente traction sur gazon naturel ou synthétique, réduisant les risques de glissade et améliorant les appuis. Leur conception légère et respirante permet un maintien parfait du pied tout en favorisant la liberté de mouvement. Idéales pour les entraînements et les matchs."
+  },
+  {
+    "id": 5,
+    "slug": "plateau-de-10-bombas-jambon-fromage-saucisson",
+    "title": "Plateau de 10 Bombas – Jambon, Fromage & Saucisson",
+    "short": "Un assortiment gourmand de 10 bombas fourrées au jambon, fromage ou saucisson, parfait pour vos apéritifs et collations.",
+    "category": "Gourmandises",
+    "boutique": "Fortune",
+    "price": 6000.0,
+    "priceBoutique": 5000.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.02_e40d3369.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.01_06f1edf0.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.02_a1a74d37.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.05_cb49d88f.jpg"
+    ],
+    "features": [
+      "Contenu : 10 bombas variées",
+      "Garnitures :",
+      "Jambon & fromage crème",
+      "Saucisson & fromage crème",
+      "Texture : pâte croustillante à l’extérieur, garniture fondante à l’intérieur",
+      "Utilisation : apéritif, snack, événement festif",
+      "Conservation : à consommer frais, possibilité de réchauffer avant dégustation",
+      "Quantité : plateau prêt à servir"
+    ],
+    "description": "Ce plateau de 10 bombas offre une sélection savoureuse de bouchées frites à la pâte dorée et croustillante, garnies de différentes farces pour satisfaire tous les goûts. Vous y trouverez des bombas au jambon et fromage crémeux, ainsi que des bombas au saucisson et fromage crémeux. Idéal pour partager lors d’apéritifs, fêtes ou moments conviviaux, ce plateau allie praticité et plaisir gourmand."
+  },
+  {
+    "id": 6,
+    "slug": "plateau-de-20-pains-au-saucisse",
+    "title": "Plateau de 20 Pains au Saucisse",
+    "short": "Un assortiment de 20 pains au saucisse moelleux et savoureux, parfait pour vos apéritifs et événements festifs.",
+    "category": "Gourmandises",
+    "boutique": "Fortune",
+    "price": 4500.0,
+    "priceBoutique": 3500.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.07_0b7b0b22.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.08_9fae9bcb.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.08_3aa72b29.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.09_2c149612.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.10_f057dcbc.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 01.00.17_c80f1713.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 01.00.18_769aea36.jpg"
+    ],
+    "features": [
+      "Contenu : 20 pains au saucisse",
+      "Garniture : saucisse de qualité enveloppée dans une pâte moelleuse",
+      "Texture : pâte dorée et moelleuse, garniture fondante",
+      "Utilisation : apéritif, snack, événement festif",
+      "Conservation : à consommer frais ou légèrement réchauffé",
+      "Plateau prêt à servir"
+    ],
+    "description": "Ce plateau contient 20 pains au saucisse fraîchement préparés, avec une pâte moelleuse et une garniture savoureuse. Chaque pain est soigneusement cuit pour offrir un extérieur doré et un intérieur fondant. Idéal pour partager lors d’apéritifs, fêtes, réunions ou tout moment convivial, ce plateau combine praticité et plaisir gustatif."
+  },
+  {
+    "id": 7,
+    "slug": "creme-glacee-au-chocolat",
+    "title": "Crème glacée au chocolat",
+    "short": "Crème glacée onctueuse et gourmande, au goût intense de chocolat, idéale pour se rafraîchir et se faire plaisir.",
+    "category": "Gourmandises",
+    "boutique": "Fortune",
+    "price": 1000.0,
+    "priceBoutique": 800.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 01.00.18_a396876b.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 01.00.19_802c4630.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 01.00.19_751df093.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 01.00.19_fb94d39c.jpg"
+    ],
+    "features": [
+      "Saveur : chocolat intense",
+      "Texture : crémeuse et onctueuse",
+      "Ingrédients : lait, sucre, chocolat, crème fraîche",
+      "Format : portion individuelle ou pot familial selon disponibilité",
+      "Conservation : conserver à -18°C, à consommer rapidement après ouverture",
+      "Utilisation : dessert, collation, accompagnement de pâtisseries"
+    ],
+    "description": "Cette crème glacée au chocolat offre une texture douce et crémeuse, avec un goût riche et profond de chocolat. Parfaite pour une pause gourmande ou pour accompagner vos desserts, elle fond délicatement en bouche et procure un plaisir chocolaté irrésistible. Idéale pour petits et grands, elle se déguste seule ou en accompagnement de gâteaux, fruits ou pâtisseries."
+  },
+  {
+    "id": 8,
+    "slug": "autocollant-lumineux-pour-vehicule-et-decoration-interieure",
+    "title": "Autocollant Lumineux pour Véhicule et Décoration Intérieure",
+    "short": "Autocollant lumineux original simulant une jauge de turbo, des étoiles de GTA et le texte « FAKE Taxi », pour personnaliser votre véhicule ou votre intérieur.",
+    "category": "Décoration",
+    "boutique": "Fortune",
+    "price": 5000.0,
+    "priceBoutique": 4000.0,
+    "oldPrice": 5500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.47_d2c77797.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.47_669824d8.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.48_05f54b46.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.48_248fb7dc.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.46_330e0d54.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.49_74e9e037.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.49_796d62e2.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.50_9395a793.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.50_b385b6d2.jpg"
+    ],
+    "features": [
+      "Type : Autocollant lumineux décoratif",
+      "Effets : Jauge de turbo, étoiles GTA, texte « FAKE Taxi »",
+      "Usage : Véhicules, décoration intérieure",
+      "Matériau : Vinyle résistant et flexible",
+      "Alimentation : Électrique ou USB selon modèle",
+      "Installation facile sur surfaces lisses",
+      "Dimensions : standard ou personnalisables selon modèle",
+      "Style : Gaming / Geek / Humour"
+    ],
+    "description": "Cet autocollant lumineux est parfait pour les amateurs de personnalisation automobile et de décoration geek. Il reproduit l’effet d’une jauge de turbo et des étoiles inspirées du jeu GTA, accompagné du texte « FAKE Taxi » pour un style humoristique et unique. Facile à installer sur toutes surfaces lisses, il fonctionne avec alimentation électrique standard et apporte un éclairage décoratif saisissant de jour comme de nuit. Idéal pour véhicules, bureaux ou chambres à thème gaming."
+  },
+  {
+    "id": 9,
+    "slug": "galaxy-buds2-pro",
+    "title": "Galaxy BUDS2 PRO",
+    "short": "Écouteurs True Wireless haut de gamme avec son Hi-Fi 24 bits, réduction active du bruit et design compact.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 20000.0,
+    "priceBoutique": 17500.0,
+    "oldPrice": 25000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-27 161819.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 161916.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 162001.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 162222.png"
+    ],
+    "features": [
+      "Son Hi-Fi 24 bits ultra net",
+      "Réduction active du bruit (ANC) avec 3 micros haute performance",
+      "Connexion Bluetooth 5.3 stable et rapide",
+      "Mode Ambiant pour rester attentif à l’environnement",
+      "Design ergonomique et léger, résistant à l’eau (IPX7)",
+      "Autonomie : jusqu’à 5 heures d’écoute (ANC activé) + 13 heures avec boîtier",
+      "Compatibles avec Android & iOS",
+      "Fonction Auto Switch entre appareils Galaxy",
+      "Commandes tactiles intuitives"
+    ],
+    "description": "Les Galaxy Buds2 Pro offrent une expérience sonore exceptionnelle grâce à un son Hi-Fi 24 bits riche et détaillé. Leur technologie de réduction active du bruit (ANC) élimine efficacement les bruits environnants pour une immersion totale. Conçus pour le confort, ils disposent d’un design ergonomique et léger qui épouse parfaitement l’oreille. Avec la connectivité Bluetooth 5.3, la compatibilité multi-appareils et une autonomie allant jusqu’à 18 heures avec le boîtier de charge, ils sont idéaux pour la musique, les appels et le divertissement au quotidien."
+  },
+  {
+    "id": 10,
+    "slug": "galaxy-buds-pro",
+    "title": "Galaxy Buds Pro",
+    "short": "Des écouteurs sans fil haut de gamme avec son immersif et réduction active du bruit.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 20000.0,
+    "priceBoutique": 17500.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-27 180048.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 180025.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 175939.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 175803.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 175728.png"
+    ],
+    "features": [
+      "Réduction active du bruit intelligente (ANC)",
+      "Mode Son ambiant ajustable",
+      "Son 360° immersif avec Dolby Head Tracking",
+      "Connexion Bluetooth 5.0 stable et rapide",
+      "Autonomie jusqu’à 18 heures avec l’étui de recharge",
+      "Certification IPX7 (résistant à l’eau et à la transpiration)",
+      "Design ergonomique pour un confort longue durée",
+      "Compatibilité avec Android et iOS"
+    ],
+    "description": "Les Galaxy Buds Pro offrent une expérience audio premium avec un son puissant et précis. Grâce à la réduction active du bruit (ANC), profitez de votre musique sans distractions, même dans les environnements bruyants. Leur design ergonomique assure un confort optimal tout au long de la journée, tandis que la résistance à l’eau (IPX7) vous permet de les utiliser en toute confiance lors de vos activités quotidiennes. Avec une autonomie allant jusqu’à 18 heures (boîtier inclus), ces écouteurs allient style, performance et praticité."
+  },
+  {
+    "id": 11,
+    "slug": "samsung-galaxy-buds3-pro",
+    "title": "Samsung Galaxy Buds3 Pro",
+    "short": "Écouteurs True Wireless haut de gamme offrant une qualité audio exceptionnelle, une réduction active du bruit adaptative et une intégration intelligente avec les appareils Samsung Galaxy.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 20000.0,
+    "priceBoutique": 17500.0,
+    "oldPrice": 25000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-27 182132.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 182101.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 182034.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 182007.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 181937.png"
+    ],
+    "features": [
+      "Audio haute résolution : prise en charge de l'audio Hi-Res via Bluetooth avec les appareils Samsung Galaxy compatibles.",
+      "Réduction active du bruit adaptative : ajustement automatique du niveau de suppression du bruit en fonction de l'environnement.",
+      "Mode Ambiant : permet d'entendre les sons environnants tout en écoutant de la musique.",
+      "Certification IP57 : résistance à l'eau et à la poussière, adaptée à une utilisation quotidienne.",
+      "Autonomie : jusqu'à 30 heures avec le boîtier de charge.",
+      "Contrôle tactile et gestuel : pincez pour lire, mettre en pause ou ajuster le volume.",
+      "Compatibilité : optimisée pour les appareils Samsung Galaxy, avec prise en charge de Bixby et Google Assistant.",
+      "Design élégant : disponible en argent et blanc, avec un boîtier de charge transparent."
+    ],
+    "description": "Les Galaxy Buds3 Pro sont conçus pour offrir une expérience sonore immersive grâce à des haut-parleurs à double amplificateur et une prise en charge de l'audio haute résolution via Bluetooth. La réduction active du bruit adaptative, alimentée par l'intelligence artificielle Galaxy, ajuste automatiquement le niveau de suppression du bruit en fonction de votre environnement. Le mode Ambiant vous permet de rester attentif à votre environnement tout en écoutant votre musique. Avec une certification IP57, ces écouteurs sont résistants à l'eau et à la poussière, idéaux pour une utilisation quotidienne. L'autonomie atteint jusqu'à 30 heures avec le boîtier de charge, offrant une écoute prolongée sans interruption."
+  },
+  {
+    "id": 12,
+    "slug": "montre-s50",
+    "title": "Montre S50",
+    "short": "Montre connectée élégante et pratique, compatible Android et iOS, pour suivre votre activité, santé et notifications.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 30000.0,
+    "priceBoutique": 26500.0,
+    "oldPrice": 45000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-27 183612.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 183531.png"
+    ],
+    "features": [
+      "Suivi de l’activité quotidienne : pas, calories, distance parcourue",
+      "Moniteur de fréquence cardiaque et de sommeil",
+      "Compatible Android et iOS",
+      "Notifications pour appels, messages, emails et applications",
+      "Écran tactile couleur haute résolution",
+      "Autonomie : 2 à 4 jours selon usage",
+      "Modes sport multiples : course, marche, cyclisme, natation, etc.",
+      "Personnalisation : cadrans et bracelets interchangeables"
+    ],
+    "description": "Cette montre connectée vous accompagne au quotidien en combinant style et technologie. Elle permet de suivre votre rythme cardiaque, votre sommeil, vos pas, vos calories brûlées et vos activités sportives. Grâce aux notifications intelligentes, vous recevez vos appels, messages et alertes directement au poignet. Dotée d’un écran tactile couleur, d’une autonomie longue durée et d’une interface intuitive, elle s’adapte à votre style de vie pour allier santé, sport et connectivité."
+  },
+  {
+    "id": 13,
+    "slug": "booms-box-3-mini",
+    "title": "Booms Box 3 Mini",
+    "short": "Enceinte Bluetooth portable offrant un son stéréo puissant, un éclairage LED RGB dynamique et une batterie longue durée, idéale pour les fêtes et les déplacements.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 20000.0,
+    "priceBoutique": 18000.0,
+    "oldPrice": 22000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-27 185944.png",
+      "img/imgProduct/Capture d’écran 2025-08-27 185835.png"
+    ],
+    "features": [
+      "Son stéréo puissant : Haut-parleurs intégrés offrant une qualité sonore claire et dynamique.",
+      "Éclairage LED RGB : Effets lumineux synchronisés avec la musique pour une ambiance festive.",
+      "Autonomie prolongée : Batterie rechargeable offrant jusqu'à 15 heures de lecture continue.",
+      "Portabilité : Design compact et léger, facile à transporter.",
+      "Résistance aux éclaboussures : Idéale pour une utilisation en extérieur.",
+      "Connectivité Bluetooth : Connexion sans fil avec vos appareils compatibles.",
+      "Entrée audio : Prise en charge de l'entrée audio auxiliaire pour une connectivité étendue.",
+      "Fonction haut-parleur : Permet de prendre des appels en mode mains libres."
+    ],
+    "description": "La Booms Box 3 Mini est une enceinte Bluetooth compacte conçue pour offrir une expérience audio immersive avec ses haut-parleurs stéréo de qualité. Son éclairage LED RGB ajoute une dimension visuelle à votre musique, créant une ambiance festive. Avec une batterie rechargeable offrant jusqu'à 15 heures de lecture continue, elle est parfaite pour accompagner vos événements en plein air, vos soirées ou vos moments de détente. Son design portable et sa résistance aux éclaboussures en font un compagnon idéal pour vos aventures musicales."
+  },
+  {
+    "id": 14,
+    "slug": "ensemble-2-pieces-pantalon--gilet-cintre",
+    "title": "Ensemble 2 pièces – Pantalon & Gilet cintré",
+    "short": "Tailleur élégant composé d’un pantalon et d’un gilet cintré, parfait pour une allure sophistiquée et moderne.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 17000.0,
+    "priceBoutique": 15000.0,
+    "oldPrice": 20000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (16).png"
+    ],
+    "features": [
+      "Pantalon : Coupe droite ou slim, taille ajustée, fermeture à glissière et bouton.",
+      "Gilet : Coupe cintrée, fermeture boutonnée, col en V discret.",
+      "Matériau : Tissu de costume (ex. : mélange polyester-coton ou laine selon le modèle).",
+      "Tailles disponibles : XS, S, M, L, XL.",
+      "Coloris : Noir, gris anthracite, bleu marine (ou à préciser selon stock).",
+      "Finitions : Coutures nettes, poches fonctionnelles, doublure intégrée.",
+      "Entretien : Nettoyage à sec recommandé.",
+      "Utilisations : Mariage, cérémonies, tenue de bureau, sorties habillées."
+    ],
+    "description": "Cet ensemble chic combine un pantalon bien ajusté à un gilet cintré pour offrir une silhouette structurée et stylée. Idéal pour des occasions formelles ou pour affirmer un look professionnel, le gilet épouse la taille tandis que le pantalon assure confort et élégance. Les finitions précises et les lignes épurées rendent ce duo polyvalent, à la fois en costume complet ou porté séparément selon les envies."
+  },
+  {
+    "id": 15,
+    "slug": "jupe-longue-en-tissu-satine-et-soyeux",
+    "title": "Jupe longue en tissu satiné et soyeux",
+    "short": "Jupe longue élégante en satin soyeux, idéale pour des tenues chic et raffinées.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 11000.0,
+    "priceBoutique": 9000.0,
+    "oldPrice": 12500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (15).png"
+    ],
+    "features": [
+      "Matière : Satin doux et soyeux",
+      "Longueur : Longue (cheville)",
+      "Coupe : Fluide et élégante",
+      "Style : Polyvalent (soirée, cérémonie, quotidien)",
+      "Entretien : Lavage délicat recommandé"
+    ],
+    "description": "Cette jupe longue en tissu satiné et soyeux se distingue par son tombé fluide et son éclat subtil. Conçue pour apporter confort et élégance, elle se porte aussi bien lors d’événements habillés que pour des sorties du quotidien avec une touche chic. Sa coupe met en valeur la silhouette tout en garantissant une grande liberté de mouvement."
+  },
+  {
+    "id": 16,
+    "slug": "robe-tunique",
+    "title": "Robe tunique",
+    "short": "Robe tunique élégante et confortable, idéale pour un style décontracté ou chic selon l’occasion.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 7500.0,
+    "priceBoutique": 6000.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (14).png"
+    ],
+    "features": [
+      "Coupe : ample et fluide",
+      "Longueur : mi-cuisse ou genou selon le modèle",
+      "Col : rond",
+      "Manches : courtes longues",
+      "Tissu : coton, lin ou mélange polyester doux et respirant",
+      "Style : polyvalent, décontracté ou habillé",
+      "Entretien : lavage en machine, séchage à l’air libre"
+    ],
+    "description": "Cette robe tunique est conçue pour allier simplicité et élégance. Grâce à sa coupe fluide et moderne, elle peut être portée seule pour un look léger, ou associée à un pantalon ou des leggings pour un style plus sophistiqué. Adaptée à toutes les morphologies, elle est parfaite pour le quotidien, le bureau ou les sorties en soirée."
+  },
+  {
+    "id": 17,
+    "slug": "robe-longue-de-style-africain",
+    "title": "Robe longue de style africain",
+    "short": "Robe longue élégante inspirée de la mode africaine, parfaite pour vos occasions spéciales.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 7500.0,
+    "priceBoutique": 6000.0,
+    "oldPrice": 8500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (13).png"
+    ],
+    "features": [
+      "Matière : coton, wax ou tissu imprimé africain de haute qualité",
+      "Coupe : longue, ajustée à la taille avec une belle fluidité",
+      "Style : africain, traditionnel et moderne à la fois",
+      "Entretien : lavage à la main ou en machine à basse température",
+      "Tailles disponibles : S, M, L, XL"
+    ],
+    "description": "Cette robe longue de style africain met en valeur l’élégance et l’authenticité à travers ses motifs traditionnels et sa coupe raffinée. Conçue pour allier confort et style, elle s’adapte aussi bien aux événements formels qu’aux sorties décontractées. Sa fluidité et ses détails soignés en font une pièce incontournable pour celles qui aiment la mode unique et culturelle."
+  },
+  {
+    "id": 18,
+    "slug": "longue-robe-ajustee-a-manches-longues",
+    "title": "Longue robe ajustée à manches longues",
+    "short": "Robe élégante et moderne, parfaite pour les soirées et occasions spéciales.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 12000.0,
+    "priceBoutique": 10000.0,
+    "oldPrice": 15000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (12).png"
+    ],
+    "features": [
+      "Coupe : Longue et ajustée",
+      "Manches : Longues",
+      "Style : Élégant et moderne",
+      "Tissu : Doux et agréable au toucher",
+      "Idéale pour : Soirées, cérémonies, événements spéciaux",
+      "Entretien : Lavage à la main ou en machine à basse température"
+    ],
+    "description": "Cette longue robe ajustée à manches longues met en valeur la silhouette avec son design raffiné et son tissu confortable. Conçue pour offrir à la fois style et élégance, elle est idéale pour un dîner, une cérémonie ou une soirée chic. Son allure intemporelle permet de la porter en toute saison."
+  },
+  {
+    "id": 19,
+    "slug": "ensemble-chemise-manches-longues--short",
+    "title": "Ensemble  Chemise manches Longues & Short",
+    "short": "Un ensemble stylé et confortable composé d’une chemise à manches longues et d’un short assorti, parfait pour un look casual-chic au quotidien.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 16000.0,
+    "priceBoutique": 14000.0,
+    "oldPrice": 20000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (11).png"
+    ],
+    "features": [
+      "Chemise manches longues, coupe régulière",
+      "Short assorti, taille élastique pour plus de confort",
+      "Tissu léger et agréable à porter",
+      "Style casual-chic adapté à toutes les occasions"
+    ],
+    "description": "Cet ensemble décontracté combine élégance et confort. La chemise à manches longues, légère et respirante, apporte une touche habillée tandis que le short complète le style avec une allure moderne et pratique. Idéal pour les sorties, les moments de détente ou un look tendance en ville, cet ensemble se porte aussi bien avec des baskets qu’avec des mocassins."
+  },
+  {
+    "id": 20,
+    "slug": "robe-a-motifs-rayes",
+    "title": "Robe à motifs rayés",
+    "short": "Robe élégante avec motifs rayés, offrant un style moderne et chic pour toutes les occasions.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 12000.0,
+    "priceBoutique": 10000.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (10).png"
+    ],
+    "features": [
+      "Motif : rayures verticales ou horizontales selon modèle",
+      "Coupe : ajustée",
+      "Longueur : genou",
+      "Manches : courtes",
+      "Tissu : coton, polyester ou mélange doux",
+      "Style : casual chic, bureau, sortie",
+      "Entretien : lavage à la main ou en machine à basse température"
+    ],
+    "description": "Cette robe à motif rayé se distingue par son design graphique et sa coupe flatteuse. Conçue pour allier confort et style, elle peut être portée au quotidien, au bureau ou lors de sorties. Les rayures apportent une touche moderne et dynamique, tandis que la matière douce assure une agréable sensation au porté. Idéale pour celles qui veulent allier tendance et élégance."
+  },
+  {
+    "id": 21,
+    "slug": "ensemble-polo-crop-top-pantalonsurvêtement",
+    "title": "Ensemble Polo – Crop Top & Pantalon/Survêtement",
+    "short": "Ensemble tendance et confortable combinant un polo, un crop top et un pantalon ou survêtement, parfait pour un look décontracté et moderne.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 13000.0,
+    "priceBoutique": 11000.0,
+    "oldPrice": 15000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (9).png"
+    ],
+    "features": [
+      "Composé de : polo, crop top et pantalon/survêtement",
+      "Tissu : coton ou mélange polyester pour confort et durabilité",
+      "Coupe : régulière pour le polo et le pantalon, ajustée pour le crop top",
+      "Style : décontracté, urbain et moderne",
+      "Tailles disponibles : S, M, L, XL",
+      "Entretien : lavage en machine à basse température, séchage à l’air libre"
+    ],
+    "description": "Cet ensemble polyvalent allie style et confort pour toutes vos activités. Le polo apporte une touche classique et élégante, tandis que le crop top ajoute modernité et dynamisme à la tenue. Le pantalon ou survêtement complète l’ensemble avec confort et praticité, idéal pour les sorties décontractées, le sport ou le quotidien. Fabriqué dans des matériaux doux et résistants, cet ensemble garantit une aisance optimale tout en restant stylé."
+  },
+  {
+    "id": 22,
+    "slug": "robe-a-rayures-dos-nu",
+    "title": "Robe à Rayures Dos Nu",
+    "short": "Robe élégante et moderne avec motifs rayés et dos nu, parfaite pour un look chic et tendance.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 11000.0,
+    "priceBoutique": 9000.0,
+    "oldPrice": 13000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (8).png"
+    ],
+    "features": [
+      "Motif : rayures (verticales ou horizontales selon modèle)",
+      "Coupe : ajustée ou légèrement évasée",
+      "Dos : nu pour un style élégant et sensuel",
+      "Longueur : mi-cuisse ou genou selon modèle",
+      "Tissu : coton, polyester ou mélange doux",
+      "Style : chic, soirée, sortie",
+      "Entretien : lavage à la main ou en machine à basse température"
+    ],
+    "description": "Cette robe à rayures se distingue par son style unique et sa coupe flatteuse. Le dos nu apporte une touche sensuelle et élégante, tandis que les rayures verticales ou horizontales donnent un effet visuel dynamique. Conçue pour allier confort et style, elle convient parfaitement pour les sorties, soirées ou événements spéciaux. Le tissu léger et agréable assure une tenue confortable tout au long de la journée ou de la soirée."
+  },
+  {
+    "id": 23,
+    "slug": "robe-babydoll",
+    "title": "Robe Babydoll",
+    "short": "Robe courte et légère, style Babydoll, pour un look féminin, confortable et élégant.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 12000.0,
+    "priceBoutique": 10000.0,
+    "oldPrice": 13500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (7).png"
+    ],
+    "features": [
+      "Coupe : courte, évasée",
+      "Longueur : au-dessus du genou",
+      "Tissu : coton, polyester ou mélange fluide et léger",
+      "Style : féminin, décontracté ou habillé selon accessoires",
+      "Col : halter",
+      "Manches : courtes ou ¾",
+      "Entretien : lavage à la main ou en machine à basse température"
+    ],
+    "description": "La robe Babydoll se caractérise par sa coupe courte et évasée qui tombe légèrement au-dessus des genoux, créant un effet léger et aérien. Conçue pour allier confort et style, elle est idéale pour les sorties, les journées décontractées ou les occasions spéciales. Son tissu doux et fluide permet une grande liberté de mouvement tout en apportant une touche féminine et charmante à votre silhouette."
+  },
+  {
+    "id": 24,
+    "slug": "galaxy-buds-pro-4",
+    "title": "Galaxy Buds Pro 4",
+    "short": "Écouteurs sans fil nouvelle génération avec son haute fidélité, réduction de bruit active et design ergonomique.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 18000.0,
+    "priceBoutique": 16000.0,
+    "oldPrice": 20000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 093107.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 093019.png"
+    ],
+    "features": [
+      "Connexion : Bluetooth 5.3",
+      "Réduction active du bruit (ANC)",
+      "Autonomie : jusqu’à 6 heures (écoute continue), jusqu’à 24 heures avec le boîtier",
+      "Charge rapide via USB-C",
+      "Étanchéité : certification IPX4 (résistance à l’eau et à la transpiration)",
+      "Microphones intégrés pour appels clairs",
+      "Compatibles iOS et Android",
+      "Boîtier compact avec indicateur LED"
+    ],
+    "description": "Les Galaxy Buds Pro 4 vous offrent une expérience sonore immersive grâce à une qualité audio premium et une technologie avancée de réduction de bruit active. Conçus pour le confort et la stabilité, ils s’adaptent parfaitement à vos oreilles, même lors de longues sessions d’écoute. Leur autonomie prolongée et leur boîtier de recharge compact garantissent une utilisation fluide au quotidien. Que ce soit pour la musique, les appels ou vos entraînements sportifs, ces écouteurs sont vos compagnons idéaux."
+  },
+  {
+    "id": 25,
+    "slug": "casque-marshall",
+    "title": "Casque-Marshall",
+    "short": "Casque audio haut de gamme au design vintage et au son puissant.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 19000.0,
+    "priceBoutique": 17000.0,
+    "oldPrice": 21000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 093733.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 093618.png"
+    ],
+    "features": [
+      "Qualité sonore premium avec signature Marshall",
+      "Design vintage et finition en similicuir texturé",
+      "Coussinets confortables pour une utilisation longue durée",
+      "Connexion Bluetooth et prise jack 3,5 mm (selon modèle)",
+      "Commandes intégrées pour gérer la musique et les appels",
+      "Autonomie pouvant atteindre jusqu’à 30 heures (modèles sans fil)",
+      "Pliable et facile à transporter"
+    ],
+    "description": "Le casque Marshall allie performance sonore et style iconique. Conçu pour offrir une expérience immersive, il délivre des basses profondes, des médiums équilibrés et des aigus précis. Son design rétro, inspiré des amplificateurs légendaires de la marque, en fait un accessoire à la fois élégant et robuste. Idéal pour les passionnés de musique et les professionnels, il garantit confort et durabilité, même lors d’une utilisation prolongée."
+  },
+  {
+    "id": 26,
+    "slug": "casque-jbl",
+    "title": "Casque JBL",
+    "short": "Profitez d’un son JBL authentique avec un confort optimal et une autonomie longue durée.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 19000.0,
+    "priceBoutique": 17000.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 094247.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 094219.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 094144.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 094114.png"
+    ],
+    "features": [
+      "Son JBL Pure Bass pour une qualité audio exceptionnelle",
+      "Connexion Bluetooth stable et rapide",
+      "Autonomie longue durée (jusqu’à 40 heures selon le modèle)",
+      "Design pliable et ajustable pour plus de confort",
+      "Micro intégré pour appels mains libres",
+      "Commandes intégrées sur l’oreillette",
+      "Compatible avec smartphones, tablettes et ordinateurs"
+    ],
+    "description": "Le casque JBL est conçu pour offrir une expérience audio immersive grâce à des basses profondes et un son clair, fidèle à la réputation de la marque. Léger et ergonomique, il assure un confort d’utilisation prolongé, que ce soit pour écouter de la musique, regarder des films ou passer des appels. Grâce à sa batterie performante et sa technologie sans fil, vous profitez d’une liberté totale dans vos déplacements."
+  },
+  {
+    "id": 27,
+    "slug": "power-bank-10000mah",
+    "title": "Power Bank 10000mAh",
+    "short": "Batterie externe compacte de 10000mAh pour recharger vos appareils n’importe où.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 11500.0,
+    "priceBoutique": 10000.0,
+    "oldPrice": 13500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 094754.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 094733.png"
+    ],
+    "features": [
+      "Capacité : 10000mAh",
+      "Entrée : Micro-USB/Type-C (selon modèle)",
+      "Sorties : USB 5V/2.1A ou plus",
+      "Protection intégrée : contre les surtensions, surcharges et courts-circuits",
+      "Indicateurs LED de charge",
+      "Design compact et léger"
+    ],
+    "description": "Ce power bank de 10000mAh est l’accessoire indispensable pour vos déplacements. Grâce à sa capacité, il peut recharger un smartphone jusqu’à 2 à 3 fois selon le modèle. Léger et facile à transporter, il dispose de ports USB et/ou Type-C pour une compatibilité universelle avec la majorité des téléphones, tablettes et autres appareils électroniques. Conçu avec une protection intelligente, il évite la surcharge, la surchauffe et les courts-circuits pour une utilisation en toute sécurité."
+  },
+  {
+    "id": 28,
+    "slug": "power-bank-20000mah",
+    "title": "Power Bank 20000mAh",
+    "short": "Batterie externe haute capacité de 20000mAh pour recharger plusieurs appareils en toute autonomie.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 22000.0,
+    "priceBoutique": 20000.0,
+    "oldPrice": 25000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 095025.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 095004.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 094943.png"
+    ],
+    "features": [
+      "Capacité : 20000mAh",
+      "Entrée : Micro-USB / Type-C (selon modèle)",
+      "Sorties : USB 5V/2.1A ou plus",
+      "Protection intégrée : contre les surtensions, surcharges et courts-circuits",
+      "Indicateurs LED pour le niveau de charge",
+      "Design portable et robuste",
+      "Compatible avec smartphones, tablettes et autres appareils USB"
+    ],
+    "description": "Cette power bank 20000mAh est idéale pour les utilisateurs ayant besoin d’une autonomie prolongée. Elle peut recharger un smartphone plusieurs fois et alimenter des tablettes ou autres appareils électroniques lors de vos déplacements. Équipée de ports USB et Type-C, elle assure une compatibilité universelle. La batterie intègre des protections contre la surcharge, la surchauffe et les courts-circuits pour garantir une utilisation sécurisée. Son design compact et robuste permet de l’emporter facilement partout."
+  },
+  {
+    "id": 29,
+    "slug": "power-bank-40000mah",
+    "title": "Power Bank 40000mAh",
+    "short": "atterie externe ultra-haute capacité pour recharger plusieurs appareils simultanément et en toute autonomie.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 30000.0,
+    "priceBoutique": 28000.0,
+    "oldPrice": 35000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 100027.png"
+    ],
+    "features": [
+      "Capacité : 40000mAh",
+      "Entrée : Micro-USB / Type-C",
+      "Sorties : USB 5V/2.1A ou plus, multi-ports pour recharge simultanée",
+      "Protection intégrée : contre les surtensions, surcharges et courts-circuits",
+      "Indicateurs LED pour niveau de charge",
+      "Design robuste et portable",
+      "Compatible avec smartphones, tablettes et autres appareils USBCapacité : 40000mAh",
+      "Compatible avec smartphones, tablettes et autres appareils USB"
+    ],
+    "description": "La power bank 40000mAh est conçue pour les utilisateurs ayant des besoins énergétiques importants. Elle peut recharger plusieurs smartphones, tablettes ou autres appareils USB plusieurs fois sans nécessiter de recharge immédiate. Équipée de plusieurs ports USB et Type-C, elle assure une compatibilité maximale. La batterie intègre des protections contre la surcharge, la surchauffe et les courts-circuits, garantissant une utilisation sûre et fiable. Son design robuste et portable permet de l’emporter facilement lors de voyages ou déplacements prolongés."
+  },
+  {
+    "id": 30,
+    "slug": "power-bank-50000mah",
+    "title": "Power Bank 50000mAh",
+    "short": "Batterie externe ultra-haute capacité pour recharger plusieurs appareils simultanément, idéale pour les déplacements prolongés.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 33000.0,
+    "priceBoutique": 30000.0,
+    "oldPrice": 40000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 100128.png"
+    ],
+    "features": [],
+    "description": "La power bank 50000mAh est conçue pour les utilisateurs ayant des besoins énergétiques très élevés. Elle permet de recharger plusieurs smartphones, tablettes ou autres appareils USB plusieurs fois sans nécessiter de recharge rapide. Grâce à ses multiples ports USB et Type-C, elle offre une compatibilité universelle. Équipée de protections contre la surcharge, la surchauffe et les courts-circuits, elle assure une utilisation sécurisée. Son design robuste et portable la rend idéale pour les voyages, les sorties ou les situations où une autonomie maximale est nécessaire."
+  },
+  {
+    "id": 31,
+    "slug": "manette-ps4",
+    "title": "Manette PS4",
+    "short": "Manette officielle pour PlayStation 4 offrant précision, confort et fonctionnalités avancées pour tous vos jeux.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 22000.0,
+    "priceBoutique": 20000.0,
+    "oldPrice": 25000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 100710.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 100638.png"
+    ],
+    "features": [
+      "Connexion : sans fil Bluetooth",
+      "Compatible : PlayStation 4 et PC",
+      "Pavé tactile intégré",
+      "Moteurs de vibrations pour immersion réaliste",
+      "Haut-parleur intégré",
+      "Port jack 3,5 mm pour casque audio",
+      "Batterie rechargeable avec autonomie prolongée",
+      "Boutons et joysticks ergonomiques pour un confort optimal"
+    ],
+    "description": "La manette PS4 est conçue pour offrir une expérience de jeu optimale. Ergonomique et légère, elle assure un confort maximal même lors de sessions prolongées. Ses boutons réactifs, joysticks précis et pavé tactile intégré permettent un contrôle total dans tous les types de jeux. Compatible avec la PS4 et certains PC, elle intègre également un haut-parleur, un port jack pour casque et des moteurs de vibrations pour une immersion totale. La connexion sans fil via Bluetooth offre liberté et praticité."
+  },
+  {
+    "id": 32,
+    "slug": "manette-ps3",
+    "title": "Manette PS3",
+    "short": "Manette officielle pour PlayStation 3 offrant confort, précision et une expérience de jeu immersive.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 15000.0,
+    "priceBoutique": 13000.0,
+    "oldPrice": 18000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 101402.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 101331.png"
+    ],
+    "features": [
+      "Connexion : sans fil Bluetooth",
+      "Compatible : PlayStation 3 et PC",
+      "Moteurs de vibrations pour immersion réaliste",
+      "Boutons et joysticks ergonomiques",
+      "Pavé central pour navigation et fonctionnalités supplémentaires",
+      "Batterie rechargeable intégrée",
+      "Autonomie : plusieurs heures selon utilisation"
+    ],
+    "description": "La manette PS3 est conçue pour garantir une jouabilité optimale avec une prise en main confortable. Elle dispose de boutons réactifs, de joysticks précis et de vibrations intégrées pour une immersion totale dans vos jeux. La connexion sans fil via Bluetooth permet de jouer librement sans contraintes de câble, tandis que le pavé central et les boutons fonctionnels assurent un contrôle complet. Compatible avec toutes les consoles PS3 et certains PC, elle constitue un accessoire indispensable pour les amateurs de jeux vidéo."
+  },
+  {
+    "id": 33,
+    "slug": "manette-ps2",
+    "title": "Manette PS2",
+    "short": "Manette officielle pour PlayStation 2 avec design classique et boutons réactifs pour une expérience de jeu confortable.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 9000.0,
+    "priceBoutique": 7000.0,
+    "oldPrice": 10500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 101756.png",
+      "img/imgProduct/Capture d’écran 2025-08-29 101721.png"
+    ],
+    "features": [
+      "Connexion : filaire",
+      "Compatible : PlayStation 2",
+      "Design ergonomique pour un confort prolongé",
+      "Boutons et joysticks réactifs",
+      "Longueur du câble adaptée pour la liberté de mouvement",
+      "Adapté pour tous les types de jeux PS2",
+      "Durable et robuste"
+    ],
+    "description": "La manette PS2 est conçue pour offrir un contrôle précis et fiable sur toutes les consoles PlayStation 2. Son design ergonomique permet de jouer longtemps sans fatigue, tandis que les boutons et joysticks offrent une réponse rapide pour tous types de jeux. Grâce à son câble long, elle assure une liberté de mouvement adaptée aux sessions de jeu à domicile. Ce contrôleur filaire reste un choix indispensable pour les amateurs de rétro-gaming et les joueurs souhaitant profiter pleinement de la PS2."
+  },
+  {
+    "id": 34,
+    "slug": "android-tv-box",
+    "title": "Android TV Box",
+    "short": "Boîtier Android pour transformer votre télévision en smart TV avec accès aux applications, jeux et services de streaming.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 37000.0,
+    "priceBoutique": 35000.0,
+    "oldPrice": 40000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 101958.png"
+    ],
+    "features": [
+      "Système : Android (version selon modèle)",
+      "Connectivité : Wi-Fi, Ethernet, Bluetooth selon modèle",
+      "Ports : HDMI, USB, carte SD (selon modèle)",
+      "Résolution : jusqu’à 4K selon modèle",
+      "Mémoire : RAM et stockage interne selon modèle",
+      "Applications : compatible Google Play Store",
+      "Fonctionnalités : streaming, jeux, navigation internet",
+      "Facile à installer et à utiliser"
+    ],
+    "description": "L’Android TV Box vous permet de profiter d’une expérience multimédia complète directement sur votre télévision. Grâce à son système Android intégré, accédez facilement à YouTube, Netflix, Amazon Prime, jeux et applications du Google Play Store. Son processeur performant et sa mémoire optimisée garantissent une navigation fluide et rapide. Connectez-la via HDMI pour un affichage en haute définition et profitez de toutes les fonctionnalités d’une smart TV, même sur un écran classique. Idéale pour le streaming, les jeux ou la lecture de médias locaux, cette TV Box transforme votre salon en véritable centre multimédia."
+  },
+  {
+    "id": 35,
+    "slug": "tx3-pro-box",
+    "title": "TX3 Pro Box",
+    "short": "Boîtier Android TV performant pour transformer n’importe quel téléviseur en smart TV avec accès à toutes vos applications et services de streaming.",
+    "category": "Électronique",
+    "boutique": "Henock Accessoires",
+    "price": 37000.0,
+    "priceBoutique": 35000.0,
+    "oldPrice": 40000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/Capture d’écran 2025-08-29 102601.png"
+    ],
+    "features": [
+      "Système : Android (version selon modèle)",
+      "Résolution : jusqu’à 4K",
+      "Connectivité : Wi-Fi, Ethernet, Bluetooth",
+      "Ports : HDMI, USB, microSD",
+      "Mémoire : RAM et stockage interne selon modèle",
+      "Applications : compatible Google Play Store",
+      "Fonctionnalités : streaming, jeux, navigation Internet, lecture de médias locaux",
+      "Installation simple via HDMI"
+    ],
+    "description": "La TX3 Pro Box est un boîtier Android TV conçu pour offrir une expérience multimédia complète. Elle permet de regarder des films et séries en streaming, jouer à des jeux Android et accéder à vos applications préférées via le Google Play Store. Équipée d’un processeur performant et de mémoire suffisante pour une navigation fluide, elle supporte la résolution 4K pour un affichage net et détaillé. Facile à installer via HDMI, elle transforme instantanément votre téléviseur classique en smart TV et prend en charge la lecture de fichiers multimédias depuis des clés USB ou cartes SD."
+  }
+]

@@ -1,0 +1,121 @@
+[
+    {
+    "id": 8,
+    "slug": "autocollant-lumineux-pour-vehicule-et-decoration-interieure",
+    "title": "Autocollant Lumineux pour Véhicule et Décoration Intérieure",
+    "short": "Autocollant lumineux original simulant une jauge de turbo, des étoiles de GTA et le texte « FAKE Taxi », pour personnaliser votre véhicule ou votre intérieur.",
+    "category": "Décoration",
+    "price": 5000.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.47_d2c77797.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.47_669824d8.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.48_05f54b46.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.48_248fb7dc.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.46_330e0d54.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.49_74e9e037.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.49_796d62e2.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.50_9395a793.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 11.38.50_b385b6d2.jpg"
+    ],
+    "features": [
+      "Type : Autocollant lumineux décoratif",
+      "Effets : Jauge de turbo, étoiles GTA, texte « FAKE Taxi »",
+      "Usage : Véhicules, décoration intérieure",
+      "Matériau : Vinyle résistant et flexible",
+      "Alimentation : Électrique ou USB selon modèle",
+      "Installation facile sur surfaces lisses",
+      "Dimensions : standard ou personnalisables selon modèle",
+      "Style : Gaming / Geek / Humour"
+    ],
+    "description": "Cet autocollant lumineux est parfait pour les amateurs de personnalisation automobile et de décoration geek. Il reproduit l’effet d’une jauge de turbo et des étoiles inspirées du jeu GTA, accompagné du texte « FAKE Taxi » pour un style humoristique et unique. Facile à installer sur toutes surfaces lisses, il fonctionne avec alimentation électrique standard et apporte un éclairage décoratif saisissant de jour comme de nuit. Idéal pour véhicules, bureaux ou chambres à thème gaming."
+  },
+  {
+    "id": 5,
+    "slug": "plateau-de-10-bombas-jambon-fromage-saucisson",
+    "title": "Plateau de 10 Bombas – Jambon, Fromage & Saucisson",
+    "short": "Un assortiment gourmand de 10 bombas fourrées au jambon, fromage ou saucisson, parfait pour vos apéritifs et collations.",
+    "category": "Gourmandises",
+    "price": 6000.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.02_e40d3369.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.01_06f1edf0.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.02_a1a74d37.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-27 à 00.55.05_cb49d88f.jpg"
+    ],
+    "features": [
+      "Contenu : 10 bombas variées",
+      "Garnitures :",
+      "Jambon & fromage crème",
+      "Saucisson & fromage crème",
+      "Texture : pâte croustillante à l’extérieur, garniture fondante à l’intérieur",
+      "Utilisation : apéritif, snack, événement festif",
+      "Conservation : à consommer frais, possibilité de réchauffer avant dégustation",
+      "Quantité : plateau prêt à servir"
+    ],
+    "description": "Ce plateau de 10 bombas offre une sélection savoureuse de bouchées frites à la pâte dorée et croustillante, garnies de différentes farces pour satisfaire tous les goûts. Vous y trouverez des bombas au jambon et fromage crémeux, ainsi que des bombas au saucisson et fromage crémeux. Idéal pour partager lors d’apéritifs, fêtes ou moments conviviaux, ce plateau allie praticité et plaisir gourmand."
+  },
+    {
+    "id": 4,
+    "slug": "bottines-crampon-chaussures-de-football",
+    "title": "Bottines Crampon – Chaussures de Football",
+    "short": "Bottines légères et résistantes offrant adhérence et confort pour des performances optimales sur le terrain.",
+    "category": "Sport",
+    "price": 35000.0,
+    "oldPrice": 40000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.03_8a258c83.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.03_06a48ff3.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.04_c163ccb4.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.04_8191baed.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.04_be76ca62.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.05.04_2d1cd17d.jpg"
+    ],
+    "features": [
+      "Semelle à crampons pour une adhérence maximale",
+      "Matière supérieure résistante et respirante",
+      "Ajustement confortable et maintien du pied optimal",
+      "Disponibles en plusieurs tailles",
+      "Convient pour gazon naturel et synthétique"
+    ],
+    "description": "Ces bottines crampon sont conçues pour les footballeurs recherchant à la fois confort et performance. La semelle à crampons assure une excellente traction sur gazon naturel ou synthétique, réduisant les risques de glissade et améliorant les appuis. Leur conception légère et respirante permet un maintien parfait du pied tout en favorisant la liberté de mouvement. Idéales pour les entraînements et les matchs."
+  },
+  {
+    "id": 1,
+    "slug": "maillot-de-football-du-gabon",
+    "title": "Maillot de football du Gabon",
+    "short": "Montrez votre fierté nationale avec ce maillot des Panthères du Gabon, alliant confort et style sportif.",
+    "category": "Sport",
+    "price": 16000.0,
+    "oldPrice": 18000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.38_bd1c3af0.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.37_da00d97e.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.37_28a210ba.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.39_adeff372.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.39_083c1c49.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.38_76f953fd.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.37_35a3af17.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.37_a255e833.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.38_676c07e5.jpg",
+      "img/imgProduct/WhatsApp Image 2025-08-26 à 19.04.39_527cb7a3.jpg"
+    ],
+    "features": [
+      "Matière respirante et résistante",
+      "Coupe sportive ajustée",
+      "Logos et motifs inspirés des Panthères",
+      "Disponible en plusieurs tailles",
+      "Entretien facile (lavage en machine)"
+    ],
+    "description": "Conçu pour les passionnés de football, ce maillot du Gabon offre un design moderne inspiré des couleurs emblématiques du pays. Léger et respirant, il est idéal aussi bien pour les matchs que pour un usage quotidien. Sa coupe ergonomique et son tissu technique garantissent confort, liberté de mouvement et durabilité."
+  }
+]

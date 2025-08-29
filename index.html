@@ -1,0 +1,169 @@
+<!-- TongaMarketplace - Index (avec en-tête complexe inspiré eBay) -->
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Tonga MarketPlace" />
+    <meta property="og:description"
+        content="Marketplace gabonaise : découvrez nos offres, nos promos et nos produits locaux !" />
+    <meta property="og:image" content="https://djatten.github.io/TongaMarketPlace/img/logo/OpenGraph.png" />
+    <meta property="og:url" content="https://djatten.github.io/TongaMarketPlace/" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card (optionnel mais conseillé) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tonga MarketPlace">
+    <meta name="twitter:description" content="Marketplace gabonaise : découvrez nos offres, nos promos et nos produits locaux !">
+    <meta name="twitter:image" content="https://djatten.github.io/TongaMarketPlace/img/logo/OpenGraph.png">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Accueil - Tonga Market</title>
+    <link rel="icon" href="img/logo/logo/4(1).svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/styleIndex.css" />
+</head>
+
+<body data-theme="light">
+    <!-- Top bar -->
+    <div class="topbar">
+        <div class="top-left">
+            <div class="lang-select">
+                <span title="Gabon">🇬🇦</span>
+                <select aria-label="Langue" id="langSelect">
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+            <div class="mini muted">Livraison: Libreville • Retrait local</div>
+        </div>
+
+        <div class="top-right">
+            <a href="page/info/contact.html" class="aid-contact">Aide & contact</a>
+            <a href="page/produit/panier.html" class="icon-btn">🛒<span class="badge" id="cartCount" style="display:none">0</span></a>
+        </div>
+    </div>
+
+    <!-- Main header -->
+    <header class="main">
+        <a class="logo" href="index.html"><img src="img/logo/logoheader.svg" alt="index.html">TongaMarketPlace</a>
+
+        <!-- Browse / mega menu -->
+        <div class="browse">
+            <div class="btn"><span class="manu1">📂 Parcourir par catégorie ▾</span><samp class="menu2">📂...▾</samp></div>
+            <div class="mega" id="megaMenu">
+                <div class="magaContent" >
+                    <a href="page/produit/categories.html?cat=Gourmandises">
+                    <div class="categorieList" style="flex:1">
+                        <h4>Gourmandises</h4>
+                        <ul class="listCat" style="padding-left:14px">
+                            <li>Plateau de 10 Bombas</li>
+                            <li>Plateau de 20 Pains au Saucisse</li>
+                            <li>Crème glacée au chocolat</li>
+                        </ul>
+                    </div>
+                    </a>
+
+                    <a href="page/produit/categories.html?cat=Sport">
+                    <div class="categorieList" style="flex:1">
+                        <h4>Sport & Loisirs</h4>
+                        <ul  class="listCat" style="padding-left:14px">
+                            <li>Ma propre Gant</li>
+                            <li>Maillot de football du Gabon</li>
+                            <li>Bottines Crampon – Chaussures de Football</li>
+                            <li>Maillot de Club de Football</li>
+                        </ul>
+                    </div>
+                    </a>
+
+                    <a href="page/produit/categories.html?cat=Décoration">
+                    <div class="categorieList" style="flex:1">
+                        <h4>Décoration</h4>
+                        <ul class="listCat" style="padding-left:14px">
+                            <li>Autocollant Lumineux pour Véhicule et Décoration Intérieure</li>
+                        </ul>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search bar advanced -->
+        <div class="search-wrapper" >
+            <input type="text" id="searchInput" placeholder="Rechercher..." >
+            <div id="autocompleteResults" class="autocomplete-container"></div>
+        </div>
+    </header>
+
+    <!-- Main content (hero + modules) -->
+    <main class="container">
+        <section class="hero">
+            <div class="carousel-container">
+            <div class="carousel" id="carousel"></div>
+                <a href="page/produit/categories.html?cat=Gourmandises"><img src="img/HeroSlide/HeroSlide (1).svg" alt="Slide 1" class="slide active"></a>
+                <a href="page/produit/categories.html?cat=Sport"><img src="img/HeroSlide/HeroSlide (2).svg" alt="Slide 2" class="slide"></a>
+                <a href="page/produit/categories.html?cat=Décoration"><img src="img/HeroSlide/HeroSlide (3).svg" alt="Slide 3" class="slide"></a>
+                <img src="img/HeroSlide/HeroSlide (4).svg" alt="Slide 4" class="slide">
+            </div>
+            </div>
+            <div class="comment-commander">
+            <div class="card">
+                <strong>Livraison express</strong>
+                <div class="muted">Zones: Libreville - Akanda - Owendo</div>
+            </div>
+            <div class="card">
+                <strong>Comment ça marche</strong>
+                <div class="muted">Sélectionnez, contactez, payez, recevez votre commande rapidement.</div>
+            </div>
+            
+            <a href="https://batman-le-codeur.github.io/spotyshop.github.com/service.html" target="_blank" rel="noopener noreferrer" class="card" style="background-color: #1DB954; background-colot: #085e26;">
+                <strong>SpotyShop</strong>
+                <div class="muted" style="color: aliceblue ;">Tous vos abonnements en ligne : Netflix, Spotify, Crunchyroll, Disney+ et bien plus encore !</div>
+            </a>
+        </section>
+
+        <!-- Categories grid -->
+        <section class="section">
+            <h3>Catégories principales</h3>
+            <div class="categories-grid" id="CatsGrid"></div>
+        </section>
+
+        <!-- Deals (sample) -->
+        <section class="section" id="dealsSection">
+            <h3>Deals du jour</h3>
+            <div class="grid-products-deal" id="dealsGrid"></div>
+        </section>
+
+        <!-- Recommendations sample -->
+        <section class="section">
+            <h3>Tout nos articles</h3>
+            <div class="grid-products" id="recGrid"></div>
+        </section>
+    </main>
+
+        <footer class="footer">
+            <div class="footer-cols">
+                <div>
+                    <h4>À propos</h4>
+                    <a href="page/info/about.html"><p>TongaMarket - Votre marketplace en ligne.</p></a>
+                </div>
+                <div>
+                    <h4>Liens utiles</h4>
+                    <a href="page/info/faq.html"><p> FAQ </p></a>
+                    <a href="page/info/contact.html"><p> Contact </p></a>
+                    <a href="page/info/cga.html"><p> CGV </p></a>
+                </div>
+                <div>
+                    <h4>Suivez-nous</h4>
+                    <a href="page/info/"><p> Facebook </p></a>
+                    <a href="page/info/"><p> Twitter</p></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> TongaMarket. Paiements: Visa | PayPal</p>
+            </div>
+        </footer>
+    <script src="scripts/sciptIndex.js"></script>
+    
+</body>
+
+</html>

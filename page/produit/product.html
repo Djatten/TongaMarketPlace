@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Détail produit - TongaMarket</title>
+    <link rel="stylesheet" href="../../styles/styleProduct.css" />
+</head>
+
+<body data-theme="light">
+
+    <!-- Header (réutiliser le header global du site si possible) -->
+    <header class="header">
+        <div class="logo"><a href="../../index.html"><img src="../../img/logo/logoheader.svg" alt="">TongaMarket</a></div>
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher...">
+        </div>
+        <div class="header-icons">
+            <a href="panier.html"><span>🛒</span></a>
+        </div>
+    </header>
+
+    <main class="product-page container">
+        <section class="product-area">
+            <div class="images-col">
+                <div class="main-image" id="mainImageWrap">
+                    <img id="mainImage" src="../../img/placeholder.jpg" alt="Image produit" />
+                </div>
+                <div class="thumbs" id="thumbs"></div>
+            </div>
+
+            <div class="info-col">
+                <h1 id="pTitle">Titre produit</h1>
+                <p id="pShort" class="muted">Courte description</p>
+
+                <div class="rating-row">
+                    <div id="pRating">★★★★★</div>
+                    <div id="pReviewsCount" class="muted">(0 avis)</div>
+                </div>
+
+                <div class="price-row">
+                    <div id="pOld" class="oldprice"></div>
+                    <div id="pPrice" class="price">0 FCFA</div>
+                </div>
+
+                <div id="variants" class="variants"></div>
+
+                <div class="quantity-row">
+                    <button id="qtyMinus">−</button>
+                    <input id="qtyInput" type="number" value="1" min="1" />
+                    <button id="qtyPlus">+</button>
+                </div>
+
+                <div class="cta-row">
+                    <button id="addCart" class="btn primary">Ajouter au panier</button>
+                    <a id="whatsappLink" class="btn whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+
+                <div class="meta-box">
+                    <h4>Livraison & retours</h4>
+                    <p>Livraison sous 72h si (en stock). Retours sous 14 jours.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="details-section">
+            <h2>Description</h2>
+            <div id="pDescription" class="rich"></div>
+
+            <h3>Caractéristiques</h3>
+            <ul id="pFeatures" class="features"></ul>
+
+            <h3>Avis clients</h3>
+            <div id="reviewsSummary" class="reviews-summary"></div>
+            <div id="reviewsList" class="reviews-list"></div>
+        </section>
+
+        <section class="similar-section">
+            <h3>Vous aimerez aussi</h3>
+            <div id="similarGrid" class="similar-grid"></div>
+        </section>
+    </main>
+
+     <footer class="footer">
+            <div class="footer-cols">
+                <div>
+                    <h4>À propos</h4>
+                    <a href="../info/about.html"><p>TongaMarket - Votre marketplace en ligne.</p></a>
+                </div>
+                <div>
+                    <h4>Liens utiles</h4>
+                    <a href="../info/faq.html"><p> FAQ </p></a>
+                    <a href="../info/contact.html"><p> Contact </p></a>
+                    <a href="../info/cga.html"><p> CGV </p></a>
+                </div>
+                <div>
+                    <h4>Suivez-nous</h4>
+                    <a href=""><p> Facebook </p></a>
+                    <a href=""><p> Twitter</p></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> TongaMarket. Paiements: Visa | PayPal</p>
+            </div>
+        </footer>
+
+    <script src="../../scripts/scriptProduct.js"></script>
+</body>
+
+</html>

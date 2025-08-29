@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact - TongaMarketplace</title>
+  <link rel="stylesheet" href="../../styles/stylesInfo.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="top-left">
+      <div class="pill">Livraison 🇬🇦 — Libreville & environs</div>
+    </div>
+    <div class="top-right">
+      <div class="mini">Contact: +241 77067949</div>
+    </div>
+  </div>
+
+  <header class="main container">
+    <div class="logo"><a href="../../index.html">TongaMarketplace</a></div>
+    <nav class="subnav" aria-label="navigation">
+      <a href="../../index.html" class="manu1">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="cga.html">CGA</a>
+    </nav>
+  </header>
+  <main class="container page">
+    <div class="page-inner">
+
+      <h1>Contactez-nous</h1>
+      <p>Pour toute question, partenariat ou support, utilisez le formulaire ci-dessous ou contactez-nous directement via WhatsApp.</p>
+
+      <form onsubmit="return sendContact(event)" aria-label="Formulaire de contact">
+        <div class="form-row">
+          <div>
+            <label for="name">Nom</label><br>
+            <input id="name" type="text" placeholder="Votre nom" required />
+          </div>
+          <div>
+            <label for="email">Email</label><br>
+            <input id="email" type="email" placeholder="you@mail.com" required />
+          </div>
+          <div class="full">
+            <label for="message">Message</label><br>
+            <textarea id="message" rows="6" placeholder="Votre message..." required></textarea>
+          </div>
+        </div>
+        <div style="margin-top:12px;">
+          <button class="primary" type="submit">Envoyer via Email</button>
+          <a class="primary" style="margin-left:12px; text-decoration:none; display:inline-block;" href="https://wa.me/24177067949?text=Bonjour%20TongaMarketplace%20-%20Je%20souhaite%20contacter%20votre%20équipe">Contacter via WhatsApp</a>
+        </div>
+      </form>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-cols">
+      <div>
+        <h4>TongaMarketplace</h4>
+        <p>Une marketplace locale pour découvrir et commander les meilleurs produits gabonais.</p>
+      </div>
+      <div>
+        <h4>À propos</h4>
+        <p><a href="about.html">Notre histoire</a></p>
+        <p><a href="cga.html">Conditions générales</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>WhatsApp: +241 77067949</p>
+        <p>Email: contact@tonga.example</p>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <p>Facebook • Instagram • WhatsApp</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 TongaMarketplace — Tous droits réservés</div>
+  </footer>
+
+  <script>
+    // small helper for contact form
+    function sendContact(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value || '';
+      const email = document.getElementById('email').value || '';
+      const message = document.getElementById('message').value || '';
+      const subject = encodeURIComponent('Demande via site TongaMarketplace');
+      const body = encodeURIComponent('Nom: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      const mailto = 'mailto:contact@tonga.example?subject=' + subject + '&body=' + body;
+      window.location.href = mailto;
+      return false;
+    }
+  </script>
+</body>
+</html>

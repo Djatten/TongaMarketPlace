@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CGA - TongaMarketplace</title>
+  <link rel="stylesheet" href="../../styles/stylesInfo.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="top-left">
+      <div class="pill">Livraison 🇬🇦 — Libreville & environs</div>
+    </div>
+    <div class="top-right">
+      <div class="mini">Contact: +241 77067949</div>
+    </div>
+  </div>
+
+  <header class="main container">
+    <div class="logo"><a href="../../index.html">TongaMarketplace</a></div>
+    <nav class="subnav" aria-label="navigation">
+      <a href="../../index.html" class="manu1">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="cga.html">CGA</a>
+    </nav>
+  </header>
+  <main class="container page">
+    <div class="page-inner">
+
+      <h1>Conditions Générales d'Achat (CGA)</h1>
+      <p>Dernière mise à jour : 2025</p>
+
+      <h3>1. Objet</h3>
+      <p>Les présentes conditions définissent les modalités de vente et d'achat des produits listés sur la plateforme TongaMarketplace.</p>
+
+      <h3>2. Commandes</h3>
+    <p>Une commande est validée lorsque le client envoie la confirmation de l'envoi de l'acompte et que la boutique partenaire confirme la disponibilité.</p>
+
+      <h3>3. Prix et paiement</h3>
+      <p>Les prix affichés sont indiqués en XAF. Les taxes locales et frais éventuels sont à la charge du client sauf mention contraire.</p>
+
+      <h3>4. Livraison</h3>
+      <p>La livraison est assurée par TongaMarketplace ou par un partenaire local selon la zone et la disponibilité. Les délais sont indicatifs.</p>
+
+      <h3>5. Rétractation et retours</h3>
+      <p>Les droits de rétractation et retours sont définis en accord avec la boutique partenaire. Contactez le support pour lancer une procédure.</p>
+
+      <h3>6. Données personnelles</h3>
+      <p>Nous traitons les données nécessaires au traitement des commandes. Pour toute demande liée à vos données, contactez-nous.</p>
+
+      <h3>7. Contact</h3>
+      <p>Pour toute question relative aux CGA: contact@tonga.example</p>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-cols">
+      <div>
+        <h4>TongaMarketplace</h4>
+        <p>Une marketplace locale pour découvrir et commander les meilleurs produits gabonais.</p>
+      </div>
+      <div>
+        <h4>À propos</h4>
+        <p><a href="about.html">Notre histoire</a></p>
+        <p><a href="cga.html">Conditions générales</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>WhatsApp: +241 77067949</p>
+        <p>Email: contact@tonga.example</p>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <p>Facebook • Instagram • WhatsApp</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 TongaMarketplace — Tous droits réservés</div>
+  </footer>
+
+  <script>
+    // small helper for contact form
+    function sendContact(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value || '';
+      const email = document.getElementById('email').value || '';
+      const message = document.getElementById('message').value || '';
+      const subject = encodeURIComponent('Demande via site TongaMarketplace');
+      const body = encodeURIComponent('Nom: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      const mailto = 'mailto:contact@tonga.example?subject=' + subject + '&body=' + body;
+      window.location.href = mailto;
+      return false;
+    }
+  </script>
+</body>
+</html>
