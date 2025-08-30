@@ -961,5 +961,152 @@
       "Installation simple via HDMI"
     ],
     "description": "La TX3 Pro Box est un boîtier Android TV conçu pour offrir une expérience multimédia complète. Elle permet de regarder des films et séries en streaming, jouer à des jeux Android et accéder à vos applications préférées via le Google Play Store. Équipée d’un processeur performant et de mémoire suffisante pour une navigation fluide, elle supporte la résolution 4K pour un affichage net et détaillé. Facile à installer via HDMI, elle transforme instantanément votre téléviseur classique en smart TV et prend en charge la lecture de fichiers multimédias depuis des clés USB ou cartes SD."
+  },
+  {
+    "id": 36,
+    "slug": "robot-coupe-sirene",
+    "title": "Robot Coupe Sirène",
+    "short": "Une robe estivale fluide, aux couleurs éclatantes, idéale pour vos journées à la plage.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 11500.0,
+    "priceBoutique": 10000.0,
+    "oldPrice": 12500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (6).png"
+    ],
+    "features": [
+      "Style : Sirène, fluide et coloré",
+      "Tissu : Léger et respirant",
+      "Utilisation : Plage, vacances, détente estivale",
+      "Taille : Disponible en plusieurs tailles",
+      "Entretien : Lavage facile et séchage rapide"
+    ],
+    "description": "Cette robe de plage au style sirène allie confort et élégance. Sa coupe légère et aérienne épouse naturellement les mouvements, offrant une sensation de liberté sous le soleil. Son tissu respirant et coloré en fait un choix parfait pour vos sorties estivales, que ce soit à la plage, en promenade ou lors de moments de détente."
+  },
+  {
+    "id": 37,
+    "slug": "robe-abaya-en-tissu-wax",
+    "title": "Robe Abaya en tissu Wax",
+    "short": "Abaya élégante en tissu wax africain, alliant tradition et modernité.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 6000.0,
+    "priceBoutique": 5000.0,
+    "oldPrice": 7500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (5).png"
+    ],
+    "features": [
+      "Matière : Tissu Wax 100 % coton",
+      "Coupe : Ample et fluide",
+      "Style : Abaya traditionnelle revisitée",
+      "Longueur : Longue",
+      "Motifs : Wax africain multicolore",
+      "Entretien : Lavage à la main ou en machine à basse température"
+    ],
+    "description": "Cette robe abaya en wax est conçue pour offrir confort et style. Inspirée des coupes traditionnelles, elle se distingue par son tissu coloré aux motifs africains uniques. Légère et fluide, elle est idéale pour les sorties quotidiennes, les occasions spéciales ou les cérémonies. Son design ample permet une liberté de mouvement tout en apportant une touche chic et raffinée."
+  },
+  {
+    "id": 38,
+    "slug": "haut-a-decoupe",
+    "title": "Haut à découpe",
+    "short": "Haut moderne avec découpes élégantes pour un style tendance et affirmé.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 7000.0,
+    "priceBoutique": 6000.0,
+    "oldPrice": 7500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (4).png"
+    ],
+    "features": [
+      "Style : Découpe moderne et tendance",
+      "Coupe : Ajustée et flatteuse",
+      "Confortable et respirant",
+      "Polyvalent : se porte avec pantalon, jupe ou short",
+      "Convient pour le quotidien comme pour les occasions spéciales"
+    ],
+    "description": "Ce haut à découpe est conçu pour apporter une touche d’originalité à vos tenues. Sa coupe moderne met en valeur la silhouette tout en restant confortable. Idéal pour les sorties, les occasions spéciales ou simplement pour ajouter une note audacieuse à votre look quotidien."
+  },
+  {
+    "id": 39,
+    "slug": "robe-dete-ample",
+    "title": "Robe d’été ample",
+    "short": "Robe fluide et confortable, idéale pour les journées chaudes.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 11500.0,
+    "priceBoutique": 10000.0,
+    "oldPrice": 13000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (3).png"
+    ],
+    "features": [
+      "Coupe ample et fluide",
+      "Tissu léger et respirant",
+      "Style décontracté et élégant",
+      "Adaptée à toutes les morphologies",
+      "Parfaite pour la saison estivale"
+    ],
+    "description": "Cette robe d’été ample est conçue pour allier style et aisance. Sa coupe fluide laisse circuler l’air et offre un confort optimal même par forte chaleur. Polyvalente, elle peut être portée aussi bien en sortie décontractée qu’en promenade estivale. Son design simple et élégant s’adapte à différents styles et morphologies."
+  },
+  {
+    "id": 40,
+    "slug": "tailleur-pantalon",
+    "title": "Tailleur-Pantalon",
+    "short": "Ensemble élégant composé d’une veste et d’un pantalon assorti, parfait pour un look professionnel ou chic.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 16500.0,
+    "priceBoutique": 15000.0,
+    "oldPrice": 18000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (2).png"
+    ],
+    "features": [
+      "Composé de : veste + pantalon assorti",
+      "Coupe : ajustée et structurée",
+      "Tissu : confortable et résistant",
+      "Style : professionnel, chic et moderne",
+      "Tailles disponibles : S, M, L, XL",
+      "Entretien : lavage à sec recommandé"
+    ],
+    "description": "Ce tailleur-pantalon allie style et sophistication. La veste apporte une coupe structurée tandis que le pantalon complète l’ensemble avec une silhouette élégante et moderne. Conçu dans un tissu de qualité, il garantit confort et aisance tout au long de la journée. Idéal pour le bureau, les réunions ou les événements formels, cet ensemble reflète élégance et professionnalisme."
+  },
+  {
+    "id": 41,
+    "slug": "ensemble-chemise-short",
+    "title": "Ensemble Chemise & Short",
+    "short": "Ensemble décontracté composé d’une chemise légère et d’un short assorti, parfait pour un look estival et confortable.",
+    "category": "Mode",
+    "boutique": "Adama Shop",
+    "price": 16500.0,
+    "priceBoutique": 15000.0,
+    "oldPrice": 19000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/sap (1).png"
+    ],
+    "features": [
+      "Composé de : chemise à manches longues ou courtes + short assorti",
+      "Tissu : léger et respirant",
+      "Coupe : confortable et décontractée",
+      "Style : estival, casual-chic",
+      "Tailles disponibles : S, M, L, XL",
+      "Entretien : lavage à la main ou en machine à basse température"
+    ],
+    "description": "Cet ensemble chemise et short allie style et confort. La chemise légère offre une liberté de mouvement et un look soigné, tandis que le short assorti complète l’ensemble avec praticité et modernité. Idéal pour les journées chaudes, les sorties estivales ou les moments de détente, cet ensemble assure une allure élégante tout en restant confortable."
   }
 ]
