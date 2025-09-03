@@ -1108,5 +1108,108 @@
       "Entretien : lavage à la main ou en machine à basse température"
     ],
     "description": "Cet ensemble chemise et short allie style et confort. La chemise légère offre une liberté de mouvement et un look soigné, tandis que le short assorti complète l’ensemble avec praticité et modernité. Idéal pour les journées chaudes, les sorties estivales ou les moments de détente, cet ensemble assure une allure élégante tout en restant confortable."
+  },
+  {
+    "id": 42,
+    "slug": "casquette-de-baseball",
+    "title": "Casquette de Baseball",
+    "short": "Casquette de baseball stylée avec logos emblématiques NY, LA et SF, parfaite pour un look urbain et sportif.",
+    "category": "Mode",
+    "boutique": "Nathan CAP",
+    "price": 9500.0,
+    "priceBoutique": 8000.0,
+    "oldPrice": 10500.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/IMG-20250902-WA0196(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0219(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0218(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0217(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0216(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0195(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0215(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0214(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0213(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0212(1).jpg",
+      "img/imgProduct/IMG-20250902-WA0199.jpg",
+      "img/imgProduct/IMG-20250902-WA0197.jpg",
+      "img/imgProduct/IMG-20250902-WA0193.jpg",
+      "img/imgProduct/IMG-20250902-WA0192.jpg"
+    ],
+    "features": [
+      "Modèles disponibles : NY, LA, SF",
+      "Taille : ajustable avec sangle à l’arrière",
+      "Matière : coton résistant et respirant",
+      "Style : sportif et urbain",
+      "Convient pour : sorties, sport, look casual",
+      "Entretien : lavage doux à la main"
+    ],
+    "description": "Affichez votre style avec cette casquette de baseball tendance, disponible avec les logos iconiques de New York (NY), Los Angeles (LA) et San Francisco (SF). Conçue pour offrir confort et durabilité, elle est idéale aussi bien pour le sport que pour un usage quotidien. Son design ajustable permet de l’adapter à toutes les tailles, garantissant un port agréable tout au long de la journée."
+  },
+  {
+    "id": 43,
+    "slug": "casquette-de-baseball2",
+    "title": "Casquette de Baseball(2)",
+    "short": "Casquette tendance avec logos SD, SX et SF, idéale pour un style sportif et urbain.",
+    "category": "Décoration",
+    "boutique": "Nathan CAP",
+    "price": 10000.0,
+    "priceBoutique": 8000.0,
+    "oldPrice": null,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/IMG-20250902-WA0198.jpg",
+      "img/imgProduct/IMG-20250902-WA0194.jpg",
+      "img/imgProduct/IMG-20250902-WA0191.jpg",
+      "img/imgProduct/IMG-20250902-WA0190.jpg",
+      "img/imgProduct/IMG-20250902-WA0196.jpg",
+      "img/imgProduct/IMG-20250902-WA0219.jpg",
+      "img/imgProduct/IMG-20250902-WA0218.jpg",
+      "img/imgProduct/IMG-20250902-WA0217.jpg",
+      "img/imgProduct/IMG-20250902-WA0216.jpg",
+      "img/imgProduct/IMG-20250902-WA0195.jpg",
+      "img/imgProduct/IMG-20250902-WA0215.jpg",
+      "img/imgProduct/IMG-20250902-WA0214.jpg",
+      "img/imgProduct/IMG-20250902-WA0213.jpg",
+      "img/imgProduct/IMG-20250902-WA0212.jpg"
+    ],
+    "features": [],
+    "description": "Cette casquette de baseball est conçue pour apporter à la fois confort et style. Disponible avec les logos emblématiques SD, SX et SF, elle s’adapte parfaitement à toutes les tenues décontractées. Son système de réglage à l’arrière permet un ajustement optimal, tandis que sa matière respirante assure un port agréable même par temps chaud. Idéale pour le sport, les sorties ou compléter un look urbain moderne."
+  },
+  {
+    "id": 44,
+    "slug": "casquette-de-baseball3",
+    "title": "Casquette de Baseball(3)",
+    "short": "Casquette classique et intemporelle, parfaite pour le sport, les sorties ou un look urbain.",
+    "category": "Mode",
+    "boutique": "Nathan CAP",
+    "price": 9500.0,
+    "priceBoutique": 8000.0,
+    "oldPrice": 10000.0,
+    "stock": 999,
+    "rating": 5.0,
+    "images": [
+      "img/imgProduct/IMG-20250902-WA0211.jpg",
+      "img/imgProduct/IMG-20250902-WA0210.jpg",
+      "img/imgProduct/IMG-20250902-WA0209.jpg",
+      "img/imgProduct/IMG-20250902-WA0208.jpg",
+      "img/imgProduct/IMG-20250902-WA0207.jpg",
+      "img/imgProduct/IMG-20250902-WA0183.jpg",
+      "img/imgProduct/IMG-20250902-WA0181.jpg",
+      "img/imgProduct/IMG-20250902-WA0206.jpg",
+      "img/imgProduct/IMG-20250902-WA0205.jpg",
+      "img/imgProduct/IMG-20250902-WA0204.jpg"
+    ],
+    "features": [
+      "Taille : réglable avec sangle à l’arrière",
+      "Matière : coton respirant et durable",
+      "Design : sobre et polyvalent",
+      "Protection : idéale contre le soleil",
+      "Convient pour : sport, sorties, usage quotidien",
+      "Entretien : lavage doux à la main"
+    ],
+    "description": "Cette casquette de baseball associe confort, style et praticité. Conçue dans un tissu léger et résistant, elle protège efficacement du soleil tout en ajoutant une touche tendance à votre tenue. Son design polyvalent s’adapte aussi bien aux amateurs de sport qu’aux passionnés de mode. Grâce à sa sangle réglable, elle convient à toutes les tailles et offre un ajustement parfait."
   }
 ]
